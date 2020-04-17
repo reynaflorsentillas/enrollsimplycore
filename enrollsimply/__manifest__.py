@@ -24,9 +24,11 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'data/res_partner_data.xml',
         'views/assets.xml',
+        'views/views.xml',
+        'views/menu.xml',        
     ],    
     'installable': True,
     'application': True,

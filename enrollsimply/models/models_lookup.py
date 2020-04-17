@@ -20,6 +20,14 @@ class Specialization(models.Model):
 	medicare_specialty_code = fields.Char(string='MEDICARE SPECIALTY CODE ', required=False)
 	medicare_provider_code = fields.Char(string='MEDICARE PROVIDER/SUPPLIER TYPE DESCRIPTION', required=False)
 
+
+class Specialization(models.Model):
+	_name = 'enrsimply.specialization.medicare'
+	_description = 'Specialization Code for Medicare'
+	_inherit = 'basic.model'
+
+
+
 class SchoolType(models.Model):
 	_name = 'hr.schooltype'
 	_description = 'School Type'
@@ -73,5 +81,5 @@ class ActionReason(models.Model):
 
 class DocumentType(models.Model): 
 	_name = 'enrsimply.document_type'
-	_description = 'Action Reason'
+	_description = 'Document Type'
 	_inherit = 'basic.model'

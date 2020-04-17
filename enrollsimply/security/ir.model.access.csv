@@ -1,5 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_enrollsimply_enrollsimply,enrollsimply.enrollsimply,model_enrollsimply_enrollsimply,base.group_user,1,1,1,1
 acces_hr_manager_specialization,hr_manager_specialization,model_enrsimply_specialization,hr.group_hr_manager,1,1,1,1
 acces_hr_manager_pin_type,hr_manager_pin_type,model_enrsimply_pin_type,hr.group_hr_manager,1,1,1,1
 acces_hr_manager_licenses,hr_manager_licenses,model_enrsimply_licenses,hr.group_hr_manager,1,1,1,1
@@ -24,3 +23,7 @@ acces_base_user_locations,base_user_locations,model_enrsimply_locations,base.gro
 acces_base_user_pin_trans_status,base_user_pin_trans_status,model_enrsimply_pin_trans_status,base.group_user,1,1,1,1
 acces_base_user_pin_action,base_user_pin_action,model_enrsimply_pin_action,base.group_user,1,1,1,1
 acces_base_user_pin_action_reason,base_user_pin_action_reason,model_enrsimply_pin_action_reason,base.group_user,1,1,1,1
+acces_base_user_document_type,base_user_document_type,model_enrsimply_document_type,base.group_user,1,1,1,1
+acces_hr_manager_document_type,hr_manager_document_type,model_enrsimply_document_type,hr.group_hr_manager,1,1,1,1
+acces_hr_user_document_type,hr_user_document_type,model_enrsimply_document_type,hr.group_hr_user,1,0,0,0
+
