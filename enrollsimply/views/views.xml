@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+	<!-- VIEW TREE-->
+    <record id="view_enrsimply_specialization_tree" model="ir.ui.view">
+        <field name="name">enrsimply.specialization.tree</field>
+        <field name="model">enrsimply.specialization</field>
+        <field name="arch" type="xml">
+            <tree string="Specialization" editable="top">
+                <field name="name"/>
+                <field name="code"/>
+                <field name="taxonomy_code"/>
+                <field name="medicare_specialty_code"/>
+                <field name="medicare_provider_code"/>
+            </tree>
+        </field>
+    </record>
+
+	<record id="hr_schooltype_tree" model="ir.ui.view">
+	    <field name="name">hr.schooltype.tree</field> 
+	    <field name="model">hr.schooltype</field>
+	    <field name="arch" type="xml">
+	        <tree string="School Type" editable="top">
+                <field name="name"/>
+                <field name="code"/>
+	        </tree>
+	    </field>
+	</record>
+
+	<record id="enrsimply_pin_action_reason_tree" model="ir.ui.view">
+	    <field name="name">enrsimply.pin.action_reason.tree</field> 
+	    <field name="model">enrsimply.pin.action_reason</field>
+	    <field name="arch" type="xml">
+	        <tree string="Action Reason" editable="top">
+                <field name="name"/>
+                <field name="code"/>
+	        </tree>
+	    </field> 
+	</record>
+
+	<record id="enrsimply_pin_action_tree" model="ir.ui.view">
+	    <field name="name">enrsimply.pin.action.tree</field> 
+	    <field name="model">enrsimply.pin.action</field>
+	    <field name="arch" type="xml">
+	        <tree string="Action" editable="top">
+                <field name="name"/>
+                <field name="code"/>
+	        </tree>
+	    </field>
+	</record>
+
+	<record id="enrsimply_document_type_tree" model="ir.ui.view">
+	    <field name="name">enrsimply.document_type.tree</field> 
+	    <field name="model">enrsimply.document_type</field>
+	    <field name="arch" type="xml">
+	        <tree string="Document" editable="top">
+                <field name="name"/>
+                <field name="code"/>
+	        </tree>
+	    </field>
+	</record>
+
+	<record id="enrsimply_pin_type_tree" model="ir.ui.view">
+	    <field name="name">enrsimply.pin.type.tree</field> 
+	    <field name="model">enrsimply.pin.type</field>
+	    <field name="arch" type="xml">
+	        <tree string="Pin Type" editable="top">
+                <field name="name"/>
+                <field name="code"/>
+	        </tree>
+	    </field>
+	</record>
+
+	<record id="enrsimply_licenses_tree" model="ir.ui.view">
+	    <field name="name">enrsimply.licenses.tree</field> 
+	    <field name="model">enrsimply.licenses</field>
+	    <field name="arch" type="xml">
+	        <tree string="Licenses" editable="top">
+                <field name="name"/>
+                <field name="code"/>
+	        </tree>
+	    </field>
+	</record>
+
+	<record id="enrsimply_areas_tree" model="ir.ui.view">
+	    <field name="name">enrsimply.areas.tree</field> 
+	    <field name="model">enrsimply.areas</field>
+	    <field name="arch" type="xml">
+	        <tree string="Areas" editable="top">
+                <field name="name"/>
+                <field name="code"/>
+	        </tree>
+	    </field>
+	</record>
+
+	<record id="enrsimply_locations_tree" model="ir.ui.view">
+	    <field name="name">enrsimply.locations.tree</field> 
+	    <field name="model">enrsimply.locations</field>
+	    <field name="arch" type="xml">
+	        <tree string="Location" editable="top">
+                <field name="name"/>
+                <field name="code"/>
+                <field name="area_ids" widget="many2many_tags" options="{'no_create_edit': True}"/>
+                
+	        </tree>
+	    </field>
+	</record>
+
+	<record id="enrsimply_pin_trans_status_tree" model="ir.ui.view">
+	    <field name="name">enrsimply.pin.trans_status.tree</field> 
+	    <field name="model">enrsimply.pin.trans_status</field>
+	    <field name="arch" type="xml">
+	        <tree string="Pin Transaction Status" editable="top">
+                <field name="name"/>
+                <field name="code"/>
+	        </tree>
+	    </field>
+	</record>
+
+
+	<!-- SEARCH -->
+    <record id="view_enrsimply_specialization_filter" model="ir.ui.view">
+        <field name="name">enrsimply.specialization.search</field>
+        <field name="model">enrsimply.specialization</field>
+        <field name="arch" type="xml">
+            <search string="Specialization">
+                <field name="name" string="Specialty Name"/>
+                <field name="code"/>
+                <field name="taxonomy_code"/>
+                <field name="medicare_specialty_code"/>
+                <field name="medicare_provider_code"/>
+            </search>
+         </field>
+    </record>
+
+
+
+    <!-- ACTION -->
+    <record id="open_enrsimply_specialization" model="ir.actions.act_window">
+        <field name="name">Specialization</field>
+        <field name="res_model">enrsimply.specialization</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_enrsimply_specialization_filter"/>
+        <field name="help" type="html">
+          <p class="o_view_nocontent_smiling_face">
+            Create a Specialization
+          </p><p>
+            Enroll Simply Specialization structure
+          </p>
+        </field>
+    </record>
+
+	<record id="open_hr_schooltype" model="ir.actions.act_window">
+	    <field name="name">School Type</field> 
+	    <field name="res_model">hr.schooltype</field>
+	    <field name="view_mode">tree,form</field>
+	    <field name="help" type="html">
+	       <p class="o_view_nocontent_smiling_face">
+	      Create a School Type        
+	       </p> 
+	    </field>
+	</record>
+
+	<record id="open_enrsimply_pin_action_reason" model="ir.actions.act_window">
+	    <field name="name">Action Reason</field> 
+	    <field name="res_model">enrsimply.pin.action_reason</field>
+	    <field name="view_mode">tree,form</field>
+	    <field name="help" type="html">
+	       <p class="o_view_nocontent_smiling_face">
+	      Create a  Action Reason        
+	       </p> 
+	    </field>
+	</record>
+
+	<record id="open_enrsimply_pin_action" model="ir.actions.act_window">
+	    <field name="name">Action</field> 
+	    <field name="res_model">enrsimply.pin.action</field>
+	    <field name="view_mode">tree,form</field>
+	    <field name="help" type="html">
+	       <p class="o_view_nocontent_smiling_face">
+	      Create a Action        
+	       </p> 
+	    </field>
+	</record>
+	
+	<record id="open_enrsimply_document_type" model="ir.actions.act_window">
+	    <field name="name">Document Type</field> 
+	    <field name="res_model">enrsimply.document_type</field>
+	    <field name="view_mode">tree,form</field>
+	    <field name="help" type="html">
+	       <p class="o_view_nocontent_smiling_face">
+	      Create a Action Reason        
+	       </p> 
+	    </field>
+	</record>
+
+	<record id="open_enrsimply_pin_type" model="ir.actions.act_window">
+	    <field name="name">Pin Type</field> 
+	    <field name="res_model">enrsimply.pin.type</field>
+	    <field name="view_mode">tree,form</field>
+	    <field name="help" type="html">
+	       <p class="o_view_nocontent_smiling_face">
+	      Create a Pin Type        
+	       </p> 
+	    </field>
+	</record>
+
+	<record id="open_enrsimply_licenses" model="ir.actions.act_window">
+	    <field name="name">Licenses</field> 
+	    <field name="res_model">enrsimply.licenses</field>
+	    <field name="view_mode">tree,form</field>
+	    <field name="help" type="html">
+	       <p class="o_view_nocontent_smiling_face">
+	      Create a Licenses        
+	       </p> 
+	    </field>
+	</record>
+
+	<record id="open_enrsimply_areas" model="ir.actions.act_window">
+	    <field name="name">Areas</field> 
+	    <field name="res_model">enrsimply.areas</field>
+	    <field name="view_mode">tree,form</field>
+	    <field name="help" type="html">
+	       <p class="o_view_nocontent_smiling_face">
+	      Create a Areas        
+	       </p> 
+	    </field>
+	</record>
+
+	<record id="open_enrsimply_locations" model="ir.actions.act_window">
+	    <field name="name">Locations</field> 
+	    <field name="res_model">enrsimply.locations</field>
+	    <field name="view_mode">tree,form</field>
+	    <field name="help" type="html">
+	       <p class="o_view_nocontent_smiling_face">
+	      Create a Locations        
+	       </p> 
+	    </field>
+	</record>
+
+	<record id="open_enrsimply_pin_trans_status" model="ir.actions.act_window">
+	    <field name="name"> Pin Transaction Status</field> 
+	    <field name="res_model">enrsimply.pin.trans_status</field>
+	    <field name="view_mode">tree,form</field>
+	    <field name="help" type="html">
+	       <p class="o_view_nocontent_smiling_face">
+	      Create a Pin Transaction Status        
+	       </p> 
+	    </field>
+	</record>
+
+</odoo>
