@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from odoo import api, fields, models, _
 
-class BasicTransientModels(models.TransientModel):
+class BasicTransientModels(models.AbstractModel):
 	_name = 'basic.model'
 	name = fields.Char(string='Name', required=True)
 	code = fields.Char(string='Code', required=False)
@@ -71,4 +71,7 @@ class ActionReason(models.Model):
 	_description = 'Action Reason'
 	_inherit = 'basic.model'
 
-
+class DocumentType(models.Model): 
+	_name = 'enrsimply.document_type'
+	_description = 'Action Reason'
+	_inherit = 'basic.model'
