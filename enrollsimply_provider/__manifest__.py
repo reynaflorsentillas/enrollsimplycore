@@ -26,6 +26,7 @@
         # 'security/ir.model.access.csv',
         # 'data/res_partner_data.xml',
         'views/hr_employee_views.xml',
+        'views/menu_views.xml',
     ],    
     'installable': True,
     'application': True,
