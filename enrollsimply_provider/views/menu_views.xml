@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+    	<menuitem
+            id="hr.menu_hr_root"
+            name="Providers"
+            groups="hr.group_hr_manager,hr.group_hr_user,base.group_user"
+            web_icon="hr,static/description/icon.png"
+            sequence="75"/>
+
+        <menuitem
+            id="hr.menu_hr_employee_payroll"
+            name="Providers"
+            parent="hr.menu_hr_root"
+            groups="hr.group_hr_user"
+            sequence="3"/>
+
+            <menuitem
+                id="hr.menu_hr_employee_user"
+                name="Providers"
+                action="hr.open_view_employee_list_my"
+                parent="hr.menu_hr_employee_payroll"
+                sequence="1"/>
+
+        <menuitem
+            id="hr.menu_hr_employee"
+            name="Provider Directory"
+            action="hr.hr_employee_public_action"
+            parent="hr.menu_hr_root"
+            sequence="4"/>
+
+    </data>
+</odoo>

@@ -5,6 +5,7 @@ import random
 
 class HREmployee(models.AbstractModel):
 	_inherit = 'hr.employee'
+	_description = "Provider"
 
 	# New Fields
 	first_name = fields.Char(required=True)
