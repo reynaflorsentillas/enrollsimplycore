@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="view_employee_form_extend" model="ir.ui.view">
+            <field name="name">hr.employee.form.extend</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+            	<xpath expr="//field[@name='name']" position="attributes">
+            		<attribute name="readonly">1</attribute>
+            		<attribute name="force_save">1</attribute>
+                </xpath>
+            	<xpath expr="//div[@class='oe_title']/h1[1]" position="after">
+                    <h2>
+                    	<field name="first_name" placeholder="First Name" class="oe_edit_only"/>
+                    	<field name="middle_name" placeholder="Middle Name" class="oe_edit_only"/>
+                    	<field name="last_name" placeholder="Last Name" class="oe_edit_only"/>
+                    </h2>
+                </xpath>
+                <xpath expr="//div[@id='o_work_employee_main']/group[1]" position="before">
+                    <group>
+                        <group string="Summary">
+                            <field name="employee_id"/>
+                            <field name="medical_license_number"/>
+                            <field name="medical_npi_number"/>
+                        </group>
+                        <group string="Group Enrollment Data">
+                            <field name="grp_npi_number"/>
+                            <field name="grp_medicare_number"/>
+                            <field name="grp_medical_number"/>
+                        </group>
+                    </group>
+                </xpath>
+                <xpath expr="//field[@name='identification_id']" position="after">
+                    <field name="ss_number"/>
+                </xpath>
+                <xpath expr="//field[@name='passport_id']" position="after">
+                    <field name="driver_license_number"/>
+                    <field name="driver_license_state_id"/>
+                </xpath>
+                <xpath expr="//field[@name='place_of_birth']" position="after">
+                    <field name="birth_state_id"/>
+                </xpath>
+                <xpath expr="//page[@name='personal_information']" position="after">
+                    <page name="atp_areas" string="ATP Areas" groups="hr.group_hr_user">
+                    </page>
+                    <page name="pin_summary" string="PIN Information" groups="hr.group_hr_user">
+                        <group string="Existing Active PINs">
+                        </group>
+                        <group string="Existing Deactivated PINs">
+                        </group>
+                        <group string="CCS Paneling Status">
+                        </group>
+                        <group string="Pending PINs">
+                        </group>
+                        <group>
+                            <group string="ACA Registration Data">
+                                <field name="aca_key"/>
+                                <field name="aca_site_email"/>
+                            </group>
+                            <group string="ACA Attestation Status ">
+                        </group>
+                        </group>
+                    </page>
+                    <page name="cred_summary" string="Certification/Licenses/Education" groups="hr.group_hr_user">
+                        <group string="Licenses">
+                        </group>
+                        <group string="Board Certification">
+                        </group>
+                        <group string="Education">
+                        </group>
+                    </page>
+                </xpath>
+                <xpath expr="//page[@name='hr_settings']" position="after">
+                    <page name="other_info" string="Notes" groups="hr.group_hr_user">
+                        <field name="notes"/>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>
