@@ -28,6 +28,17 @@ class HREmployee(models.AbstractModel):
 	grp_medical_number = fields.Char(string='Group Medical#', required=True, groups="hr.group_hr_user")
 	notes = fields.Text()
 
+	# Related Fields
+	specialization_id = fields.Many2one('enrsimply.specialization', string='Specialization', required=True)
+	atp_area_ids = fields.One2many('enrsimply.prov.atp', 'provider_id', string='Provider ATP Area')
+	pin_ids = fields.One2many('enrsimply.prov.pin', 'provider_id', string='Provider PIN')
+	ccs_pin_ids = fields.One2many('enrsimply.prov.ccs', 'provider_id', string='Provider CCS Paneling PIN')
+	requirement_list_ids = fields.One2many('enrsimply.prov.requirements', 'provider_id', string='Requirements submitted by Provider')
+	aca_attestation_stat_ids = fields.One2many('enrsimply.prov.aca_att', 'provider_id', string='Provider ACA Attestation Status')
+	license_ids = fields.One2many('enrsimply.prov.aca', 'provider_id', string='Provider Licenses')
+	education_ids = fields.One2many('enrsimply.prov.educ', 'provider_id', string='Provider Education')
+	board_certif_ids = fields.One2many('enrsimply.prov.cert', 'provider_id', string='Provider Certification')
+
 	@api.onchange('first_name','middle_name','last_name')
 	def _compute_name(self):
 		self.name = "%s %s %s" % (self.first_name or '', self.middle_name or '', self.last_name or '')
