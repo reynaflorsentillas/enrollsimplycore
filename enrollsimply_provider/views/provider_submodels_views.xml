@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+		<record id="enrsimply_prov_atp_form" model="ir.ui.view">
+		    <field name="name">enrsimply.prov.atp.form</field> 
+		    <field name="model">enrsimply.prov.atp</field>
+		    <field name="arch" type="xml">
+		        <form string="Provider ATP Area">
+		        	<sheet>
+			        	<group>
+			        		<group>
+								<field name="area_id"/>
+								<field name="location_id"/>
+								<field name="primary_area_id"/>
+								<field name="expire_dt"/>
+			        		</group>
+			        	</group>		        		
+		        	</sheet>
+		        </form> 
+		    </field> 
+		</record>
+		<record id="enrsimply_prov_pin_form" model="ir.ui.view">
+		    <field name="name">enrsimply.prov.pin.form</field> 
+		    <field name="model">enrsimply.prov.pin</field>
+		    <field name="arch" type="xml">
+		        <form string="Provider PIN">
+		        	<sheet>
+			        	<group>
+			        		<group>
+								<field name="pin_type_id"/>
+								<field name="pin_number"/>
+								<field name="pin_eff_dt"/>
+								<field name="pin_end_dt"/>
+								<field name="pin_status"/>
+								<field name="area_id"/>
+								<field name="location_id"/>
+			        		</group>
+			        	</group>		        		
+		        	</sheet>
+		        </form> 
+		    </field> 
+		</record>
+		<record id="enrsimply_prov_ccs_form" model="ir.ui.view">
+		    <field name="name">enrsimply.prov.ccs.form</field> 
+		    <field name="model">enrsimply.prov.ccs</field>
+		    <field name="arch" type="xml">
+		        <form string="Provider CCS Paneling PIN">
+		        	<sheet>
+			        	<group>
+			        		<group>
+								<field name="pin_type_id"/>
+								<field name="pin_number"/>
+								<field name="pin_eff_dt"/>
+								<field name="pin_end_dt"/>
+								<field name="pin_status"/>
+								<field name="panel_taxonomy"/>
+			        		</group>
+			        	</group>		        		
+		        	</sheet>
+		        </form> 
+		    </field> 
+		</record>
+		<record id="enrsimply_prov_requirements_form" model="ir.ui.view">
+		    <field name="name">enrsimply.prov.requirements.form</field> 
+		    <field name="model">enrsimply.prov.requirements</field>
+		    <field name="arch" type="xml">
+		        <form string="Requirements submitted by Provider">
+		        	<sheet>
+		        		<group>
+		        			<field name="requirement_type_id"/>
+							<field name="submitted"/>
+							<field name="submit_dt"/>
+		        		</group>		        
+		        	</sheet>
+		        </form> 
+		    </field> 
+		</record>
+		<record id="enrsimply_prov_aca_att_form" model="ir.ui.view">
+		    <field name="name">enrsimply.prov.aca_att.form</field> 
+		    <field name="model">enrsimply.prov.aca_att</field>
+		    <field name="arch" type="xml">
+		        <form string="Provider ACA Attestation Status">
+		        	<sheet>
+		        		<group>							
+							<field name="pin_type_id"/>
+							<field name="aca_status"/>
+							<field name="eff_dt"/>
+							<field name="end_dt"/>
+							<field name="taxonomy_cd"/>		        			
+		        		</group>		        
+		        	</sheet>
+		        </form> 
+		    </field> 
+		</record>
+		<record id="enrsimply_prov_aca_form" model="ir.ui.view">
+		    <field name="name">enrsimply.prov.aca.form</field> 
+		    <field name="model">enrsimply.prov.aca</field>
+		    <field name="arch" type="xml">
+		        <form string="Provider Licenses">
+		        	<sheet>
+		        		<group>
+							<field name="license_type_id"/>
+							<field name="license_number"/>
+							<field name="eff_dt"/>
+							<field name="exp_dt"/>		        			
+		        		</group>		        
+		        	</sheet>
+		        </form> 
+		    </field> 
+		</record>
+
+		<record id="enrsimply_prov_licenses_form" model="ir.ui.view">
+		    <field name="name">enrsimply.prov.licenses.form</field> 
+		    <field name="model">enrsimply.prov.licenses</field>
+		    <field name="arch" type="xml">
+		        <form string="Provider Licenses">
+		        	<sheet>
+		        		<group>
+                            <field name="license_type_id"/>
+                            <field name="license_number"/>
+                            <field name="effctive_date"/>
+                            <field name="expry_date"/>
+		        		</group>		        
+		        	</sheet>
+		        </form> 
+		    </field> 
+		</record>
+
+		<record id="enrsimply_prov_cert_form" model="ir.ui.view">
+		    <field name="name">enrsimply.prov.cert.form</field> 
+		    <field name="model">enrsimply.prov.cert</field>
+		    <field name="arch" type="xml">
+		        <form string="Provider Board Certification">
+		        	<sheet>
+		        		<group>
+							<field name="certified_yr"/>
+							<field name="certified"/>
+							<field name="specialty_id"/>
+							<field name="primary"/>
+							<field name="recertified_year"/>
+							<field name="pin_status"/>		        			
+		        		</group>		        
+		        	</sheet>
+		        </form> 
+		    </field> 
+		</record>
+		<record id="enrsimply_prov_educ_form" model="ir.ui.view">
+		    <field name="name">enrsimply.prov.educ.form</field> 
+		    <field name="model">enrsimply.prov.educ</field>
+		    <field name="arch" type="xml">
+		        <form string="Provider Education">
+		        	<sheet>	
+		        		<group>
+							<field name="grad_year"/>
+							<field name="school_type_id"/>
+							<field name="university"/>
+							<field name="state_id"/>
+							<field name="country_id"/>
+							<field name="thru_dt"/>
+							<field name="degree_earned"/>
+		        		</group>
+		        	</sheet>
+		        </form> 
+		    </field> 
+		</record>
+    </data>
+</odoo>

@@ -31,11 +31,18 @@ class HREmployee(models.AbstractModel):
 	# Related Fields
 	specialization_id = fields.Many2one('enrsimply.specialization', string='Specialization', required=True)
 	atp_area_ids = fields.One2many('enrsimply.prov.atp', 'provider_id', string='Provider ATP Area')
-	pin_ids = fields.One2many('enrsimply.prov.pin', 'provider_id', string='Provider PIN')
+
+	pin_ids = fields.One2many('enrsimply.prov.pin', 'provider_id', string='Pending Provider PIN', domain=[('pin_status', '=', 'pending')])
+	pin_inactive_ids = fields.One2many('enrsimply.prov.pin', 'provider_id', domain=[('pin_status', '=', 'inactive')])
+	pin_active_ids = fields.One2many('enrsimply.prov.pin', 'provider_id', domain=[('pin_status', '=', 'active')])
+
 	ccs_pin_ids = fields.One2many('enrsimply.prov.ccs', 'provider_id', string='Provider CCS Paneling PIN')
 	requirement_list_ids = fields.One2many('enrsimply.prov.requirements', 'provider_id', string='Requirements submitted by Provider')
+
 	aca_attestation_stat_ids = fields.One2many('enrsimply.prov.aca_att', 'provider_id', string='Provider ACA Attestation Status')
-	license_ids = fields.One2many('enrsimply.prov.aca', 'provider_id', string='Provider Licenses')
+
+	
+	license_ids = fields.One2many('enrsimply.prov.licenses', 'provider_id', string='Provider Licenses')
 	education_ids = fields.One2many('enrsimply.prov.educ', 'provider_id', string='Provider Education')
 	board_certif_ids = fields.One2many('enrsimply.prov.cert', 'provider_id', string='Provider Certification')
 

@@ -45,39 +45,119 @@
                 </xpath>
                 <xpath expr="//page[@name='personal_information']" position="after">
                     <page name="atp_areas" string="ATP Areas" groups="hr.group_hr_user">
+                        <field name="atp_area_ids">
+                            <tree string="Provider ATP Area" editable="bottom">
+                                <field name="area_id"/>
+                                <field name="location_id"/>
+                                <field name="primary_area_id"/>
+                                <field name="expire_dt"/>                                                            
+                            </tree>
+                        </field>
                     </page>
                     <page name="pin_summary" string="PIN Information" groups="hr.group_hr_user">
                         <group string="Existing Active PINs">
-                            <field name="pin_ids"/>
+                            <field name="pin_active_ids" editable="bottom" readonly="1" nolabel="1">
+                                <tree string="Existing Active PINs" editable="bottom">
+                                    <field name="pin_type_id"/>
+                                    <field name="pin_number"/>
+                                    <field name="pin_eff_dt"/>
+                                    <field name="pin_end_dt"/>
+                                    <field name="pin_status"/>
+                                    <field name="area_id"/>
+                                    <field name="location_id"/>
+                                </tree>     
+                            </field>
                         </group>
+
                         <group string="Existing Deactivated PINs">
-                            <field name="pin_ids"/>
+                            <field name="pin_inactive_ids" editable="bottom" readonly="1" nolabel="1">
+                                <tree string="Existing Active PINs" editable="bottom">
+                                    <field name="pin_type_id"/>
+                                    <field name="pin_number"/>
+                                    <field name="pin_eff_dt"/>
+                                    <field name="pin_end_dt"/>
+                                    <field name="pin_status"/>
+                                    <field name="area_id"/>
+                                    <field name="location_id"/>
+                                </tree>     
+                            </field>
                         </group>
                         <group string="CCS Paneling Status">
-                            <field name="ccs_pin_ids"/>
+                            <field name="ccs_pin_ids" nolabel="1">
+                                <tree string ="" editable="bottom" nolabel="1">
+                                    <field name="pin_type_id"/>
+                                    <field name="pin_number"/>
+                                    <field name="pin_eff_dt"/>
+                                    <field name="pin_end_dt"/>
+                                    <field name="pin_status"/>
+                                    <field name="panel_taxonomy"/>                                    
+                                </tree>
+                            </field>
                         </group>
                         <group string="Pending PINs">
-                            <field name="pin_ids"/>
+                            <field name="pin_ids" editable="bottom" nolabel="1">
+                                <tree string="Existing Active PINs" editable="bottom">
+                                    <field name="trans_date"/>                                    
+                                    <field name="area_id"/>
+                                    <field name="location_id"/>
+                                    <field name="pin_type_id"/>
+                                    <field name="pin_status" invisible="0"/>
+                                </tree>     
+                            </field>
                         </group>
                         <group>
                             <group string="ACA Registration Data">
                                 <field name="aca_key"/>
                                 <field name="aca_site_email"/>
                             </group>
-                            <group string="ACA Attestation Status ">
-                                <field name="aca_attestation_stat_ids"/>
                         </group>
-                        </group>
+                        <group string="ACA Attestation Status">
+                            <field name="aca_attestation_stat_ids" nolabel="1">
+                                <tree string="" editable="bottom">
+                                    <field name="aca_status"/>
+                                    <field name="pin_type_id"/>
+                                    <field name="eff_dt"/>
+                                    <field name="end_dt"/>
+                                    <field name="taxonomy_cd"/>                                         
+                                </tree>
+                            </field>
+                        </group>                       
                     </page>
                     <page name="cred_summary" string="Certification/Licenses/Education" groups="hr.group_hr_user">
                         <group string="Licenses">
-                            <field name="license_ids"/>
+                            <field name="license_ids" nolabel="1">
+                                <tree string="Licenses" editable="bottom">
+                                    <field name="license_type_id"/>
+                                    <field name="license_number"/>
+                                    <field name="effctive_date"/>
+                                    <field name="expry_date"/>
+                                </tree>
+                            </field>
                         </group>
                         <group string="Board Certification">
-                            <field name="board_certif_ids"/>
+                            <field name="board_certif_ids" nolabel="1">
+                                <tree string="Board Certification" editable="bottom">
+                                    <field name="certified_yr"/>
+                                    <field name="certified"/>
+                                    <field name="specialty_id"/>
+                                    <field name="primary"/>
+                                    <field name="recertified_year"/>
+                                    <field name="pin_status"/>
+                                </tree>                                
+                            </field>
                         </group>
                         <group string="Education">
-                            <field name="education_ids"/>
+                            <field name="education_ids" nolabel="1">
+                                <tree string="Education" editable="bottom">
+                                    <field name="grad_year"/>
+                                    <field name="school_type_id"/>
+                                    <field name="university"/>
+                                    <field name="state_id"/>
+                                    <field name="country_id"/>
+                                    <field name="thru_dt"/>
+                                    <field name="degree_earned"/>
+                                </tree>
+                            </field>
                         </group>
                     </page>
                 </xpath>
