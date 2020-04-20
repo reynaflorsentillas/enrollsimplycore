@@ -7,6 +7,9 @@ class HREmployee(models.AbstractModel):
 	_inherit = 'hr.employee'
 	_description = "Provider"
 
+	# Override
+	name = fields.Char(string="Provider Name")
+
 	# New Fields
 	first_name = fields.Char(required=True)
 	middle_name = fields.Char()
