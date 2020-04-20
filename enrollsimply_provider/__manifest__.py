@@ -19,13 +19,14 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','hr'],
+    'depends': ['base','hr', 'enrollsimply'],
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         # 'data/res_partner_data.xml',
         'views/hr_employee_views.xml',
+        'views/provider_submodels_views.xml',
         'views/menu_views.xml',
     ],    
     'installable': True,

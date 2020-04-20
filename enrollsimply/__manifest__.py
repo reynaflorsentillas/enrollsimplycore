@@ -20,7 +20,8 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','app_odoo_customize','mail_bot','enrollsimply_provider'],
+    #'depends': ['base','app_odoo_customize','mail_bot','enrollsimply_provider'],
+    'depends': ['base','app_odoo_customize','mail_bot'],
 
     # always loaded
     'data': [
