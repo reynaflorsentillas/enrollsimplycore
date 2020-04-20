@@ -20,7 +20,7 @@ class PIN(models.Model):
     pin_number = fields.Char(string='PIN',10, required=True)
     pin_eff_dt = fields.Date(string='PIN Effective Date', required=True)
     pin_end_dt = fields.Date(string='PIN End Date', required=False)
-    pin_status = fields.Char(string='PIN Status',1, required=True) #value=A for Active status
+    pin_status = fields.Selection(['Active','Inactive'],string='PIN Status',1, required=True)
     area_id = fields.Many2one('enrsimply.area.id',string='Area ID', required=False)
 	location_id = fields.Many2one('enrsimply.location.id',string='Location ID', required=False)
 
@@ -32,7 +32,7 @@ class CCS(models.Model):
     pin_number = fields.Char(string='PIN',10, required=True)
     pin_eff_dt = fields.Date(string='PIN Effective Date', required=True)
     pin_end_dt = fields.Date(string='PIN End Date', required=False)
-    pin_status = fields.Char(string='PIN Status',1, required=True) #value=A for Active status
+    pin_status = fields.Selection(['Active','Inactive'],string='PIN Status',1, required=True)
     panel_taxonomy = fields.Many2one('enrsimply.specialization.code',string='Panel Taxonomy Code', required=False)
 
 class Requirement_List(models.Model):
@@ -48,6 +48,11 @@ class ACA_Attestation(model.Models):
     _description = 'Provider ACA Attestation Status'
     provider_id = fields.Many2one('hr.employee.id',string='Provider ID', required=True)
     aca_status = fields.Char(string='ACA Status',1, required=True) #value=A for Active status
+    pin_type_id = fields.Many2one('enrsimply.pin_type.id',string='PIN Type ID', required='True')
+    eff_dt = fields.Date(string='Effective Date', required=True)
+    end_dt = fields.Date(string='End Date', required=False)
+    taxonomy_cd = fields.Many2one('enrsimply.specialization.code',string='Taxonomy Code', required=False)
+
 
 class License(model.Models):
     _name = 'enrsimply.prov.aca'
@@ -68,8 +73,8 @@ class BoardCertification(model.Models):
     specialty_id = fields.Many2one('enrsimply.specialization.code',string='Specialty', required=true)
     primary = fields.Boolean(required=False)
     recertified_year = fields.Integer(string='Recertified Year')
-    status = fields.Char(string='Certification Status',1, required=True) #value=A for Active status
-
+    pin_status = fields.Selection(['Active','Inactive'],string='Certification Status',1, required=True)
+    
 class Education(model.Models):
     _name = 'enrsimply.prov.educ'
     _description = 'Provider Education'
