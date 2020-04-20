@@ -22,6 +22,7 @@
                     <group>
                         <group string="Summary">
                             <field name="employee_id"/>
+                            <field name="specialization_id"/>
                             <field name="medical_license_number"/>
                             <field name="medical_npi_number"/>
                         </group>
@@ -47,12 +48,16 @@
                     </page>
                     <page name="pin_summary" string="PIN Information" groups="hr.group_hr_user">
                         <group string="Existing Active PINs">
+                            <field name="pin_ids"/>
                         </group>
                         <group string="Existing Deactivated PINs">
+                            <field name="pin_ids"/>
                         </group>
                         <group string="CCS Paneling Status">
+                            <field name="ccs_pin_ids"/>
                         </group>
                         <group string="Pending PINs">
+                            <field name="pin_ids"/>
                         </group>
                         <group>
                             <group string="ACA Registration Data">
@@ -60,15 +65,19 @@
                                 <field name="aca_site_email"/>
                             </group>
                             <group string="ACA Attestation Status ">
+                                <field name="aca_attestation_stat_ids"/>
                         </group>
                         </group>
                     </page>
                     <page name="cred_summary" string="Certification/Licenses/Education" groups="hr.group_hr_user">
                         <group string="Licenses">
+                            <field name="license_ids"/>
                         </group>
                         <group string="Board Certification">
+                            <field name="board_certif_ids"/>
                         </group>
                         <group string="Education">
+                            <field name="education_ids"/>
                         </group>
                     </page>
                 </xpath>
@@ -81,7 +90,7 @@
         </record>
 
 
-        <record id="view_employee_filter_extend" model="ir.ui.view">
+        <!-- <record id="view_employee_filter_extend" model="ir.ui.view">
             <field name="name">hr.employee.filter.extend</field>
             <field name="model">hr.employee</field>
             <field name="inherit_id" ref="hr.view_employee_filter"/>
@@ -163,7 +172,7 @@
                     <attribute name="string">Provider</attribute>
                 </xpath>
             </field>
-        </record>
+        </record> -->
 
         
 
