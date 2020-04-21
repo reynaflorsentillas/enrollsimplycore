@@ -2,7 +2,7 @@
 <odoo>
     <data>
 
-    	<menuitem
+    	<!-- <menuitem
             id="hr.menu_hr_root"
             name="Providers"
             groups="hr.group_hr_manager,hr.group_hr_user,base.group_user"
@@ -16,19 +16,62 @@
             groups="hr.group_hr_user"
             sequence="3"/>
 
-            <menuitem
-                id="hr.menu_hr_employee_user"
-                name="Providers"
-                action="hr.open_view_employee_list_my"
-                parent="hr.menu_hr_employee_payroll"
-                sequence="1"/>
+        <menuitem
+            id="hr.menu_hr_employee_user"
+            name="Providers"
+            action="hr.open_view_employee_list_my"
+            parent="hr.menu_hr_employee_payroll"
+            sequence="1"/> -->
+
+        <record id="hr_healthcare_provider_view_search" model="ir.ui.view">
+            <field name="name">hr.employee.healthcare.provider.search</field>
+            <field name="model">hr.employee.public</field>
+            <field name="arch" type="xml">
+                <search string="Providers">
+                    <field name="name" string="Providers" filter_domain="['|',('work_email','ilike',self),('name','ilike',self)]"/>
+                    <field name="job_title" string="Job Title"/>
+                    <field name="department_id" string="Department"/>
+                    <field name="company_id" string="Company"/>
+                    <separator/>
+                    <filter name="archived" string="Archived" domain="[('active', '=', False)]"/>
+                    <group expand="0" string="Group By">
+                        <filter name="group_manager" string="Manager" domain="[]" context="{'group_by':'parent_id'}"/>
+                        <filter name="group_department" string="Department" domain="[]" context="{'group_by':'department_id'}"/>
+                        <filter name="group_company" string="Company" domain="[]" context="{'group_by':'company_id'}"/>
+                    </group>
+                    <searchpanel>
+                        <field name="company_id" groups="base.group_multi_company" icon="fa-building"/>
+                        <field name="department_id" icon="fa-users"/>
+                    </searchpanel>
+                </search>
+             </field>
+        </record>
+
+        <record id="hr_healthcare_provider_action" model="ir.actions.act_window">
+            <field name="name">Providers</field>
+            <field name="res_model">hr.employee</field>
+            <field name="view_mode">kanban,tree,form</field>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+            <field name="view_id" eval="False"/>
+            <field name="search_view_id" ref="hr_healthcare_provider_view_search"/>
+            <field name="help" type="html">
+              <p class="o_view_nocontent_smiling_face">
+                Add a new provider
+              </p><p>
+                With just a quick glance on the EnrollSimply provider screen, you
+                can easily find all the information you need for each person;
+                contact data, job position, availability, etc.
+              </p>
+            </field>
+        </record>
 
         <menuitem
-            id="hr.menu_hr_employee"
-            name="Provider Directory"
-            action="hr.hr_employee_public_action"
+            id="menu_hr_healthcare_provider"
+            name="Healthcare Provider"
+            action="hr_healthcare_provider_action"
             parent="hr.menu_hr_root"
-            sequence="4"/>
+            sequence="3"/>
 
     </data>
 </odoo>
