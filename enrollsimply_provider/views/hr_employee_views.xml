@@ -2,6 +2,17 @@
 <odoo>
     <data>
 
+        <record id="view_employee_tree_extend" model="ir.ui.view">
+            <field name="name">hr.employee.tree.extend</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='coach_id']" position="before">
+                    <field name="type"/>
+                </xpath>
+            </field>
+        </record>
+
         <record id="view_employee_form_extend" model="ir.ui.view">
             <field name="name">hr.employee.form.extend</field>
             <field name="model">hr.employee</field>
@@ -11,6 +22,9 @@
             		<attribute name="readonly">1</attribute>
             		<attribute name="force_save">1</attribute>
                 </xpath>
+                <xpath expr="//div[@class='oe_title']/h1[1]" position="before">
+                    <field name="type" options="{'horizontal': true}" class="oe_edit_only" widget="radio" groups="base.group_no_one"/>
+                </xpath>
             	<xpath expr="//div[@class='oe_title']/h1[1]" position="after">
                     <h2>
                     	<field name="first_name" placeholder="First Name" class="oe_edit_only"/>
@@ -18,18 +32,20 @@
                     	<field name="last_name" placeholder="Last Name" class="oe_edit_only"/>
                     </h2>
                 </xpath>
+                <xpath expr="//field[@name='job_id']" position="after">
+                    <field name="specialization_id" attrs="{'invisible': [('type', '!=', 'provider')], 'required': [('type', '=', 'provider')]}"/>
+                </xpath>
                 <xpath expr="//div[@id='o_work_employee_main']/group[1]" position="before">
                     <group>
                         <group string="Summary">
                             <field name="employee_id"/>
-                            <field name="specialization_id"/>
-                            <field name="medical_license_number"/>
-                            <field name="medical_npi_number"/>
+                            <field name="medical_license_number" attrs="{'invisible': [('type', '!=', 'provider')], 'required': [('type', '=', 'provider')]}"/>
+                            <field name="medical_npi_number" attrs="{'invisible': [('type', '!=', 'provider')]}"/>
                         </group>
-                        <group string="Group Enrollment Data">
-                            <field name="grp_npi_number"/>
-                            <field name="grp_medicare_number"/>
-                            <field name="grp_medical_number"/>
+                        <group string="Group Enrollment Data" attrs="{'invisible': [('type', '!=', 'provider')]}">
+                            <field name="grp_npi_number" attrs="{'invisible': [('type', '!=', 'provider')], 'required': [('type', '=', 'provider')]}"/>
+                            <field name="grp_medicare_number" attrs="{'invisible': [('type', '!=', 'provider')], 'required': [('type', '=', 'provider')]}"/>
+                            <field name="grp_medical_number" attrs="{'invisible': [('type', '!=', 'provider')], 'required': [('type', '=', 'provider')]}"/>
                         </group>
                     </group>
                 </xpath>
@@ -44,17 +60,17 @@
                     <field name="birth_state_id"/>
                 </xpath>
                 <xpath expr="//page[@name='personal_information']" position="after">
-                    <page name="atp_areas" string="ATP Areas" groups="hr.group_hr_user">
+                    <page name="atp_areas" string="ATP Areas" groups="hr.group_hr_user" attrs="{'invisible': [('type', '!=', 'provider')]}">
                         <field name="atp_area_ids">
                             <tree string="Provider ATP Area" editable="bottom">
                                 <field name="area_id"/>
                                 <field name="location_id"/>
                                 <field name="primary_area_id"/>
-                                <field name="expire_dt"/>                                                            
+                                <field name="expire_dt"/>
                             </tree>
                         </field>
                     </page>
-                    <page name="pin_summary" string="PIN Information" groups="hr.group_hr_user">
+                    <page name="pin_summary" string="PIN Information" groups="hr.group_hr_user" attrs="{'invisible': [('type', '!=', 'provider')]}">
                         <group string="Existing Active PINs">
                             <field name="pin_active_ids" editable="bottom" readonly="1" nolabel="1">
                                 <tree string="Existing Active PINs" editable="bottom">
@@ -68,7 +84,6 @@
                                 </tree>     
                             </field>
                         </group>
-
                         <group string="Existing Deactivated PINs">
                             <field name="pin_inactive_ids" editable="bottom" readonly="1" nolabel="1">
                                 <tree string="Existing Active PINs" editable="bottom">
@@ -169,6 +184,58 @@
             </field>
         </record>
 
+        <record id="hr_healthcare_provider_view_search" model="ir.ui.view">
+            <field name="name">hr.employee.healthcare.provider.search</field>
+            <field name="model">hr.employee</field>
+            <field name="arch" type="xml">
+                <search string="Providers">
+                    <field name="name" string="Providers" filter_domain="['|',('work_email','ilike',self),('name','ilike',self)]"/>
+                    <field name="ss_number" string="SSN"/>
+                    <field name="employee_id" string="Employee ID"/>
+                    <field name="last_name" string="Last Name"/>
+                    <field name="first_name" string="First Name"/>
+                    <field name="middle_name" string="Middle Name"/>
+                    <field name="specialization_id" string="Specialization"/>
+                    <field name="job_title" string="Job Title"/>
+                    <field name="department_id" string="Department"/>
+                    <field name="company_id" string="Company"/>
+                    <separator/>
+                    <filter name="archived" string="Archived" domain="[('active', '=', False)]"/>
+                    <group expand="0" string="Group By">
+                        <filter name="group_specialization" string="Specialization" domain="[]" context="{'group_by':'specialization_id'}"/>
+                        <filter name="group_job" string="Job Position" domain="[]" context="{'group_by':'job_id'}"/>
+                        <filter name="group_manager" string="Manager" domain="[]" context="{'group_by':'parent_id'}"/>
+                        <filter name="group_department" string="Department" domain="[]" context="{'group_by':'department_id'}"/>
+                        <filter name="group_company" string="Company" domain="[]" context="{'group_by':'company_id'}"/>
+                    </group>
+                    <searchpanel>
+                        <field name="company_id" groups="base.group_multi_company" icon="fa-building"/>
+                        <field name="department_id" icon="fa-users"/>
+                        <field name="job_id" icon="fa-briefcase"/>
+                        <field name="specialization_id" icon="fa-briefcase-medical"/>
+                    </searchpanel>
+                </search>
+             </field>
+        </record>
+
+        <record id="hr_healthcare_provider_action" model="ir.actions.act_window">
+            <field name="name">Providers</field>
+            <field name="res_model">hr.employee</field>
+            <field name="view_mode">kanban,tree,form</field>
+            <field name="domain">[('type','=','provider')]</field>
+            <field name="context">{'default_type': 'provider'}</field>
+            <field name="view_id" eval="False"/>
+            <field name="search_view_id" ref="hr_healthcare_provider_view_search"/>
+            <field name="help" type="html">
+              <p class="o_view_nocontent_smiling_face">
+                Add a new provider
+              </p><p>
+                With just a quick glance on the EnrollSimply provider screen, you
+                can easily find all the information you need for each person;
+                contact data, job position, availability, etc.
+              </p>
+            </field>
+        </record>
 
         <!-- <record id="view_employee_filter_extend" model="ir.ui.view">
             <field name="name">hr.employee.filter.extend</field>

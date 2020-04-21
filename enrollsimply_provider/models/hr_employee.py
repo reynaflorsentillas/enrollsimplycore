@@ -8,9 +8,13 @@ class HREmployee(models.AbstractModel):
 	_description = "Provider"
 
 	# Override
-	name = fields.Char(string="Provider Name")
+	# name = fields.Char(string="Provider Name")
 
 	# New Fields
+	type = fields.Selection([
+		('regular', 'Regular'),
+		('provider', 'Healthcare Provider'),
+	], string='Employee Type', default='regular')
 	first_name = fields.Char(required=True)
 	middle_name = fields.Char()
 	last_name = fields.Char(required=True)
@@ -19,17 +23,17 @@ class HREmployee(models.AbstractModel):
 	driver_license_number = fields.Char(string="Driver's License", required=True, groups="hr.group_hr_user")
 	driver_license_state_id = fields.Many2one('res.country.state',string="Driver's License State", required=True, groups="hr.group_hr_user")
 	birth_state_id = fields.Many2one('res.country.state', string='State of Birth', groups="hr.group_hr_user")
-	medical_license_number = fields.Char(string='License Number', required=True, groups="hr.group_hr_user")
+	medical_license_number = fields.Char(string='License Number', groups="hr.group_hr_user")
 	medical_npi_number = fields.Char(string='NPI Number', groups="hr.group_hr_user")
 	aca_key = fields.Char(string='ACA Key', groups="hr.group_hr_user")
 	aca_site_email = fields.Char(groups="hr.group_hr_user")
-	grp_npi_number = fields.Char(string='Group NPI#', required=True, groups="hr.group_hr_user")
-	grp_medicare_number = fields.Char(string='Group Medicare#', required=True, groups="hr.group_hr_user")
-	grp_medical_number = fields.Char(string='Group Medical#', required=True, groups="hr.group_hr_user")
+	grp_npi_number = fields.Char(string='Group NPI#', groups="hr.group_hr_user")
+	grp_medicare_number = fields.Char(string='Group Medicare#', groups="hr.group_hr_user")
+	grp_medical_number = fields.Char(string='Group Medical#', groups="hr.group_hr_user")
 	notes = fields.Text()
 
 	# Related Fields
-	specialization_id = fields.Many2one('enrsimply.specialization', string='Specialization', required=True)
+	specialization_id = fields.Many2one('enrsimply.specialization', string='Specialization')
 	atp_area_ids = fields.One2many('enrsimply.prov.atp', 'provider_id', string='Provider ATP Area')
 
 	pin_ids = fields.One2many('enrsimply.prov.pin', 'provider_id', string='Pending Provider PIN', domain=[('pin_status', '=', 'pending')])
