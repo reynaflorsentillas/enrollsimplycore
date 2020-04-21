@@ -18,7 +18,7 @@ class PIN(models.Model):
     _name = 'enrsimply.prov.pin'
     _description = 'Provider PIN'
     provider_id = fields.Many2one('hr.employee',string='Provider ID')
-    pin_type_id = fields.Many2one('enrsimply.pin.type',string='PIN Type', required='True')
+    pin_type_id = fields.Many2one('enrsimply.pin.type',string='PIN Type') #, required=True)
     pin_number = fields.Char(string='PIN', required=False)
     pin_eff_dt = fields.Date(string='Effective Date', required=False)
     pin_end_dt = fields.Date(string='End Date', required=False)
@@ -33,7 +33,7 @@ class CCS(models.Model):
     _name = 'enrsimply.prov.ccs'
     _description = 'Provider CCS Paneling PIN'
     provider_id = fields.Many2one('hr.employee',string='Provider ID')
-    pin_type_id = fields.Many2one('enrsimply.pin.type',string='PIN Type', required='True')
+    pin_type_id = fields.Many2one('enrsimply.pin.type',string='PIN Type') #, required=True)
     pin_number = fields.Char(string='PIN') #, required=True)
     pin_eff_dt = fields.Date(string='PIN Effective Date') #, required=True)
     pin_end_dt = fields.Date(string='PIN End Date', required=False)
@@ -44,7 +44,7 @@ class Requirement_List(models.Model):
     _name = 'enrsimply.prov.requirements'
     _description = 'Requirements submitted by Provider'
     provider_id = fields.Many2one('hr.employee',string='Provider ID') #, required=True)
-    requirement_type_id = fields.Many2one('enrsimply.document_type',string='Document Type ID', required='True')
+    requirement_type_id = fields.Many2one('enrsimply.document_type',string='Document Type ID') #, required=True)
     submitted = fields.Boolean(string='Submit Status') #, required=True)
     submit_dt = fields.Date(string='Document Submit Date', required=False)
 
@@ -53,7 +53,7 @@ class ACA_Attestation(models.Model):
     _description = 'Provider ACA Attestation Status'
     provider_id = fields.Many2one('hr.employee',string='Provider ID') #, required=True)
     aca_status = fields.Selection(STATUS, string='ACA Status') #, required=True) #value=A for Active status
-    pin_type_id = fields.Many2one('enrsimply.pin.type',string='PIN Type', required='True')
+    pin_type_id = fields.Many2one('enrsimply.pin.type',string='PIN Type') #, required=True)
     eff_dt = fields.Date(string='Effective Date') #, required=True)
     end_dt = fields.Date(string='End Date', required=False)
     taxonomy_cd = fields.Many2one('enrsimply.specialization.code',string='Taxonomy Code', required=False)

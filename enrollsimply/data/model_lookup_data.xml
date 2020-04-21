@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">    	
+		<record id="hr_schooltype_1_FEL" model="hr.schooltype">
+		    <field name="name">Fellowship</field> 
+		    <field name="code">FEL</field>
+		</record>
+		<record id="hr_schooltype_2_INT" model="hr.schooltype">
+		    <field name="name">Internship</field> 
+		    <field name="code">INT</field>
+		</record>
+		<record id="hr_schooltype_3_RES" model="hr.schooltype">
+		    <field name="name">Residency</field> 
+		    <field name="code">RES</field>
+		</record>
+		<record id="hr_schooltype_4_MED" model="hr.schooltype">
+		    <field name="name">Medical Education</field> 
+		    <field name="code">MED</field>
+		</record>
+
+		<record id="enrsimply_licenses_1_MAMM" model="enrsimply.licenses">
+		    <field name="name">Mammography License 01</field> 
+		    <field name="code">MAMM</field>
+		</record>
+		<record id="enrsimply_licenses_2_CAAUD" model="enrsimply.licenses">
+		    <field name="name">Audiologist License</field> 
+		    <field name="code">CAAUD</field>
+		</record>
+		<record id="enrsimply_licenses_3_CADO" model="enrsimply.licenses">
+		    <field name="name">Osteopathic License</field> 
+		    <field name="code">CADO</field>
+		</record>
+		<record id="enrsimply_licenses_4_CADPM" model="enrsimply.licenses">
+		    <field name="name">Podiatry License</field> 
+		    <field name="code">CADPM</field>
+		</record>
+		<record id="enrsimply_licenses_5_CAMD" model="enrsimply.licenses">
+		    <field name="name">Medical License</field> 
+		    <field name="code">CAMD</field>
+		</record>
+		<record id="enrsimply_licenses_6_CADEA" model="enrsimply.licenses">
+		    <field name="name">DEA Number</field> 
+		    <field name="code">CADEA</field>
+		</record>
+		<record id="enrsimply_licenses_7_CAPT" model="enrsimply.licenses">
+		    <field name="name">PT License</field> 
+		    <field name="code">CAPT</field>
+		</record>
+		<record id="enrsimply_licenses_8_CAOT" model="enrsimply.licenses">
+		    <field name="name">Occupational Ther Cert</field> 
+		    <field name="code">CAOT</field>
+		</record>
+		<record id="enrsimply_licenses_9_CANP" model="enrsimply.licenses">
+		    <field name="name">RNP License</field> 
+		    <field name="code">CANP</field>
+		</record>
+		<record id="enrsimply_licenses_10_CLIA" model="enrsimply.licenses">
+		    <field name="name">CLIA 01</field> 
+		    <field name="code">CLIA</field>
+		</record>
+		<record id="enrsimply_licenses_11_CACNM" model="enrsimply.licenses">
+		    <field name="name">CNM License</field> 
+		    <field name="code">CACNM</field>
+		</record>
+		<record id="enrsimply_licenses_12_CAPHYSA" model="enrsimply.licenses">
+		    <field name="name">PA License</field> 
+		    <field name="code">CAPHYSA</field>
+		</record>
+		<record id="enrsimply_licenses_13_CAOD" model="enrsimply.licenses">
+		    <field name="name">Optometry License</field> 
+		    <field name="code">CAOD</field>
+		</record>
+		<record id="enrsimply_licenses_14_CAPSYCH" model="enrsimply.licenses">
+		    <field name="name">Psychologist License</field> 
+		    <field name="code">CAPSYCH</field>
+		</record>
+		<record id="enrsimply_licenses_15_CALCSW" model="enrsimply.licenses">
+		    <field name="name">License Clinical Social Worker</field> 
+		    <field name="code">CALCSW</field>
+		</record>
+		<record id="enrsimply_licenses_16_CACDS" model="enrsimply.licenses">
+		    <field name="name">Child Dev. Specialist Cert</field> 
+		    <field name="code">CACDS</field>
+		</record>
+		<record id="enrsimply_licenses_17_CAMFT" model="enrsimply.licenses">
+		    <field name="name">Marriage Family Ther Lic</field> 
+		    <field name="code">CAMFT</field>
+		</record>
+		<record id="enrsimply_licenses_18_CACRNA" model="enrsimply.licenses">
+		    <field name="name">CRNA License</field> 
+		    <field name="code">CACRNA</field>
+		</record>
+		<record id="enrsimply_licenses_19_CADDS" model="enrsimply.licenses">
+		    <field name="name">Dental Surgery License</field> 
+		    <field name="code">CADDS</field>
+		</record>
+		<record id="enrsimply_licenses_20_CADMD" model="enrsimply.licenses">
+		    <field name="name">Dental Medical License</field> 
+		    <field name="code">CADMD</field>
+		</record>
+		<record id="enrsimply_licenses_21_CLIA2" model="enrsimply.licenses">
+		    <field name="name">CLIA 02</field> 
+		    <field name="code">CLIA2</field>
+		</record>
+		<record id="enrsimply_licenses_22_MAMM2" model="enrsimply.licenses">
+		    <field name="name">Mammography License 02</field> 
+		    <field name="code">MAMM2</field>
+		</record>
+		<record id="enrsimply_licenses_23_CLL" model="enrsimply.licenses">
+		    <field name="name">Clinical Lab License 01</field> 
+		    <field name="code">CLL</field>
+		</record>
+		<record id="enrsimply_licenses_24_NOLIC" model="enrsimply.licenses">
+		    <field name="name">License Not Applicable</field> 
+		    <field name="code">NOLIC</field>
+		</record>
+		<record id="enrsimply_licenses_25_CASPL" model="enrsimply.licenses">
+		    <field name="name">Speech Therapist</field> 
+		    <field name="code">CASPL</field>
+		</record>
+		<record id="enrsimply_licenses_26_CALAC" model="enrsimply.licenses">
+		    <field name="name">Acupuncturist</field> 
+		    <field name="code">CALAC</field>
+		</record>
+		<record id="enrsimply_licenses_27_CLIA3" model="enrsimply.licenses">
+		    <field name="name">CLIA 03</field> 
+		    <field name="code">CLIA3</field>
+		</record>
+		<record id="enrsimply_licenses_28_CLIA4" model="enrsimply.licenses">
+		    <field name="name">CLIA 04</field> 
+		    <field name="code">CLIA4</field>
+		</record>
+		<record id="enrsimply_licenses_29_CLIA5" model="enrsimply.licenses">
+		    <field name="name">CLIA 05</field> 
+		    <field name="code">CLIA5</field>
+		</record>
+		<record id="enrsimply_licenses_30_CLIA6" model="enrsimply.licenses">
+		    <field name="name">CLIA 06</field> 
+		    <field name="code">CLIA6</field>
+		</record>
+		<record id="enrsimply_licenses_31_CLIA7" model="enrsimply.licenses">
+		    <field name="name">CLIA 07</field> 
+		    <field name="code">CLIA7</field>
+		</record>
+		<record id="enrsimply_licenses_32_CLIA8" model="enrsimply.licenses">
+		    <field name="name">CLIA 08</field> 
+		    <field name="code">CLIA8</field>
+		</record>
+		<record id="enrsimply_licenses_33_CLIA9" model="enrsimply.licenses">
+		    <field name="name">CLIA 09</field> 
+		    <field name="code">CLIA9</field>
+		</record>
+		<record id="enrsimply_licenses_34_CLIA10" model="enrsimply.licenses">
+		    <field name="name">CLIA 10</field> 
+		    <field name="code">CLIA10</field>
+		</record>
+		<record id="enrsimply_licenses_35_CLIA11" model="enrsimply.licenses">
+		    <field name="name">CLIA 11</field> 
+		    <field name="code">CLIA11</field>
+		</record>
+		<record id="enrsimply_licenses_36_CLIA12" model="enrsimply.licenses">
+		    <field name="name">CLIA 12</field> 
+		    <field name="code">CLIA12</field>
+		</record>
+		<record id="enrsimply_licenses_37_CLL2" model="enrsimply.licenses">
+		    <field name="name">Clinical Lab License 02</field> 
+		    <field name="code">CLL2</field>
+		</record>
+		<record id="enrsimply_licenses_38_CLL3" model="enrsimply.licenses">
+		    <field name="name">Clinical Lab License 03</field> 
+		    <field name="code">CLL3</field>
+		</record>
+		<record id="enrsimply_licenses_39_CLL4" model="enrsimply.licenses">
+		    <field name="name">Clinical Lab License 04</field> 
+		    <field name="code">CLL4</field>
+		</record>
+		<record id="enrsimply_licenses_40_CLL5" model="enrsimply.licenses">
+		    <field name="name">Clinical Lab License 05</field> 
+		    <field name="code">CLL5</field>
+		</record>
+		<record id="enrsimply_licenses_41_CLL6" model="enrsimply.licenses">
+		    <field name="name">Clinical Lab License 06</field> 
+		    <field name="code">CLL6</field>
+		</record>
+		<record id="enrsimply_licenses_42_CLL7" model="enrsimply.licenses">
+		    <field name="name">Clinical Lab License 07</field> 
+		    <field name="code">CLL7</field>
+		</record>
+		<record id="enrsimply_licenses_43_CLL8" model="enrsimply.licenses">
+		    <field name="name">Clinical Lab License 08</field> 
+		    <field name="code">CLL8</field>
+		</record>
+		<record id="enrsimply_licenses_44_CLL9" model="enrsimply.licenses">
+		    <field name="name">Clinical Lab License 09</field> 
+		    <field name="code">CLL9</field>
+		</record>
+		<record id="enrsimply_licenses_45_CLL10" model="enrsimply.licenses">
+		    <field name="name">Clinical Lab License 10</field> 
+		    <field name="code">CLL10</field>
+		</record>
+		<record id="enrsimply_licenses_46_CLL11" model="enrsimply.licenses">
+		    <field name="name">Clinical Lab License 11</field> 
+		    <field name="code">CLL11</field>
+		</record>
+		<record id="enrsimply_licenses_47_CLL12" model="enrsimply.licenses">
+		    <field name="name">Clinical Lab License 12</field> 
+		    <field name="code">CLL12</field>
+		</record>
+		<record id="enrsimply_licenses_48_MAMM3" model="enrsimply.licenses">
+		    <field name="name">Mammography License 03</field> 
+		    <field name="code">MAMM3</field>
+		</record>
+		<record id="enrsimply_licenses_49_MAMM4" model="enrsimply.licenses">
+		    <field name="name">Mammography License 04</field> 
+		    <field name="code">MAMM4</field>
+		</record>
+		<record id="enrsimply_licenses_50_MAMM5" model="enrsimply.licenses">
+		    <field name="name">Mammography License 05</field> 
+		    <field name="code">MAMM5</field>
+		</record>
+		<record id="enrsimply_licenses_51_MAMM6" model="enrsimply.licenses">
+		    <field name="name">Mammography License 06</field> 
+		    <field name="code">MAMM6</field>
+		</record>
+		<record id="enrsimply_licenses_52_MAMM7" model="enrsimply.licenses">
+		    <field name="name">Mammography License 07</field> 
+		    <field name="code">MAMM7</field>
+		</record>
+		<record id="enrsimply_licenses_53_MAMM8" model="enrsimply.licenses">
+		    <field name="name">Mammography License 08</field> 
+		    <field name="code">MAMM8</field>
+		</record>
+		<record id="enrsimply_licenses_54_MAMM9" model="enrsimply.licenses">
+		    <field name="name">Mammography License 09</field> 
+		    <field name="code">MAMM9</field>
+		</record>
+		<record id="enrsimply_licenses_55_MAMM10" model="enrsimply.licenses">
+		    <field name="name">Mammography License 10</field> 
+		    <field name="code">MAMM10</field>
+		</record>
+		<record id="enrsimply_licenses_56_MAMM11" model="enrsimply.licenses">
+		    <field name="name">Mammography License 11</field> 
+		    <field name="code">MAMM11</field>
+		</record>
+		<record id="enrsimply_licenses_57_MAMM12" model="enrsimply.licenses">
+		    <field name="name">Mammography License 12</field> 
+		    <field name="code">MAMM12</field>
+		</record>
+		<record id="enrsimply_licenses_58_BUSINESS" model="enrsimply.licenses">
+		    <field name="name">Business License</field> 
+		    <field name="code">BUSINESS</field>
+		</record>
+
+		<record id="enrsimply_pin_type_1_UPIN" model="enrsimply.pin.type">
+		    <field name="name">Medicare UPIN</field> 
+		    <field name="code">UPIN</field>
+		</record>
+		<record id="enrsimply_pin_type_2_PTAN" model="enrsimply.pin.type">
+		    <field name="name">Medicare PTAN</field> 
+		    <field name="code">PTAN</field>
+		</record>
+		<record id="enrsimply_pin_type_3_MPIN" model="enrsimply.pin.type">
+		    <field name="name">Medi-Cal PIN</field> 
+		    <field name="code">MPIN</field>
+		</record>
+		<record id="enrsimply_pin_type_4_NPI" model="enrsimply.pin.type">
+		    <field name="name">NPI</field> 
+		    <field name="code">NPI</field>
+		</record>
+		<record id="enrsimply_pin_type_5_CHAMP" model="enrsimply.pin.type">
+		    <field name="name">CHAMPUS</field> 
+		    <field name="code">CHAMP</field>
+		</record>
+		<record id="enrsimply_pin_type_6_RR" model="enrsimply.pin.type">
+		    <field name="name">RailRoad Number</field> 
+		    <field name="code">RR</field>
+		</record>
+		<record id="enrsimply_pin_type_7_CALOP" model="enrsimply.pin.type">
+		    <field name="name">Caloptima</field> 
+		    <field name="code">CALOP</field>
+		</record>
+		<record id="enrsimply_pin_type_8_CPIN" model="enrsimply.pin.type">
+		    <field name="name">CCS PIN</field> 
+		    <field name="code">CPIN</field>
+		</record>
+		<record id="enrsimply_pin_type_9_APIN" model="enrsimply.pin.type">
+		    <field name="name">Medi-Cal PIN Allied </field> 
+		    <field name="code">APIN</field>
+		</record>
+		<record id="enrsimply_pin_type_10_RPIN" model="enrsimply.pin.type">
+		    <field name="name">Medicare RPIN</field> 
+		    <field name="code">RPIN</field>
+		</record>
+		<record id="enrsimply_pin_type_11_PCATT" model="enrsimply.pin.type">
+		    <field name="name">PC ACA Attestation</field> 
+		    <field name="code">PCATT</field>
+		</record>
+		<record id="enrsimply_pin_type_12_INA" model="enrsimply.pin.type">
+		    <field name="name">Identity and Access Mgmt-CMS</field> 
+		    <field name="code">INA</field>
+		</record>
+		<record id="enrsimply_pin_type_13_MCPIC" model="enrsimply.pin.type">
+		    <field name="name">MCare Provider Information Chg</field> 
+		    <field name="code">MCPIC</field>
+		</record>
+		<record id="enrsimply_pin_type_14_AFFIL" model="enrsimply.pin.type">
+		    <field name="name">Medi-Cal Affiliation</field> 
+		    <field name="code">AFFIL</field>
+		</record>
+
+		<record id="enrsimply_areas_1_WV" model="enrsimply.areas">
+		    <field name="name">West Ventura</field> 
+		    <field name="code">WV</field>
+		</record>
+		<record id="enrsimply_areas_2_AV" model="enrsimply.areas">
+		    <field name="name">Antelope Valley</field> 
+		    <field name="code">AV</field>
+		</record>
+		<record id="enrsimply_areas_3_FO" model="enrsimply.areas">
+		    <field name="name">Fontana Medical Center</field> 
+		    <field name="code">FO</field>
+		</record>
+		<record id="enrsimply_areas_4_PC" model="enrsimply.areas">
+		    <field name="name">Panorama City Medical Center</field> 
+		    <field name="code">PC</field>
+		</record>
+		<record id="enrsimply_areas_5_BE" model="enrsimply.areas">
+		    <field name="name">Downey Medical Center</field> 
+		    <field name="code">BE</field>
+		</record>
+		<record id="enrsimply_areas_6_RI" model="enrsimply.areas">
+		    <field name="name">Riverside Medical Center</field> 
+		    <field name="code">RI</field>
+		</record>
+		<record id="enrsimply_areas_7_OC" model="enrsimply.areas">
+		    <field name="name">Orange County Medical Center</field> 
+		    <field name="code">OC</field>
+		</record>
+		<record id="enrsimply_areas_8_LA" model="enrsimply.areas">
+		    <field name="name">Los Angeles Medical Center</field> 
+		    <field name="code">LA</field>
+		</record>
+		<record id="enrsimply_areas_9_BP" model="enrsimply.areas">
+		    <field name="name">Baldwin Park Medical Center</field> 
+		    <field name="code">BP</field>
+		</record>
+		<record id="enrsimply_areas_10_SB" model="enrsimply.areas">
+		    <field name="name">South Bay Medical Center</field> 
+		    <field name="code">SB</field>
+		</record>
+		<record id="enrsimply_areas_11_WH" model="enrsimply.areas">
+		    <field name="name">Woodland Hills Medical Center</field> 
+		    <field name="code">WH</field>
+		</record>
+		<record id="enrsimply_areas_12_WLA" model="enrsimply.areas">
+		    <field name="name">West Los Angeles Medical Center</field> 
+		    <field name="code">WLA</field>
+		</record>
+		<record id="enrsimply_areas_13_KC" model="enrsimply.areas">
+		    <field name="name">Kern County Medical Center</field> 
+		    <field name="code">KC</field>
+		</record>
+		<record id="enrsimply_areas_14_SD" model="enrsimply.areas">
+		    <field name="name">San Diego Medical Center</field> 
+		    <field name="code">SD</field>
+		</record>
+		<record id="enrsimply_areas_15_RI" model="enrsimply.areas">
+		    <field name="name">Kaiser Foundation Hospital Moreno Valley</field> 
+		    <field name="code">RI</field>
+		</record>
+		<record id="enrsimply_areas_16_OC" model="enrsimply.areas">
+		    <field name="name">Orange County Medical Center</field> 
+		    <field name="code">OC</field>
+		</record>
+
+
+		<record id="enrsimply_locations_80336" model="enrsimply.locations">
+		    <field name="name">San Bernardino MOB</field> 
+		    <field name="code">80336</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80337" model="enrsimply.locations">
+		    <field name="name">San Bernardino Mental Health</field> 
+		    <field name="code">80337</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80343" model="enrsimply.locations">
+		    <field name="name">Rancho Cucamonga MOB</field> 
+		    <field name="code">80343</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80350" model="enrsimply.locations">
+		    <field name="name">Upland MOB</field> 
+		    <field name="code">80350</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80356" model="enrsimply.locations">
+		    <field name="name">Montclair Mental Health Office</field> 
+		    <field name="code">80356</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80362" model="enrsimply.locations">
+		    <field name="name">Indian Hill MOB</field> 
+		    <field name="code">80362</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80368" model="enrsimply.locations">
+		    <field name="name">Chino MOB</field> 
+		    <field name="code">80368</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80374" model="enrsimply.locations">
+		    <field name="name">High Dsert MOB</field> 
+		    <field name="code">80374</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80387" model="enrsimply.locations">
+		    <field name="name">St. Bernardine Medical Plaza</field> 
+		    <field name="code">80387</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81706" model="enrsimply.locations">
+		    <field name="name">Ontario Mental Health</field> 
+		    <field name="code">81706</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81714" model="enrsimply.locations">
+		    <field name="name">Ontario Ambulatory Surgicenter</field> 
+		    <field name="code">81714</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81802" model="enrsimply.locations">
+		    <field name="name">Redlands MOB</field> 
+		    <field name="code">81802</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81601" model="enrsimply.locations">
+		    <field name="name">Kern Admin Offices</field> 
+		    <field name="code">81601</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_7_OC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81602" model="enrsimply.locations">
+		    <field name="name">Kern Behavioral Health</field> 
+		    <field name="code">81602</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_7_OC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81603" model="enrsimply.locations">
+		    <field name="name">Discovery Plaza MOB</field> 
+		    <field name="code">81603</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_7_OC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81605" model="enrsimply.locations">
+		    <field name="name">Stockdale MOB</field> 
+		    <field name="code">81605</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_7_OC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81607" model="enrsimply.locations">
+		    <field name="name">Ming MOB</field> 
+		    <field name="code">81607</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_7_OC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81608" model="enrsimply.locations">
+		    <field name="name">Coffee Road MOB</field> 
+		    <field name="code">81608</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_7_OC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81609" model="enrsimply.locations">
+		    <field name="name">Kern San Dimas MOB</field> 
+		    <field name="code">81609</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_7_OC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81610" model="enrsimply.locations">
+		    <field name="name">Physician'S Plaza MOB</field> 
+		    <field name="code">81610</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_7_OC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81611" model="enrsimply.locations">
+		    <field name="name">Plaza - 2000 Medical Offices</field> 
+		    <field name="code">81611</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_7_OC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81612" model="enrsimply.locations">
+		    <field name="name">East Hills MOB</field> 
+		    <field name="code">81612</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_7_OC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81613" model="enrsimply.locations">
+		    <field name="name">Chester Ave Med Office Bldg</field> 
+		    <field name="code">81613</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_7_OC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80106" model="enrsimply.locations">
+		    <field name="name">Rosecrans MOB</field> 
+		    <field name="code">80106</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_5_BE'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80115" model="enrsimply.locations">
+		    <field name="name">Orchard MOB #A</field> 
+		    <field name="code">80115</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_5_BE'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80128" model="enrsimply.locations">
+		    <field name="name">Norwalk Mental Health Child</field> 
+		    <field name="code">80128</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_5_BE'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80140" model="enrsimply.locations">
+		    <field name="name">Lynwood MOB</field> 
+		    <field name="code">80140</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_5_BE'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80152" model="enrsimply.locations">
+		    <field name="name">Whittier MOB</field> 
+		    <field name="code">80152</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_5_BE'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80004" model="enrsimply.locations">
+		    <field name="name">Sunset Satellite</field> 
+		    <field name="code">80004</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_8_LA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80005" model="enrsimply.locations">
+		    <field name="name">Edgemont MOB</field> 
+		    <field name="code">80005</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_8_LA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80006" model="enrsimply.locations">
+		    <field name="name">Sunset/Edgemont MOB</field> 
+		    <field name="code">80006</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_8_LA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80010" model="enrsimply.locations">
+		    <field name="name">1526 Edgemont MOB</field> 
+		    <field name="code">80010</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_8_LA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80011" model="enrsimply.locations">
+		    <field name="name">4950 Sunset Medical Office</field> 
+		    <field name="code">80011</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_8_LA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80013" model="enrsimply.locations">
+		    <field name="name">4733 Sunset Medical Offices</field> 
+		    <field name="code">80013</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_8_LA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80015" model="enrsimply.locations">
+		    <field name="name">Sunset-Vermont MOB</field> 
+		    <field name="code">80015</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_8_LA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80016" model="enrsimply.locations">
+		    <field name="name">4700 Sunset MOB</field> 
+		    <field name="code">80016</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_8_LA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80021" model="enrsimply.locations">
+		    <field name="name">Wilshire Admin Offices</field> 
+		    <field name="code">80021</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_8_LA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80022" model="enrsimply.locations">
+		    <field name="name">LA Mental Health Center</field> 
+		    <field name="code">80022</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_8_LA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80027" model="enrsimply.locations">
+		    <field name="name">Glendale MOB</field> 
+		    <field name="code">80027</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_8_LA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80036" model="enrsimply.locations">
+		    <field name="name">East Los Angeles MOB</field> 
+		    <field name="code">80036</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_8_LA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80045" model="enrsimply.locations">
+		    <field name="name">Pasadena Vision Center</field> 
+		    <field name="code">80045</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_8_LA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80052" model="enrsimply.locations">
+		    <field name="name">Foothill MOB &amp; Regional Admin</field> 
+		    <field name="code">80052</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_8_LA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81051" model="enrsimply.locations">
+		    <field name="name">OC Lakeview Medical Center</field> 
+		    <field name="code">81051</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81056" model="enrsimply.locations">
+		    <field name="name">Anaheim Kraemer Med Office I</field> 
+		    <field name="code">81056</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81057" model="enrsimply.locations">
+		    <field name="name">Euclid MOB</field> 
+		    <field name="code">81057</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81059" model="enrsimply.locations">
+		    <field name="name">Lakeview MOB</field> 
+		    <field name="code">81059</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81061" model="enrsimply.locations">
+		    <field name="name">West Anaheim Medical Plaza MOB</field> 
+		    <field name="code">81061</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81063" model="enrsimply.locations">
+		    <field name="name">Anaheim Hills MOB</field> 
+		    <field name="code">81063</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81066" model="enrsimply.locations">
+		    <field name="name">Anaheim Kraemer Med Office 2</field> 
+		    <field name="code">81066</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80054" model="enrsimply.locations">
+		    <field name="name">Ontario Vineyard MOB</field> 
+		    <field name="code">80054</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81078" model="enrsimply.locations">
+		    <field name="name">Yorba Linda MOB</field> 
+		    <field name="code">81078</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81084" model="enrsimply.locations">
+		    <field name="name">Santa Ana Medical Office</field> 
+		    <field name="code">81084</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81092" model="enrsimply.locations">
+		    <field name="name">Orange Health Pavilion MOB</field> 
+		    <field name="code">81092</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81099" model="enrsimply.locations">
+		    <field name="name">Brea MOB</field> 
+		    <field name="code">81099</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81093" model="enrsimply.locations">
+		    <field name="name">Rehabilitation Pavilion</field> 
+		    <field name="code">81093</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81105" model="enrsimply.locations">
+		    <field name="name">La Palma MOB</field> 
+		    <field name="code">81105</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81111" model="enrsimply.locations">
+		    <field name="name">Garden Grove MOB</field> 
+		    <field name="code">81111</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81151" model="enrsimply.locations">
+		    <field name="name">OC Irvine Medical Center</field> 
+		    <field name="code">81151</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81154" model="enrsimply.locations">
+		    <field name="name">Alton/Sand Canyon HSB MOB 2</field> 
+		    <field name="code">81154</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81155" model="enrsimply.locations">
+		    <field name="name">Alton/Sand Canyon MOB 1</field> 
+		    <field name="code">81155</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81156" model="enrsimply.locations">
+		    <field name="name">Barranca Medical Office</field> 
+		    <field name="code">81156</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81168" model="enrsimply.locations">
+		    <field name="name">Mission Viejo MOB</field> 
+		    <field name="code">81168</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81174" model="enrsimply.locations">
+		    <field name="name">Aliso Viejo MOB</field> 
+		    <field name="code">81174</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81180" model="enrsimply.locations">
+		    <field name="name">Harbor-Macarthur MOB</field> 
+		    <field name="code">81180</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81181" model="enrsimply.locations">
+		    <field name="name">Harbor Corporate Park MOB</field> 
+		    <field name="code">81181</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81187" model="enrsimply.locations">
+		    <field name="name">San Juan Capistrano MOB</field> 
+		    <field name="code">81187</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81193" model="enrsimply.locations">
+		    <field name="name">Huntington Beach MOB</field> 
+		    <field name="code">81193</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_13_KC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80851" model="enrsimply.locations">
+		    <field name="name">Panorama City Med Center</field> 
+		    <field name="code">80851</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_4_PC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80852" model="enrsimply.locations">
+		    <field name="name">Panorama City Central MOB</field> 
+		    <field name="code">80852</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_4_PC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80858" model="enrsimply.locations">
+		    <field name="name">Panorama City MOB North #3</field> 
+		    <field name="code">80858</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_4_PC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80860" model="enrsimply.locations">
+		    <field name="name">Panarama City MOB North #2</field> 
+		    <field name="code">80860</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_4_PC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80861" model="enrsimply.locations">
+		    <field name="name">Panarama City MOB South #1</field> 
+		    <field name="code">80861</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_4_PC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80879" model="enrsimply.locations">
+		    <field name="name">Mission Hills MOB</field> 
+		    <field name="code">80879</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_4_PC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80885" model="enrsimply.locations">
+		    <field name="name">Sherman Terrace Offices</field> 
+		    <field name="code">80885</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_4_PC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80891" model="enrsimply.locations">
+		    <field name="name">Santa Clarita MOB</field> 
+		    <field name="code">80891</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_4_PC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80892" model="enrsimply.locations">
+		    <field name="name">Santa Clarita Mental Health</field> 
+		    <field name="code">80892</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_4_PC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80893" model="enrsimply.locations">
+		    <field name="name">Canyon Country MOB</field> 
+		    <field name="code">80893</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_4_PC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80899" model="enrsimply.locations">
+		    <field name="name">Balboa Plaza Admin. Offices</field> 
+		    <field name="code">80899</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_4_PC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81901" model="enrsimply.locations">
+		    <field name="name">Palmdale/Antelope Valley MOB</field> 
+		    <field name="code">81901</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_4_PC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81909" model="enrsimply.locations">
+		    <field name="name">Lancaster/Antelope West MOB</field> 
+		    <field name="code">81909</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_4_PC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81911" model="enrsimply.locations">
+		    <field name="name">20Th St./Antelope Valley MOB</field> 
+		    <field name="code">81911</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_4_PC'),])]"/>
+		</record>
+		<record id="enrsimply_locations_82301" model="enrsimply.locations">
+		    <field name="name">Regional Offices - Pasadena</field> 
+		    <field name="code">82301</field>
+		</record>
+		<record id="enrsimply_locations_82382" model="enrsimply.locations">
+		    <field name="name">Lakeview Administration Office</field> 
+		    <field name="code">82382</field>
+		</record>
+		<record id="enrsimply_locations_81351" model="enrsimply.locations">
+		    <field name="name">Riverside Med Center</field> 
+		    <field name="code">81351</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_6_RI'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81357" model="enrsimply.locations">
+		    <field name="name">Van Buren MOB</field> 
+		    <field name="code">81357</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_6_RI'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81358" model="enrsimply.locations">
+		    <field name="name">Canyon Crest Mental Health Off</field> 
+		    <field name="code">81358</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_6_RI'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81359" model="enrsimply.locations">
+		    <field name="name">Magnolia Village</field> 
+		    <field name="code">81359</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_6_RI'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81372" model="enrsimply.locations">
+		    <field name="name">Corona MOB</field> 
+		    <field name="code">81372</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_6_RI'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81379" model="enrsimply.locations">
+		    <field name="name">Moreno Valley - Heacock MOB</field> 
+		    <field name="code">81379</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_6_RI'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81380" model="enrsimply.locations">
+		    <field name="name">Moreno Valley Hospital</field> 
+		    <field name="code">81380</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_6_RI'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81381" model="enrsimply.locations">
+		    <field name="name">Moreno Valley - Iris MOB</field> 
+		    <field name="code">81381</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_6_RI'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81387" model="enrsimply.locations">
+		    <field name="name">Wildomar MOB</field> 
+		    <field name="code">81387</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_6_RI'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81400" model="enrsimply.locations">
+		    <field name="name">Temecula Medical Office</field> 
+		    <field name="code">81400</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_6_RI'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81416" model="enrsimply.locations">
+		    <field name="name">Indio MOB</field> 
+		    <field name="code">81416</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_6_RI'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81418" model="enrsimply.locations">
+		    <field name="name">Palm Desert MOB</field> 
+		    <field name="code">81418</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_6_RI'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81419" model="enrsimply.locations">
+		    <field name="name">Palm Springs MOB</field> 
+		    <field name="code">81419</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_6_RI'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80201" model="enrsimply.locations">
+		    <field name="name">South Bay Med Center</field> 
+		    <field name="code">80201</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_10_SB'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80207" model="enrsimply.locations">
+		    <field name="name">Normandie North MOB</field> 
+		    <field name="code">80207</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_10_SB'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80208" model="enrsimply.locations">
+		    <field name="name">Normandie South MOB</field> 
+		    <field name="code">80208</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_10_SB'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80214" model="enrsimply.locations">
+		    <field name="name">Lomita  Offices</field> 
+		    <field name="code">80214</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_10_SB'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80215" model="enrsimply.locations">
+		    <field name="name">South Bay Physical Therapy</field> 
+		    <field name="code">80215</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_10_SB'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80221" model="enrsimply.locations">
+		    <field name="name">Main St Hlth Pavilion Bldg Two</field> 
+		    <field name="code">80221</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_10_SB'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80228" model="enrsimply.locations">
+		    <field name="name">Torrance MOB</field> 
+		    <field name="code">80228</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_10_SB'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80235" model="enrsimply.locations">
+		    <field name="name">Long Beach MOB</field> 
+		    <field name="code">80235</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_10_SB'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80241" model="enrsimply.locations">
+		    <field name="name">Gardena MOB</field> 
+		    <field name="code">80241</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_10_SB'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80451" model="enrsimply.locations">
+		    <field name="name">San Diego Med Center</field> 
+		    <field name="code">80451</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80462" model="enrsimply.locations">
+		    <field name="name">Vandever MOB</field> 
+		    <field name="code">80462</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80467" model="enrsimply.locations">
+		    <field name="name">Positive Choice Wellness Clnc</field> 
+		    <field name="code">80467</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80469" model="enrsimply.locations">
+		    <field name="name">San Diego Admin Offices 1</field> 
+		    <field name="code">80469</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80471" model="enrsimply.locations">
+		    <field name="name">Fordham MOB</field> 
+		    <field name="code">80471</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80472" model="enrsimply.locations">
+		    <field name="name">Point Loma MOB-1</field> 
+		    <field name="code">80472</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80474" model="enrsimply.locations">
+		    <field name="name">Clairemont Mesa MOB</field> 
+		    <field name="code">80474</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81913" model="enrsimply.locations">
+		    <field name="name">ANTELOPE VALLEY OB/GYN</field> 
+		    <field name="code">81913</field>
+		</record>
+		<record id="enrsimply_locations_81436" model="enrsimply.locations">
+		    <field name="name">Indio MOB &amp; Pharmacy</field> 
+		    <field name="code">81436</field>
+		</record>
+		<record id="enrsimply_locations_80485" model="enrsimply.locations">
+		    <field name="name">Bernardo Center Medical Office</field> 
+		    <field name="code">80485</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80030" model="enrsimply.locations">
+		    <field name="name">Glendale Orange St Med Off</field> 
+		    <field name="code">80030</field>
+		</record>
+		<record id="enrsimply_locations_81276" model="enrsimply.locations">
+		    <field name="name">322 Thousand Oaks MOB</field> 
+		    <field name="code">81276</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_11_WH'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80224" model="enrsimply.locations">
+		    <field name="name">Carson South Bay MOB</field> 
+		    <field name="code">80224</field>
+		</record>
+		<record id="enrsimply_locations_80481" model="enrsimply.locations">
+		    <field name="name">Carmel Valley MOB</field> 
+		    <field name="code">80481</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81701" model="enrsimply.locations">
+		    <field name="name">Ontario Hospital</field> 
+		    <field name="code">81701</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80369" model="enrsimply.locations">
+		    <field name="name">Chino Hills MOB</field> 
+		    <field name="code">80369</field>
+		</record>
+		<record id="enrsimply_locations_80158" model="enrsimply.locations">
+		    <field name="name">Cerritos MOB</field> 
+		    <field name="code">80158</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_5_BE'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81616" model="enrsimply.locations">
+		    <field name="name">2620 Chester Medical Offices</field> 
+		    <field name="code">81616</field>
+		</record>
+		<record id="enrsimply_locations_81088" model="enrsimply.locations">
+		    <field name="name">Tustin Ranch MOB</field> 
+		    <field name="code">81088</field>
+		</record>
+		<record id="enrsimply_locations_81124" model="enrsimply.locations">
+		    <field name="name">Fullerton/La Habra MOB</field> 
+		    <field name="code">81124</field>
+		</record>
+		<record id="enrsimply_locations_80916" model="enrsimply.locations">
+		    <field name="name">North Hollywood MOB</field> 
+		    <field name="code">80916</field>
+		</record>
+		<record id="enrsimply_locations_81504" model="enrsimply.locations">
+		    <field name="name">Baldwin Park MOB</field> 
+		    <field name="code">81504</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_9_BP'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81510" model="enrsimply.locations">
+		    <field name="name">Crossroads Parkway MOB</field> 
+		    <field name="code">81510</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_9_BP'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81516" model="enrsimply.locations">
+		    <field name="name">West Covina/Garvey Mental Hlth</field> 
+		    <field name="code">81516</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_9_BP'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81517" model="enrsimply.locations">
+		    <field name="name">West Covina MOB</field> 
+		    <field name="code">81517</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_9_BP'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81518" model="enrsimply.locations">
+		    <field name="name">West Covina Mental Health</field> 
+		    <field name="code">81518</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_9_BP'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81519" model="enrsimply.locations">
+		    <field name="name">West Covina Addiction Medicine</field> 
+		    <field name="code">81519</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_9_BP'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81525" model="enrsimply.locations">
+		    <field name="name">Diamond Bar MOB</field> 
+		    <field name="code">81525</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_9_BP'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81531" model="enrsimply.locations">
+		    <field name="name">San Dimas MOB1</field> 
+		    <field name="code">81531</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_9_BP'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81538" model="enrsimply.locations">
+		    <field name="name">Montebello Town Center MOB</field> 
+		    <field name="code">81538</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_9_BP'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80301" model="enrsimply.locations">
+		    <field name="name">Fontana Med Center</field> 
+		    <field name="code">80301</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80318" model="enrsimply.locations">
+		    <field name="name">Fontana Addiction Medicine</field> 
+		    <field name="code">80318</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80320" model="enrsimply.locations">
+		    <field name="name">Palm Court Center</field> 
+		    <field name="code">80320</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80330" model="enrsimply.locations">
+		    <field name="name">Colton MOB</field> 
+		    <field name="code">80330</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80002" model="enrsimply.locations">
+		    <field name="name">Sunset Medical Center</field> 
+		    <field name="code">80002</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_9_BP'),ref('enrollsimply.enrsimply_areas_8_LA'),ref('enrollsimply.enrsimply_areas_2_AV'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80479" model="enrsimply.locations">
+		    <field name="name">Mission Bay MOB</field> 
+		    <field name="code">80479</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80453" model="enrsimply.locations">
+		    <field name="name">San Diego Admin Annex</field> 
+		    <field name="code">80453</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80480" model="enrsimply.locations">
+		    <field name="name">Rancho Bernardo MOB</field> 
+		    <field name="code">80480</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80482" model="enrsimply.locations">
+		    <field name="name">Otay-Mesa Outpatient Med Cntr</field> 
+		    <field name="code">80482</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81251" model="enrsimply.locations">
+		    <field name="name">Woodland Hills Med Center</field> 
+		    <field name="code">81251</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_11_WH'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80491" model="enrsimply.locations">
+		    <field name="name">La Mesa MOB</field> 
+		    <field name="code">80491</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80493" model="enrsimply.locations">
+		    <field name="name">Rancho San Diego MOB</field> 
+		    <field name="code">80493</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80499" model="enrsimply.locations">
+		    <field name="name">Kearny Mesa Rehab Center</field> 
+		    <field name="code">80499</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80506" model="enrsimply.locations">
+		    <field name="name">El Cajon MOB</field> 
+		    <field name="code">80506</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80507" model="enrsimply.locations">
+		    <field name="name">Bostonia MOB</field> 
+		    <field name="code">80507</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80517" model="enrsimply.locations">
+		    <field name="name">Scripps Building - LA Jolla</field> 
+		    <field name="code">80517</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80523" model="enrsimply.locations">
+		    <field name="name">Bonita MOB A</field> 
+		    <field name="code">80523</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80534" model="enrsimply.locations">
+		    <field name="name">Escondido MOB</field> 
+		    <field name="code">80534</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80540" model="enrsimply.locations">
+		    <field name="name">Carlsbad MOB</field> 
+		    <field name="code">80540</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80546" model="enrsimply.locations">
+		    <field name="name">San Marcos Outpatient Med Cntr</field> 
+		    <field name="code">80546</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80554" model="enrsimply.locations">
+		    <field name="name">Vista MOB</field> 
+		    <field name="code">80554</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80560" model="enrsimply.locations">
+		    <field name="name">Oceanside Primary Care</field> 
+		    <field name="code">80560</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81253" model="enrsimply.locations">
+		    <field name="name">Woodland Hills MOB</field> 
+		    <field name="code">81253</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_11_WH'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81256" model="enrsimply.locations">
+		    <field name="name">Wdlnd Hills Sales/Mrktg Sr Adv</field> 
+		    <field name="code">81256</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_11_WH'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81268" model="enrsimply.locations">
+		    <field name="name">Simi Valley MOB</field> 
+		    <field name="code">81268</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_11_WH'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81274" model="enrsimply.locations">
+		    <field name="name">Thousand Oaks MOB</field> 
+		    <field name="code">81274</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_11_WH'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81275" model="enrsimply.locations">
+		    <field name="name">Thousand Oaks Conejo MOB</field> 
+		    <field name="code">81275</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_11_WH'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81282" model="enrsimply.locations">
+		    <field name="name">Erwin Street MOB</field> 
+		    <field name="code">81282</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_11_WH'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81288" model="enrsimply.locations">
+		    <field name="name">Buenaventura Camarillo MOB</field> 
+		    <field name="code">81288</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_11_WH'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81290" model="enrsimply.locations">
+		    <field name="name">Oxnard MOB</field> 
+		    <field name="code">81290</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_11_WH'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81291" model="enrsimply.locations">
+		    <field name="name">Buenaventura Oxnard MOB</field> 
+		    <field name="code">81291</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_11_WH'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81293" model="enrsimply.locations">
+		    <field name="name">Ventura MOB</field> 
+		    <field name="code">81293</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_11_WH'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81295" model="enrsimply.locations">
+		    <field name="name">Buenaventura Vista MOB</field> 
+		    <field name="code">81295</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_11_WH'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81296" model="enrsimply.locations">
+		    <field name="name">Buenaventura Main Street MOB</field> 
+		    <field name="code">81296</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_11_WH'),])]"/>
+		</record>
+		<record id="enrsimply_locations_81297" model="enrsimply.locations">
+		    <field name="name">Buenaventura Hill Road MOB</field> 
+		    <field name="code">81297</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_11_WH'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80951" model="enrsimply.locations">
+		    <field name="name">West LA Medical Center</field> 
+		    <field name="code">80951</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_12_WLA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80952" model="enrsimply.locations">
+		    <field name="name">Venice MOB</field> 
+		    <field name="code">80952</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_12_WLA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80956" model="enrsimply.locations">
+		    <field name="name">West LA Vision Services</field> 
+		    <field name="code">80956</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_12_WLA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80957" model="enrsimply.locations">
+		    <field name="name">Culver Marina MOB</field> 
+		    <field name="code">80957</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_12_WLA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80962" model="enrsimply.locations">
+		    <field name="name">WLA Health Ed. &amp; Psych Offices</field> 
+		    <field name="code">80962</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_12_WLA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80963" model="enrsimply.locations">
+		    <field name="name">South Los Angeles Med Offices</field> 
+		    <field name="code">80963</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_12_WLA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80970" model="enrsimply.locations">
+		    <field name="name">Inglewood MOB</field> 
+		    <field name="code">80970</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_12_WLA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80972" model="enrsimply.locations">
+		    <field name="name">Inglewood Vision Center</field> 
+		    <field name="code">80972</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_12_WLA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80979" model="enrsimply.locations">
+		    <field name="name">Playa Vista MOB</field> 
+		    <field name="code">80979</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_12_WLA'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80120" model="enrsimply.locations">
+		    <field name="name">Downey/Garden MOB</field> 
+		    <field name="code">80120</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_5_BE'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80146" model="enrsimply.locations">
+		    <field name="name">Cudahy MOB</field> 
+		    <field name="code">80146</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_5_BE'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80101" model="enrsimply.locations">
+		    <field name="name">Downey Medical Center</field> 
+		    <field name="code">80101</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_5_BE'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80107" model="enrsimply.locations">
+		    <field name="name">Bellflower Satellite Office</field> 
+		    <field name="code">80107</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_5_BE'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80121" model="enrsimply.locations">
+		    <field name="name">Downey Admin. Offices</field> 
+		    <field name="code">80121</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_5_BE'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80486" model="enrsimply.locations">
+		    <field name="name">Garfield Specialty Center</field> 
+		    <field name="code">80486</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_14_SD'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80381" model="enrsimply.locations">
+		    <field name="name">Palm Court ll MOB</field> 
+		    <field name="code">80381</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_3_FO'),])]"/>
+		</record>
+		<record id="enrsimply_locations_80210" model="enrsimply.locations">
+		    <field name="name">Coastline Medical Office</field> 
+		    <field name="code">80210</field>
+		    <field name="area_ids" eval="[(6, 0, [ref('enrollsimply.enrsimply_areas_10_SB'),])]"/>
+		</record>
+
+
+
+    </data>
+</odoo>
