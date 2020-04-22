@@ -9,8 +9,6 @@
                 <field name="name"/>
                 <field name="code"/>
                 <field name="taxonomy_code"/>
-                <field name="medicare_specialty_code"/>
-                <field name="medicare_provider_code"/>
             </tree>
         </field>
     </record>
@@ -88,6 +86,7 @@
 	        <tree string="Areas" editable="top">
                 <field name="name"/>
                 <field name="code"/>
+                <field name="partner_id"/>
 	        </tree>
 	    </field>
 	</record>
@@ -100,6 +99,7 @@
                 <field name="name"/>
                 <field name="code"/>
                 <field name="area_ids" widget="many2many_tags" options="{'no_create_edit': True}"/>
+                <field name="partner_id"/>
                 
 	        </tree>
 	    </field>
