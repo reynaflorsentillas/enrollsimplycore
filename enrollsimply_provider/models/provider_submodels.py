@@ -38,7 +38,7 @@ class CCS(models.Model):
     pin_eff_dt = fields.Date(string='PIN Effective Date') #, required=True)
     pin_end_dt = fields.Date(string='PIN End Date', required=False)
     pin_status = fields.Selection(STATUS,string='PIN Status') #, required=True)
-    panel_taxonomy = fields.Many2one('enrsimply.specialization.code',string='Panel Taxonomy Code', required=False)
+    panel_taxonomy = fields.Many2one('enrsimply.specialization',string='Panel Taxonomy Code', required=False)
 
 class Requirement_List(models.Model):
     _name = 'enrsimply.prov.requirements'
@@ -56,7 +56,7 @@ class ACA_Attestation(models.Model):
     pin_type_id = fields.Many2one('enrsimply.pin.type',string='PIN Type') #, required=True)
     eff_dt = fields.Date(string='Effective Date') #, required=True)
     end_dt = fields.Date(string='End Date', required=False)
-    taxonomy_cd = fields.Many2one('enrsimply.specialization.code',string='Taxonomy Code', required=False)
+    taxonomy_cd = fields.Many2one('enrsimply.specialization',string='Taxonomy Code', required=False)
 
 
 class License(models.Model):
@@ -86,7 +86,7 @@ class BoardCertification(models.Model):
     provider_id = fields.Many2one('hr.employee',string='Provider ID') #, required=True)
     certified_yr = fields.Integer(string='Certified Year')
     certified = fields.Char(string='License') #, required=True)
-    specialty_id = fields.Many2one('enrsimply.specialization.code',string='Specialty') #, required=True)
+    specialty_id = fields.Many2one('enrsimply.specialization',string='Specialty') #, required=True)
     primary = fields.Boolean(required=False)
     recertified_year = fields.Integer(string='Recertified Year')
     pin_status = fields.Selection(STATUS,string='Certification Status') #, required=True)

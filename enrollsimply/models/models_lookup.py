@@ -55,12 +55,15 @@ class Areas(models.Model):
 	_description = 'Areas'
 	_inherit = 'basic.model'
 
+	partner_id = fields.Many2one('res.partner', 'Address')
+
 class Locations(models.Model): 
 	_name = 'enrsimply.locations'
 	_description = 'Locations'
 	_inherit = 'basic.model'
 
 	area_ids = fields.Many2many('enrsimply.areas', 'area_location_rel', 'area_id', 'location_id')
+	partner_id = fields.Many2one('res.partner', 'Address')
 
 
 class PinTransactionSatus(models.Model): 
