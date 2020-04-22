@@ -175,6 +175,16 @@
                             </field>
                         </group>
                     </page>
+
+                    <page name="requirement_list" string="Documents" >
+                        <field name="requirement_list_ids" nolabel="1">
+                            <tree string="Licenses" editable="bottom">
+                                <field name="requirement_type_id" string="Document"/>
+                                <field name="submitted" string="Submitted"/>
+                                <field name="submit_dt"/>
+                            </tree>
+                        </field>
+                    </page>                    
                 </xpath>
                 <xpath expr="//page[@name='hr_settings']" position="after">
                     <page name="other_info" string="Notes" groups="hr.group_hr_user">

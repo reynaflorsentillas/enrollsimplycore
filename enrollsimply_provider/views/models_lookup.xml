@@ -117,6 +117,18 @@
 	</record>
 
 
+	<record id="enrsimply_specialization_medicare_tree" model="ir.ui.view">
+	    <field name="name">enrsimply.spec.medcare.tree</field> 
+	    <field name="model">enrsimply.spec.medcare</field>
+	    <field name="arch" type="xml">
+	        <tree string="Medicare Code" editable="top">
+                <field name="name"/>
+                <field name="code"/>	        	
+	        </tree> 
+	    </field> 
+	</record>
+
+
 	<!-- SEARCH -->
     <record id="view_enrsimply_specialization_filter" model="ir.ui.view">
         <field name="name">enrsimply.specialization.search</field>
@@ -131,8 +143,6 @@
             </search>
          </field>
     </record>
-
-
 
     <!-- ACTION -->
     <record id="open_enrsimply_specialization" model="ir.actions.act_window">
@@ -247,5 +257,18 @@
 	       </p> 
 	    </field>
 	</record>
+
+
+	<record id="open_enrsimply_specialization_medicare" model="ir.actions.act_window">
+	    <field name="name"> Medicare Code</field> 
+	    <field name="res_model">enrsimply.spec.medcare</field>
+	    <field name="view_mode">tree,form</field>
+	    <field name="help" type="html">
+	       <p class="o_view_nocontent_smiling_face">
+	      Create a Medicare Code        
+	       </p> 
+	    </field> 
+	</record>
+
 
 </odoo>

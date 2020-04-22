@@ -11,6 +11,18 @@ class HREmployee(models.AbstractModel):
 	# name = fields.Char(string="Provider Name")
 
 	# New Fields
+
+
+	@api.model
+	def _defaultReqList(self):
+		all_doc_list =[]
+		document_obj = self.env['enrsimply.document_type'].search([])
+		for document in document_obj:
+			doc_dict = {'requirement_type_id': document.id, 'submitted':False, 'submit_dt':False}
+			doc_list =(0 , 0, doc_dict)
+			all_doc_list.append(doc_list)
+		return all_doc_list
+
 	type = fields.Selection([
 		('regular', 'Regular'),
 		('provider', 'Healthcare Provider'),
@@ -41,7 +53,7 @@ class HREmployee(models.AbstractModel):
 	pin_active_ids = fields.One2many('enrsimply.prov.pin', 'provider_id', domain=[('pin_status', '=', 'active')])
 
 	ccs_pin_ids = fields.One2many('enrsimply.prov.ccs', 'provider_id', string='Provider CCS Paneling PIN')
-	requirement_list_ids = fields.One2many('enrsimply.prov.requirements', 'provider_id', string='Requirements submitted by Provider')
+	requirement_list_ids = fields.One2many('enrsimply.prov.requirements', 'provider_id', string='Requirements submitted by Provider', default=_defaultReqList)
 
 	aca_attestation_stat_ids = fields.One2many('enrsimply.prov.aca_att', 'provider_id', string='Provider ACA Attestation Status')
 
