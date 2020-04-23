@@ -46,68 +46,83 @@
             parent="root_ensmp_config_menu"
             sequence="1"/>
 
+        <menuitem id="menu_enrsimply_taxonomy" 
+              name= "Taxonomy" 
+              groups="hr.group_hr_manager,base.group_user" 
+              parent="root_ensmp_config_menu"
+              action="open_enrsimply_taxonomy"
+              sequence="2"/>
+
+
         <menuitem 
               id="menu_hr_schooltype" 
               name= "School Type" 
               groups="hr.group_hr_manager,base.group_user" 
               parent="root_ensmp_config_menu"
               action="open_hr_schooltype"
-              sequence="2"/>
+              sequence="3"/>
               
         <menuitem id="menu_enrsimply_pin_action_reason" 
               name= " Action Reason" 
               groups="hr.group_hr_manager,base.group_user" 
               parent="root_ensmp_config_menu"
               action="open_enrsimply_pin_action_reason"
-              sequence="3"/>
+              sequence="4"/>
         <menuitem id="menu_enrsimply_pin_action" 
               name= "Action" 
               groups="hr.group_hr_manager,base.group_user" 
               parent="root_ensmp_config_menu"
               action="open_enrsimply_pin_action"
-              sequence="4"/>
+              sequence="5"/>
         <menuitem id="menu_enrsimply_document_type" 
               name= "Document" 
               groups="hr.group_hr_manager,base.group_user" 
               parent="root_ensmp_config_menu"
               action="open_enrsimply_document_type"
-              sequence="5"/>
+              sequence="6"/>
         <menuitem id="menu_enrsimply_pin_type" 
               name= "Pin Type" 
               groups="hr.group_hr_manager,base.group_user" 
               parent="root_ensmp_config_menu"
               action="open_enrsimply_pin_type"
-              sequence="6"/>
+              sequence="7"/>
         <menuitem id="menu_enrsimply_licenses" 
               name= "Licenses" 
               groups="hr.group_hr_manager,base.group_user" 
               parent="root_ensmp_config_menu"
               action="open_enrsimply_licenses"
-              sequence="7"/>
+              sequence="8"/>
         <menuitem id="menu_enrsimply_areas" 
               name= "Areas" 
               groups="hr.group_hr_manager,base.group_user" 
               parent="root_ensmp_config_menu"
               action="open_enrsimply_areas"
-              sequence="8"/>
+              sequence="9"/>
         <menuitem id="menu_enrsimply_locations" 
               name= "Locations" 
               groups="hr.group_hr_manager,base.group_user" 
               parent="root_ensmp_config_menu"
               action="open_enrsimply_locations"
-              sequence="9"/>
+              sequence="10"/>
         <menuitem id="menu_enrsimply_pin_trans_status" 
               name= "Pin Transaction Status" 
               groups="hr.group_hr_manager,base.group_user" 
               parent="root_ensmp_config_menu"
               action="open_enrsimply_pin_trans_status"
-              sequence="10"/>
+              sequence="11"/>
 
         <menuitem id="menu_enrsimply_specialization_medicare" 
               name= "Medicare Code" 
               groups="hr.group_hr_manager,base.group_user" 
               parent="root_ensmp_config_menu"
               action="open_enrsimply_specialization_medicare"
-              sequence="11"/>
+              sequence="12"/>
+
+        <menuitem id="menu_enrsimply_addresstype" 
+              name= "Address Type" 
+              groups="hr.group_hr_manager,base.group_user" 
+              parent="root_ensmp_config_menu"
+              action="open_enrsimply_addresstype"
+              sequence="13"/>              
     </data>    
 </odoo>

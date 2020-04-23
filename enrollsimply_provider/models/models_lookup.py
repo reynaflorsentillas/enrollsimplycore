@@ -3,30 +3,50 @@ from odoo import api, fields, models, _
 
 class BasicTransientModels(models.AbstractModel):
 	_name = 'basic.model'
+	_rec_name = 'complete_name'
+	_order = 'complete_name'
+
 	name = fields.Char(string='Name', required=True)
 	code = fields.Char(string='Code', required=False)
+	complete_name = fields.Char('Complete Name', compute='_compute_complete_name',store=True)
+
+	@api.depends('name', 'code')
+	def _compute_complete_name(self):			
+		for rec in self:
+			code =""
+			name =""
+			if rec.code:
+				code = "[" + rec.code + "]"
+			name = rec.name
+			rec.complete_name = code +" "+ name
 
 
+class AddressType(models.Model):
+	_name = 'enrsimply.addresstype'
+	_description = 'Address Type'
+	_inherit = 'basic.model'
+	_order = 'code'
 
 class Specialization(models.Model):
 	_name = 'enrsimply.specialization'
 	_description = 'Specialization'
 	_inherit = 'basic.model'
 
-	taxonomy_code = fields.Char(string='Taxonony Code', required=False)
+	taxonomy_code = fields.Char(string='Taxonomy Code', required=False)
+	taxonomy_id = fields.Many2one('enrsimply.taxonomy', string='Taxonomy')
 
-	#For Medicare
-	# For Reference https://data.cms.gov/Medicare-Enrollment/CROSSWALK-MEDICARE-PROVIDER-SUPPLIER-to-HEALTHCARE/j75i-rw8y
-	medicare_specialty_code = fields.Char(string='MEDICARE SPECIALTY CODE ', required=False)
-	medicare_provider_code = fields.Char(string='MEDICARE PROVIDER/SUPPLIER TYPE DESCRIPTION', required=False)
+
+class Taxonomy(models.Model):
+	_name = 'enrsimply.taxonomy'
+	_description = 'Taxonomy'
+	_inherit = 'basic.model'
+
 
 
 class SpecializationMedicare(models.Model):
 	_name = 'enrsimply.spec.medcare'
 	_description = 'Medicare Code'
 	_inherit = 'basic.model'
-
-
 
 class SchoolType(models.Model):
 	_name = 'hr.schooltype'

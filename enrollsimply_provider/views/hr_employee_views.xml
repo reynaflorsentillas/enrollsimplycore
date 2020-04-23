@@ -70,6 +70,22 @@
                             </tree>
                         </field>
                     </page>
+                    <page name="address_ids" string="Address" groups="hr.group_hr_user" attrs="{'invisible': [('type', '!=', 'provider')]}">
+                        <field name="address_ids">
+                            <tree string="Address" editable="bottom">
+                                <field name="address_type_id"/>
+                                <field name="res_partner_id" invisible="1"/>
+                                <field name="address_1"/>
+                                <field name="address_2"/>
+                                <field name="address_3"/>
+                                <field name="city"/>
+                                <field name="state_id"/>
+                                <field name="zip"/>
+                                <field name="country_id"/>
+                                <field name="default_address"/>
+                            </tree>
+                        </field>
+                    </page>                    
                     <page name="pin_summary" string="PIN Information" groups="hr.group_hr_user" attrs="{'invisible': [('type', '!=', 'provider')]}">
                         <group string="Existing Active PINs">
                             <field name="pin_active_ids" editable="bottom" readonly="1" nolabel="1">

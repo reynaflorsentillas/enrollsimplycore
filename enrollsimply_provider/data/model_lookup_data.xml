@@ -1301,2165 +1301,1820 @@
     </data>
 
     <data noupdate="1">
-		<record id="enrsimply_spec_208D00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_208D00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/General Practice</field> 
-		    <field name="code">SPEC_1</field>
-		    <field name="taxonomy_code">208D00000X</field>
+		    <field name="code">208D00000X</field>
 		</record>
-		<record id="enrsimply_spec_208600000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_208600000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery</field> 
-		    <field name="code">SPEC_2</field>
-		    <field name="taxonomy_code">208600000X</field>
+		    <field name="code">208600000X</field>
 		</record>
-		<record id="enrsimply_spec_2086H0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2086H0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery/Hospice and Palliative Medicine</field> 
-		    <field name="code">SPEC_3</field>
-		    <field name="taxonomy_code">2086H0002X</field>
+		    <field name="code">2086H0002X</field>
 		</record>
-		<record id="enrsimply_spec_2086S0120X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2086S0120X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery/Pediatric Surgery</field> 
-		    <field name="code">SPEC_4</field>
-		    <field name="taxonomy_code">2086S0120X</field>
+		    <field name="code">2086S0120X</field>
 		</record>
-		<record id="enrsimply_spec_2086S0122X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2086S0122X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery/Plastic and Reconstructive Surgery</field> 
-		    <field name="code">SPEC_5</field>
-		    <field name="taxonomy_code">2086S0122X</field>
+		    <field name="code">2086S0122X</field>
 		</record>
-		<record id="enrsimply_spec_2086S0105X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2086S0105X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery/Surgery of the Hand</field> 
-		    <field name="code">SPEC_6</field>
-		    <field name="taxonomy_code">2086S0105X</field>
+		    <field name="code">2086S0105X</field>
 		</record>
-		<record id="enrsimply_spec_2086S0102X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2086S0102X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery/Surgical Critical Care</field> 
-		    <field name="code">SPEC_7</field>
-		    <field name="taxonomy_code">2086S0102X</field>
+		    <field name="code">2086S0102X</field>
 		</record>
-		<record id="enrsimply_spec_2086X0206X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2086X0206X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery/Surgical Oncology</field> 
-		    <field name="code">SPEC_8</field>
-		    <field name="taxonomy_code">2086X0206X</field>
+		    <field name="code">2086X0206X</field>
 		</record>
-		<record id="enrsimply_spec_2086S0127X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2086S0127X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery/Trauma Surgery</field> 
-		    <field name="code">SPEC_9</field>
-		    <field name="taxonomy_code">2086S0127X</field>
+		    <field name="code">2086S0127X</field>
 		</record>
-		<record id="enrsimply_spec_2086S0129X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2086S0129X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery/Vascular Surgery</field> 
-		    <field name="code">SPEC_10</field>
-		    <field name="taxonomy_code">2086S0129X</field>
+		    <field name="code">2086S0129X</field>
 		</record>
-		<record id="enrsimply_spec_208G00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_208G00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Thoracic Surgery (Cardiothoracic Vascular Surgery)</field> 
-		    <field name="code">SPEC_11</field>
-		    <field name="taxonomy_code">208G00000X</field>
+		    <field name="code">208G00000X</field>
 		</record>
-		<record id="enrsimply_spec_204F00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_204F00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Transplant Surgery</field> 
-		    <field name="code">SPEC_12</field>
-		    <field name="taxonomy_code">204F00000X</field>
+		    <field name="code">204F00000X</field>
 		</record>
-		<record id="enrsimply_spec_208C00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_208C00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Colon &amp; Rectal Surgery</field> 
-		    <field name="code">SPEC_13</field>
-		    <field name="taxonomy_code">208C00000X</field>
+		    <field name="code">208C00000X</field>
 		</record>
-		<record id="enrsimply_spec_207T00000X" model="enrsimply.specialization">
-		    <field name="name">Allopathic &amp; Osteopathic Physicians/Neurological Surgery</field> 
-		    <field name="code">SPEC_14</field>
-		    <field name="taxonomy_code">207T00000X</field>
+		<record id="enrsimply_taxn_207T00000X" model="enrsimply.taxonomy">
+		    <field name="name">Allopathic &amp; Osteopathic Physicians/Neurological Surgery</field>
+		    <field name="code">207T00000X</field>
 		</record>
-		<record id="enrsimply_spec_204E00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_204E00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Oral &amp; Maxillofacial Surgery</field> 
-		    <field name="code">SPEC_15</field>
-		    <field name="taxonomy_code">204E00000X</field>
+		    <field name="code">204E00000X</field>
 		</record>
-		<record id="enrsimply_spec_207X00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207X00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Orthopedic Surgery</field> 
-		    <field name="code">SPEC_16</field>
-		    <field name="taxonomy_code">207X00000X</field>
+		    <field name="code">207X00000X</field>
 		</record>
-		<record id="enrsimply_spec_207XS0114X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207XS0114X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Orthopedic Surgery/Adult Reconstructive Orthopedic Surgery</field> 
-		    <field name="code">SPEC_17</field>
-		    <field name="taxonomy_code">207XS0114X</field>
+		    <field name="code">207XS0114X</field>
 		</record>
-		<record id="enrsimply_spec_207XX0004X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207XX0004X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Orthopedic Surgery/Foot and Ankle Surgery</field> 
-		    <field name="code">SPEC_18</field>
-		    <field name="taxonomy_code">207XX0004X</field>
+		    <field name="code">207XX0004X</field>
 		</record>
-		<record id="enrsimply_spec_207XS0106X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207XS0106X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Orthopedic Surgery/Hand Surgery</field> 
-		    <field name="code">SPEC_19</field>
-		    <field name="taxonomy_code">207XS0106X</field>
+		    <field name="code">207XS0106X</field>
 		</record>
-		<record id="enrsimply_spec_207XS0117X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207XS0117X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Orthopedic Surgery/Orthopedic Surgery of the Spine</field> 
-		    <field name="code">SPEC_20</field>
-		    <field name="taxonomy_code">207XS0117X</field>
+		    <field name="code">207XS0117X</field>
 		</record>
-		<record id="enrsimply_spec_207XX0801X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207XX0801X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Orthopedic Surgery/Orthopedic Trauma</field> 
-		    <field name="code">SPEC_21</field>
-		    <field name="taxonomy_code">207XX0801X</field>
+		    <field name="code">207XX0801X</field>
 		</record>
-		<record id="enrsimply_spec_207XP3100X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207XP3100X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Orthopedic Surgery/Pediatric Orthopedic Surgery</field> 
-		    <field name="code">SPEC_22</field>
-		    <field name="taxonomy_code">207XP3100X</field>
+		    
+		    <field name="code">207XP3100X</field>
 		</record>
-		<record id="enrsimply_spec_207XX0005X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207XX0005X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Orthopedic Surgery/Sports Medicine</field> 
-		    <field name="code">SPEC_23</field>
-		    <field name="taxonomy_code">207XX0005X</field>
+		    
+		    <field name="code">207XX0005X</field>
 		</record>
-		<record id="enrsimply_spec_208200000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_208200000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Plastic Surgery</field> 
-		    <field name="code">SPEC_24</field>
-		    <field name="taxonomy_code">208200000X</field>
+		    
+		    <field name="code">208200000X</field>
 		</record>
-		<record id="enrsimply_spec_2082S0099X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2082S0099X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Plastic Surgery/Plastic Surgery Within the Head &amp; Neck</field> 
-		    <field name="code">SPEC_25</field>
-		    <field name="taxonomy_code">2082S0099X</field>
+		    
+		    <field name="code">2082S0099X</field>
 		</record>
-		<record id="enrsimply_spec_2082S0105X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2082S0105X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Plastic Surgery/Surgery of the Hand</field> 
-		    <field name="code">SPEC_26</field>
-		    <field name="taxonomy_code">2082S0105X</field>
+		    
+		    <field name="code">2082S0105X</field>
 		</record>
-		<record id="enrsimply_spec_207K00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207K00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Allergy and Immunology</field> 
-		    <field name="code">SPEC_27</field>
-		    <field name="taxonomy_code">207K00000X</field>
+		    
+		    <field name="code">207K00000X</field>
 		</record>
-		<record id="enrsimply_spec_207KA0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207KA0200X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Allergy and Immunology/Allergy</field> 
-		    <field name="code">SPEC_28</field>
-		    <field name="taxonomy_code">207KA0200X</field>
+		    
+		    <field name="code">207KA0200X</field>
 		</record>
-		<record id="enrsimply_spec_207KI0005X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207KI0005X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Allergy and Immunology/Clinical &amp; Laboratory Immunology</field> 
-		    <field name="code">SPEC_29</field>
-		    <field name="taxonomy_code">207KI0005X</field>
+		    
+		    <field name="code">207KI0005X</field>
 		</record>
-		<record id="enrsimply_spec_207Y00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207Y00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Otolaryngology</field> 
-		    <field name="code">SPEC_30</field>
-		    <field name="taxonomy_code">207Y00000X</field>
+		    
+		    <field name="code">207Y00000X</field>
 		</record>
-		<record id="enrsimply_spec_207YS0123X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207YS0123X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Otolaryngology/Facial Plastic Surgery</field> 
-		    <field name="code">SPEC_31</field>
-		    <field name="taxonomy_code">207YS0123X</field>
+		    
+		    <field name="code">207YS0123X</field>
 		</record>
-		<record id="enrsimply_spec_207YX0602X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207YX0602X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Otolaryngology/Otolaryngic Allergy</field> 
-		    <field name="code">SPEC_32</field>
-		    <field name="taxonomy_code">207YX0602X</field>
+		    
+		    <field name="code">207YX0602X</field>
 		</record>
-		<record id="enrsimply_spec_207YX0905X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207YX0905X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Otolaryngology/Otolaryngology/Facial Plastic Surgery</field> 
-		    <field name="code">SPEC_33</field>
-		    <field name="taxonomy_code">207YX0905X</field>
+		    
+		    <field name="code">207YX0905X</field>
 		</record>
-		<record id="enrsimply_spec_207YX0901X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207YX0901X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Otolaryngology/Otology &amp; Neurotology</field> 
-		    <field name="code">SPEC_34</field>
-		    <field name="taxonomy_code">207YX0901X</field>
+		    
+		    <field name="code">207YX0901X</field>
 		</record>
-		<record id="enrsimply_spec_207YP0228X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207YP0228X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Otolaryngology/Pediatric Otolaryngology</field> 
-		    <field name="code">SPEC_35</field>
-		    <field name="taxonomy_code">207YP0228X</field>
+		    
+		    <field name="code">207YP0228X</field>
 		</record>
-		<record id="enrsimply_spec_207YX0007X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207YX0007X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Otolaryngology/Plastic Surgery within the Head &amp; Neck</field> 
-		    <field name="code">SPEC_36</field>
-		    <field name="taxonomy_code">207YX0007X</field>
+		    
+		    <field name="code">207YX0007X</field>
 		</record>
-		<record id="enrsimply_spec_207YS0012X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207YS0012X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Otolaryngology/Sleep Medicine</field> 
-		    <field name="code">SPEC_37</field>
-		    <field name="taxonomy_code">207YS0012X</field>
+		    
+		    <field name="code">207YS0012X</field>
 		</record>
-		<record id="enrsimply_spec_207L00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207L00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Anesthesiology</field> 
-		    <field name="code">SPEC_38</field>
-		    <field name="taxonomy_code">207L00000X</field>
+		    
+		    <field name="code">207L00000X</field>
 		</record>
-		<record id="enrsimply_spec_207LA0401X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207LA0401X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Anesthesiology/Addiction Medicine</field> 
-		    <field name="code">SPEC_39</field>
-		    <field name="taxonomy_code">207LA0401X</field>
+		    
+		    <field name="code">207LA0401X</field>
 		</record>
-		<record id="enrsimply_spec_207LC0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207LC0200X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Anesthesiology/Critical Care Medicine</field> 
-		    <field name="code">SPEC_40</field>
-		    <field name="taxonomy_code">207LC0200X</field>
+		    
+		    <field name="code">207LC0200X</field>
 		</record>
-		<record id="enrsimply_spec_207LH0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207LH0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Anesthesiology/Hospice and Palliative Medicine</field> 
-		    <field name="code">SPEC_41</field>
-		    <field name="taxonomy_code">207LH0002X</field>
+		    
+		    <field name="code">207LH0002X</field>
 		</record>
-		<record id="enrsimply_spec_207LP2900X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207LP2900X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Anesthesiology/Pain Medicine</field> 
-		    <field name="code">SPEC_42</field>
-		    <field name="taxonomy_code">207LP2900X</field>
+		    
+		    <field name="code">207LP2900X</field>
 		</record>
-		<record id="enrsimply_spec_207LP3000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207LP3000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Anesthesiology/Pediatric Anesthesiology</field> 
-		    <field name="code">SPEC_43</field>
-		    <field name="taxonomy_code">207LP3000X</field>
+		    
+		    <field name="code">207LP3000X</field>
 		</record>
-		<record id="enrsimply_spec_207RC0000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RC0000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Cardiovascular Disease</field> 
-		    <field name="code">SPEC_44</field>
-		    <field name="taxonomy_code">207RC0000X</field>
+		    
+		    <field name="code">207RC0000X</field>
 		</record>
-		<record id="enrsimply_spec_207N00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207N00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Dermatology</field> 
-		    <field name="code">SPEC_45</field>
-		    <field name="taxonomy_code">207N00000X</field>
+		    
+		    <field name="code">207N00000X</field>
 		</record>
-		<record id="enrsimply_spec_207NI0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207NI0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Dermatology, Clinical &amp; Laboratory Dermatological Immunology</field> 
-		    <field name="code">SPEC_46</field>
-		    <field name="taxonomy_code">207NI0002X</field>
+		    
+		    <field name="code">207NI0002X</field>
 		</record>
-		<record id="enrsimply_spec_207ND0101X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207ND0101X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Dermatology, MOHS-Micrographic Surgery</field> 
-		    <field name="code">SPEC_47</field>
-		    <field name="taxonomy_code">207ND0101X</field>
+		    
+		    <field name="code">207ND0101X</field>
 		</record>
-		<record id="enrsimply_spec_207ND0900X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207ND0900X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Dermatology, Dermapathology</field> 
-		    <field name="code">SPEC_48</field>
-		    <field name="taxonomy_code">207ND0900X</field>
+		    
+		    <field name="code">207ND0900X</field>
 		</record>
-		<record id="enrsimply_spec_207NP0225X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207NP0225X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Dermatology, Pediatric Dermatology</field> 
-		    <field name="code">SPEC_49</field>
-		    <field name="taxonomy_code">207NP0225X</field>
+		    
+		    <field name="code">207NP0225X</field>
 		</record>
-		<record id="enrsimply_spec_207NS0135X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207NS0135X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Dermatology, Procedural Dermatology</field> 
-		    <field name="code">SPEC_50</field>
-		    <field name="taxonomy_code">207NS0135X</field>
+		    
+		    <field name="code">207NS0135X</field>
 		</record>
-		<record id="enrsimply_spec_207Q00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207Q00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Family Medicine</field> 
-		    <field name="code">SPEC_51</field>
-		    <field name="taxonomy_code">207Q00000X</field>
+		    
+		    <field name="code">207Q00000X</field>
 		</record>
-		<record id="enrsimply_spec_207QA0401X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207QA0401X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Family Medicine, Addiction Medicine</field> 
-		    <field name="code">SPEC_52</field>
-		    <field name="taxonomy_code">207QA0401X</field>
+		    
+		    <field name="code">207QA0401X</field>
 		</record>
-		<record id="enrsimply_spec_207QA0000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207QA0000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Family Medicine, Adolescent Medicine</field> 
-		    <field name="code">SPEC_53</field>
-		    <field name="taxonomy_code">207QA0000X</field>
+		    
+		    <field name="code">207QA0000X</field>
 		</record>
-		<record id="enrsimply_spec_207QA0505X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207QA0505X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Family Medicine, Adult Medicine</field> 
-		    <field name="code">SPEC_54</field>
-		    <field name="taxonomy_code">207QA0505X</field>
+		    
+		    <field name="code">207QA0505X</field>
 		</record>
-		<record id="enrsimply_spec_207QB0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207QB0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Family Medicine, Bariatric Medicine</field> 
-		    <field name="code">SPEC_55</field>
-		    <field name="taxonomy_code">207QB0002X</field>
+		    
+		    <field name="code">207QB0002X</field>
 		</record>
-		<record id="enrsimply_spec_207QG0300X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207QG0300X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Family Medicine, Geriatric Medicine</field> 
-		    <field name="code">SPEC_56</field>
-		    <field name="taxonomy_code">207QG0300X</field>
+		    
+		    <field name="code">207QG0300X</field>
 		</record>
-		<record id="enrsimply_spec_207QH0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207QH0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Family Medicine, Hospice and Palliative Medicine</field> 
-		    <field name="code">SPEC_57</field>
-		    <field name="taxonomy_code">207QH0002X</field>
+		    
+		    <field name="code">207QH0002X</field>
 		</record>
-		<record id="enrsimply_spec_207QS0010X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207QS0010X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Family Medicine, Sports Medicine</field> 
-		    <field name="code">SPEC_58</field>
-		    <field name="taxonomy_code">207QS0010X</field>
+		    
+		    <field name="code">207QS0010X</field>
 		</record>
-		<record id="enrsimply_spec_207QS1201X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207QS1201X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Family Medicine, Sleep Medicine</field> 
-		    <field name="code">SPEC_59</field>
-		    <field name="taxonomy_code">207QS1201X</field>
+		    
+		    <field name="code">207QS1201X</field>
 		</record>
-		<record id="enrsimply_spec_208VP0014X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_208VP0014X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pain Medicine, Interventional Pain Medicine</field> 
-		    <field name="code">SPEC_60</field>
-		    <field name="taxonomy_code">208VP0014X</field>
+		    
+		    <field name="code">208VP0014X</field>
 		</record>
-		<record id="enrsimply_spec_207RG0100X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RG0100X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Gastroenterology</field> 
-		    <field name="code">SPEC_61</field>
-		    <field name="taxonomy_code">207RG0100X</field>
+		    
+		    <field name="code">207RG0100X</field>
 		</record>
-		<record id="enrsimply_spec_207R00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207R00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine</field> 
-		    <field name="code">SPEC_62</field>
-		    <field name="taxonomy_code">207R00000X</field>
+		    
+		    <field name="code">207R00000X</field>
 		</record>
-		<record id="enrsimply_spec_207RA0401X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RA0401X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Addiction Medicine</field> 
-		    <field name="code">SPEC_63</field>
-		    <field name="taxonomy_code">207RA0401X</field>
+		    
+		    <field name="code">207RA0401X</field>
 		</record>
-		<record id="enrsimply_spec_207RA0000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RA0000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Adolescent Medicine</field> 
-		    <field name="code">SPEC_64</field>
-		    <field name="taxonomy_code">207RA0000X</field>
+		    
+		    <field name="code">207RA0000X</field>
 		</record>
-		<record id="enrsimply_spec_207RA0001X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RA0001X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Advanced Heart Failure and Transplant Cardiology</field> 
-		    <field name="code">SPEC_65</field>
-		    <field name="taxonomy_code">207RA0001X</field>
+		    
+		    <field name="code">207RA0001X</field>
 		</record>
-		<record id="enrsimply_spec_207RA0201X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RA0201X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Allergy &amp; Immunology</field> 
-		    <field name="code">SPEC_66</field>
-		    <field name="taxonomy_code">207RA0201X</field>
+		    
+		    <field name="code">207RA0201X</field>
 		</record>
-		<record id="enrsimply_spec_207RB0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RB0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Bariatric Medicine</field> 
-		    <field name="code">SPEC_67</field>
-		    <field name="taxonomy_code">207RB0002X</field>
+		    
+		    <field name="code">207RB0002X</field>
 		</record>
-		<record id="enrsimply_spec_207RI0001X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RI0001X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Clinical &amp; Laboratory Immunology</field> 
-		    <field name="code">SPEC_68</field>
-		    <field name="taxonomy_code">207RI0001X</field>
+		    
+		    <field name="code">207RI0001X</field>
 		</record>
-		<record id="enrsimply_spec_207RC0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RC0200X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Critical Care Medicine</field> 
-		    <field name="code">SPEC_69</field>
-		    <field name="taxonomy_code">207RC0200X</field>
+		    
+		    <field name="code">207RC0200X</field>
 		</record>
-		<record id="enrsimply_spec_207RE0101X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RE0101X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Endocrinology, Diabetes, &amp; Metabolism</field> 
-		    <field name="code">SPEC_70</field>
-		    <field name="taxonomy_code">207RE0101X</field>
+		    
+		    <field name="code">207RE0101X</field>
 		</record>
-		<record id="enrsimply_spec_207RG0300X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RG0300X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Geriatric Medicine</field> 
-		    <field name="code">SPEC_71</field>
-		    <field name="taxonomy_code">207RG0300X</field>
+		    
+		    <field name="code">207RG0300X</field>
 		</record>
-		<record id="enrsimply_spec_207RH0000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RH0000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Hematology</field> 
-		    <field name="code">SPEC_72</field>
-		    <field name="taxonomy_code">207RH0000X</field>
+		    
+		    <field name="code">207RH0000X</field>
 		</record>
-		<record id="enrsimply_spec_207RH0003X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RH0003X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Hematology &amp; Oncology</field> 
-		    <field name="code">SPEC_73</field>
-		    <field name="taxonomy_code">207RH0003X</field>
+		    
+		    <field name="code">207RH0003X</field>
 		</record>
-		<record id="enrsimply_spec_207RI0008X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RI0008X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Hepatology</field> 
-		    <field name="code">SPEC_74</field>
-		    <field name="taxonomy_code">207RI0008X</field>
+		    
+		    <field name="code">207RI0008X</field>
 		</record>
-		<record id="enrsimply_spec_207RH0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RH0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Hospice and Palliative Medicine</field> 
-		    <field name="code">SPEC_75</field>
-		    <field name="taxonomy_code">207RH0002X</field>
+		    
+		    <field name="code">207RH0002X</field>
 		</record>
-		<record id="enrsimply_spec_207RI0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RI0200X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Infectious Disease</field> 
-		    <field name="code">SPEC_76</field>
-		    <field name="taxonomy_code">207RI0200X</field>
+		    
+		    <field name="code">207RI0200X</field>
 		</record>
-		<record id="enrsimply_spec_207RM1200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RM1200X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Magnetic Resonance Imaging (MRI)</field> 
-		    <field name="code">SPEC_77</field>
-		    <field name="taxonomy_code">207RM1200X</field>
+		    
+		    <field name="code">207RM1200X</field>
 		</record>
-		<record id="enrsimply_spec_207RX0202X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RX0202X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Medical Oncology</field> 
-		    <field name="code">SPEC_78</field>
-		    <field name="taxonomy_code">207RX0202X</field>
+		    
+		    <field name="code">207RX0202X</field>
 		</record>
-		<record id="enrsimply_spec_207RN0300X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RN0300X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Nephrology</field> 
-		    <field name="code">SPEC_79</field>
-		    <field name="taxonomy_code">207RN0300X</field>
+		    
+		    <field name="code">207RN0300X</field>
 		</record>
-		<record id="enrsimply_spec_207RP1001X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RP1001X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Pulmonary Disease</field> 
-		    <field name="code">SPEC_80</field>
-		    <field name="taxonomy_code">207RP1001X</field>
+		    
+		    <field name="code">207RP1001X</field>
 		</record>
-		<record id="enrsimply_spec_207RR0500X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RR0500X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Rheumatology</field> 
-		    <field name="code">SPEC_81</field>
-		    <field name="taxonomy_code">207RR0500X</field>
+		    
+		    <field name="code">207RR0500X</field>
 		</record>
-		<record id="enrsimply_spec_207RS0012X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RS0012X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Sleep Medicine</field> 
-		    <field name="code">SPEC_82</field>
-		    <field name="taxonomy_code">207RS0012X</field>
+		    
+		    <field name="code">207RS0012X</field>
 		</record>
-		<record id="enrsimply_spec_207RS0010X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RS0010X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Sports Medicine</field> 
-		    <field name="code">SPEC_83</field>
-		    <field name="taxonomy_code">207RS0010X</field>
+		    
+		    <field name="code">207RS0010X</field>
 		</record>
-		<record id="enrsimply_spec_207RT0003X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RT0003X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Transplant Hepatology</field> 
-		    <field name="code">SPEC_84</field>
-		    <field name="taxonomy_code">207RT0003X</field>
+		    
+		    <field name="code">207RT0003X</field>
 		</record>
-		<record id="enrsimply_spec_204D00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_204D00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Neuromusculoskeletal Medicine &amp; OMM</field> 
-		    <field name="code">SPEC_85</field>
-		    <field name="taxonomy_code">204D00000X</field>
+		    
+		    <field name="code">204D00000X</field>
 		</record>
-		<record id="enrsimply_spec_204C00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_204C00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Neuromusculoskeletal Medicine, Sports Medicine</field> 
-		    <field name="code">SPEC_86</field>
-		    <field name="taxonomy_code">204C00000X</field>
+		    
+		    <field name="code">204C00000X</field>
 		</record>
-		<record id="enrsimply_spec_2084N0400X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084N0400X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Psychiatry and Neurology, Neurology</field> 
-		    <field name="code">SPEC_87</field>
-		    <field name="taxonomy_code">2084N0400X</field>
+		    
+		    <field name="code">2084N0400X</field>
 		</record>
-		<record id="enrsimply_spec_2084N0402X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084N0402X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Psychiatry and Neurology, Neurology with Special Qualifications in Child Neurology</field> 
-		    <field name="code">SPEC_88</field>
-		    <field name="taxonomy_code">2084N0402X</field>
+		    
+		    <field name="code">2084N0402X</field>
 		</record>
-		<record id="enrsimply_spec_2084A2900X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084A2900X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Psychiatry &amp; Neurology/Neurocritical Care</field> 
-		    <field name="code">SPEC_89</field>
-		    <field name="taxonomy_code">2084A2900X</field>
+		    
+		    <field name="code">2084A2900X</field>
 		</record>
-		<record id="enrsimply_spec_235Z00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_235Z00000X" model="enrsimply.taxonomy">
 		    <field name="name">Speech, Language and Hearing Service Providers</field> 
-		    <field name="code">SPEC_90</field>
-		    <field name="taxonomy_code">235Z00000X</field>
+		    
+		    <field name="code">235Z00000X</field>
 		</record>
-		<record id="enrsimply_spec_207V00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207V00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Obstetrics &amp; Gynecology</field> 
-		    <field name="code">SPEC_91</field>
-		    <field name="taxonomy_code">207V00000X</field>
+		    
+		    <field name="code">207V00000X</field>
 		</record>
-		<record id="enrsimply_spec_207VB0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207VB0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Obstetrics &amp; Gynecology, Bariatric Medicine</field> 
-		    <field name="code">SPEC_92</field>
-		    <field name="taxonomy_code">207VB0002X</field>
+		    
+		    <field name="code">207VB0002X</field>
 		</record>
-		<record id="enrsimply_spec_207VC0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207VC0200X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Obstetrics &amp; Gynecology, Critical Care Medicine</field> 
-		    <field name="code">SPEC_93</field>
-		    <field name="taxonomy_code">207VC0200X</field>
+		    
+		    <field name="code">207VC0200X</field>
 		</record>
-		<record id="enrsimply_spec_207VF0040X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207VF0040X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Obstetrics &amp; Gynecology, Female Pelvic Medicine and Reconstructive Surgery</field> 
-		    <field name="code">SPEC_94</field>
-		    <field name="taxonomy_code">207VF0040X</field>
+		    
+		    <field name="code">207VF0040X</field>
 		</record>
-		<record id="enrsimply_spec_207VX0201X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207VX0201X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Obstetrics &amp; Gynecology, Gynecologic Oncology</field> 
-		    <field name="code">SPEC_95</field>
-		    <field name="taxonomy_code">207VX0201X</field>
+		    
+		    <field name="code">207VX0201X</field>
 		</record>
-		<record id="enrsimply_spec_207VG0400X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207VG0400X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Obstetrics &amp; Gynecology, Gynecology</field> 
-		    <field name="code">SPEC_96</field>
-		    <field name="taxonomy_code">207VG0400X</field>
+		    
+		    <field name="code">207VG0400X</field>
 		</record>
-		<record id="enrsimply_spec_207VH0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207VH0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Obstetrics &amp; Gynecology, Hospice and Palliative Medicine</field> 
-		    <field name="code">SPEC_97</field>
-		    <field name="taxonomy_code">207VH0002X</field>
+		    
+		    <field name="code">207VH0002X</field>
 		</record>
-		<record id="enrsimply_spec_207VM0101X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207VM0101X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Obstetrics &amp; Gynecology, Maternal &amp; Fetal Medicine</field> 
-		    <field name="code">SPEC_98</field>
-		    <field name="taxonomy_code">207VM0101X</field>
+		    
+		    <field name="code">207VM0101X</field>
 		</record>
-		<record id="enrsimply_spec_207VX0000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207VX0000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Obstetrics &amp; Gynecology, Obstetrics</field> 
-		    <field name="code">SPEC_99</field>
-		    <field name="taxonomy_code">207VX0000X</field>
+		    
+		    <field name="code">207VX0000X</field>
 		</record>
-		<record id="enrsimply_spec_207VE0102X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207VE0102X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Obstetrics &amp; Gynecology, Reproductive Endocrinology</field> 
-		    <field name="code">SPEC_100</field>
-		    <field name="taxonomy_code">207VE0102X</field>
+		    
+		    <field name="code">207VE0102X</field>
 		</record>
-		<record id="enrsimply_spec_2086H0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2086H0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery/Hospice and Palliative Medicine, General Surgery</field> 
-		    <field name="code">SPEC_101</field>
-		    <field name="taxonomy_code">2086H0002X</field>
+		    
+		    <field name="code">2086H0002X</field>
 		</record>
-		<record id="enrsimply_spec_207QH0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207QH0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery/Hospice and Palliative Medicine, Family Practice</field> 
-		    <field name="code">SPEC_102</field>
-		    <field name="taxonomy_code">207QH0002X</field>
+		    
+		    <field name="code">207QH0002X</field>
 		</record>
-		<record id="enrsimply_spec_207LH0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207LH0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery/Hospice and Palliative Medicine, Anesthesiology</field> 
-		    <field name="code">SPEC_103</field>
-		    <field name="taxonomy_code">207LH0002X</field>
+		    
+		    <field name="code">207LH0002X</field>
 		</record>
-		<record id="enrsimply_spec_207RH0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RH0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery/Hospice and Palliative Medicine, Internal Medicine</field> 
-		    <field name="code">SPEC_104</field>
-		    <field name="taxonomy_code">207RH0002X</field>
+		    
+		    <field name="code">207RH0002X</field>
 		</record>
-		<record id="enrsimply_spec_207VH0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207VH0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery/Hospice and Palliative Medicine, Obstetrics &amp; Gynecology</field> 
-		    <field name="code">SPEC_105</field>
-		    <field name="taxonomy_code">207VH0002X</field>
+		    
+		    <field name="code">207VH0002X</field>
 		</record>
-		<record id="enrsimply_spec_2084H0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084H0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery/Hospice and Palliative Medicine, Neuropsychiatry</field> 
-		    <field name="code">SPEC_106</field>
-		    <field name="taxonomy_code">2084H0002X</field>
+		    
+		    <field name="code">2084H0002X</field>
 		</record>
-		<record id="enrsimply_spec_207PH0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207PH0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery/Hospice and Palliative Medicine, Emergency Medicine</field> 
-		    <field name="code">SPEC_107</field>
-		    <field name="taxonomy_code">207PH0002X</field>
+		    
+		    <field name="code">207PH0002X</field>
 		</record>
-		<record id="enrsimply_spec_207W00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207W00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Ophthalmology</field> 
-		    <field name="code">SPEC_108</field>
-		    <field name="taxonomy_code">207W00000X</field>
+		    
+		    <field name="code">207W00000X</field>
 		</record>
-		<record id="enrsimply_spec_207WX0009X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207WX0009X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Ophthalmology, Glaucoma Specialist</field> 
-		    <field name="code">SPEC_109</field>
-		    <field name="taxonomy_code">207WX0009X</field>
+		    <field name="code">207WX0009X</field>
 		</record>
-		<record id="enrsimply_spec_207WX0107X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207WX0107X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Ophthalmology, Retina Specialist</field> 
-		    <field name="code">SPEC_110</field>
-		    <field name="taxonomy_code">207WX0107X</field>
+		    <field name="code">207WX0107X</field>
 		</record>
-		<record id="enrsimply_spec_207WX0108X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207WX0108X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Ophthalmology, Uveitis and Ocular Inflammatory Disease</field> 
-		    <field name="code">SPEC_111</field>
-		    <field name="taxonomy_code">207WX0108X</field>
+		    <field name="code">207WX0108X</field>
 		</record>
-		<record id="enrsimply_spec_207WX0109X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207WX0109X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Ophthalmology/Neuro-ophthalmology</field> 
-		    <field name="code">SPEC_112</field>
-		    <field name="taxonomy_code">207WX0109X</field>
+		    <field name="code">207WX0109X</field>
 		</record>
-		<record id="enrsimply_spec_207WX0110X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207WX0110X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Ophthalmology/Pediatric Ophthalmology and Strabismus Specialist</field> 
-		    <field name="code">SPEC_113</field>
-		    <field name="taxonomy_code">207WX0110X</field>
+		    <field name="code">207WX0110X</field>
 		</record>
-		<record id="enrsimply_spec_207WX0120X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207WX0120X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Ophthalmology, Cornea and External Diseases Specialist</field> 
-		    <field name="code">SPEC_114</field>
-		    <field name="taxonomy_code">207WX0120X</field>
+		    <field name="code">207WX0120X</field>
 		</record>
-		<record id="enrsimply_spec_207WX0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207WX0200X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Ophthalmic Plastic and Reconstructive Surgery</field> 
-		    <field name="code">SPEC_115</field>
-		    <field name="taxonomy_code">207WX0200X</field>
+		    <field name="code">207WX0200X</field>
 		</record>
-		<record id="enrsimply_spec_1223S0112X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_1223S0112X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Ophthalmology, Dental Providers/Dentist, Oral &amp; Maxillofacial Surgery</field> 
-		    <field name="code">SPEC_116</field>
-		    <field name="taxonomy_code">1223S0112X</field>
+		    <field name="code">1223S0112X</field>
 		</record>
-		<record id="enrsimply_spec_207XS0114X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207XS0114X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Orthopedic Surgery, Adult Reconstructive Orthopedic Surgery</field> 
-		    <field name="code">SPEC_117</field>
-		    <field name="taxonomy_code">207XS0114X</field>
+		    <field name="code">207XS0114X</field>
 		</record>
-		<record id="enrsimply_spec_207XX0004X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207XX0004X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Orthopedic Surgery, Foot and Ankle Surgery</field> 
-		    <field name="code">SPEC_118</field>
-		    <field name="taxonomy_code">207XX0004X</field>
+		    <field name="code">207XX0004X</field>
 		</record>
-		<record id="enrsimply_spec_207XS0106X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207XS0106X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Orthopedic Surgery, Hand Surgery</field> 
-		    <field name="code">SPEC_119</field>
-		    <field name="taxonomy_code">207XS0106X</field>
+		    <field name="code">207XS0106X</field>
 		</record>
-		<record id="enrsimply_spec_207XS0117X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207XS0117X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Orthopedic Surgery, Orthopedic Surgery of the Spine</field> 
-		    <field name="code">SPEC_120</field>
-		    <field name="taxonomy_code">207XS0117X</field>
+		    <field name="code">207XS0117X</field>
 		</record>
-		<record id="enrsimply_spec_207XX0801X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207XX0801X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Orthopedic Surgery, Orthopedic Trauma</field> 
-		    <field name="code">SPEC_121</field>
-		    <field name="taxonomy_code">207XX0801X</field>
+		    <field name="code">207XX0801X</field>
 		</record>
-		<record id="enrsimply_spec_207XP3100X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207XP3100X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Orthopedic Surgery, Pediatric Orthopedic Surgery</field> 
-		    <field name="code">SPEC_122</field>
-		    <field name="taxonomy_code">207XP3100X</field>
+		    <field name="code">207XP3100X</field>
 		</record>
-		<record id="enrsimply_spec_207XX0005X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207XX0005X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Orthopedic Surgery, Sports Medicine</field> 
-		    <field name="code">SPEC_123</field>
-		    <field name="taxonomy_code">207XX0005X</field>
+		    <field name="code">207XX0005X</field>
 		</record>
-		<record id="enrsimply_spec_207RC0001X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RC0001X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Clinical Cardiatric Electrophysiology</field> 
-		    <field name="code">SPEC_124</field>
-		    <field name="taxonomy_code">207RC0001X</field>
+		    <field name="code">207RC0001X</field>
 		</record>
-		<record id="enrsimply_spec_207ZP0101X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207ZP0101X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pathology, Anatomic Pathology</field> 
-		    <field name="code">SPEC_125</field>
-		    <field name="taxonomy_code">207ZP0101X</field>
+		    <field name="code">207ZP0101X</field>
 		</record>
-		<record id="enrsimply_spec_207ZP0102X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207ZP0102X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pathology, Anatomic Pathology &amp; Clinical Pathology</field> 
-		    <field name="code">SPEC_126</field>
-		    <field name="taxonomy_code">207ZP0102X</field>
+		    <field name="code">207ZP0102X</field>
 		</record>
-		<record id="enrsimply_spec_207ZB0001X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207ZB0001X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pathology, Blood Banking &amp; Transfusion Medicine</field> 
-		    <field name="code">SPEC_127</field>
-		    <field name="taxonomy_code">207ZB0001X</field>
+		    <field name="code">207ZB0001X</field>
 		</record>
-		<record id="enrsimply_spec_207ZP0104X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207ZP0104X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pathology, Chemical Pathology</field> 
-		    <field name="code">SPEC_128</field>
-		    <field name="taxonomy_code">207ZP0104X</field>
+		    <field name="code">207ZP0104X</field>
 		</record>
-		<record id="enrsimply_spec_207ZC0006X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207ZC0006X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pathology, Clinical Pathology</field> 
-		    <field name="code">SPEC_129</field>
-		    <field name="taxonomy_code">207ZC0006X</field>
+		    <field name="code">207ZC0006X</field>
 		</record>
-		<record id="enrsimply_spec_207ZP0105X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207ZP0105X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pathology, Clinical Pathology/Laboratory Medicine</field> 
-		    <field name="code">SPEC_130</field>
-		    <field name="taxonomy_code">207ZP0105X</field>
+		    <field name="code">207ZP0105X</field>
 		</record>
-		<record id="enrsimply_spec_207ZC0500X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207ZC0500X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pathology, Cytopathology</field> 
-		    <field name="code">SPEC_131</field>
-		    <field name="taxonomy_code">207ZC0500X</field>
+		    <field name="code">207ZC0500X</field>
 		</record>
-		<record id="enrsimply_spec_207ZD0900X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207ZD0900X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pathology, Dermapathology</field> 
-		    <field name="code">SPEC_132</field>
-		    <field name="taxonomy_code">207ZD0900X</field>
+		    <field name="code">207ZD0900X</field>
 		</record>
-		<record id="enrsimply_spec_207ZF0201X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207ZF0201X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pathology, Forensic Pathology</field> 
-		    <field name="code">SPEC_133</field>
-		    <field name="taxonomy_code">207ZF0201X</field>
+		    <field name="code">207ZF0201X</field>
 		</record>
-		<record id="enrsimply_spec_207ZH0000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207ZH0000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pathology, Hematology</field> 
-		    <field name="code">SPEC_134</field>
-		    <field name="taxonomy_code">207ZH0000X</field>
+		    <field name="code">207ZH0000X</field>
 		</record>
-		<record id="enrsimply_spec_207ZI0100X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207ZI0100X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pathology, Immunopathology</field> 
-		    <field name="code">SPEC_135</field>
-		    <field name="taxonomy_code">207ZI0100X</field>
+		    <field name="code">207ZI0100X</field>
 		</record>
-		<record id="enrsimply_spec_207ZM0300X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207ZM0300X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pathology, Medical Microbiology</field> 
-		    <field name="code">SPEC_136</field>
-		    <field name="taxonomy_code">207ZM0300X</field>
+		    <field name="code">207ZM0300X</field>
 		</record>
-		<record id="enrsimply_spec_207ZP0007X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207ZP0007X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pathology, Molecular Genetic Pathology</field> 
-		    <field name="code">SPEC_137</field>
-		    <field name="taxonomy_code">207ZP0007X</field>
+		    <field name="code">207ZP0007X</field>
 		</record>
-		<record id="enrsimply_spec_207ZN0500X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207ZN0500X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pathology, Neuropathology</field> 
-		    <field name="code">SPEC_138</field>
-		    <field name="taxonomy_code">207ZN0500X</field>
+		    <field name="code">207ZN0500X</field>
 		</record>
-		<record id="enrsimply_spec_207ZP0213X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207ZP0213X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pathology, Pediatric Pathology</field> 
-		    <field name="code">SPEC_139</field>
-		    <field name="taxonomy_code">207ZP0213X</field>
+		    <field name="code">207ZP0213X</field>
 		</record>
-		<record id="enrsimply_spec_207PS0010X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207PS0010X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Emergency Medicine, Sports Medicine</field> 
-		    <field name="code">SPEC_140</field>
-		    <field name="taxonomy_code">207PS0010X</field>
+		    <field name="code">207PS0010X</field>
 		</record>
-		<record id="enrsimply_spec_2080S0010X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080S0010X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Sports Medicine</field> 
-		    <field name="code">SPEC_141</field>
-		    <field name="taxonomy_code">2080S0010X</field>
+		    <field name="code">2080S0010X</field>
 		</record>
-		<record id="enrsimply_spec_2081P0301X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2081P0301X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Physical Medicine &amp; Rehabilitation, Brain Injury</field> 
-		    <field name="code">SPEC_142</field>
-		    <field name="taxonomy_code">2081P0301X</field>
+		    <field name="code">2081P0301X</field>
 		</record>
-		<record id="enrsimply_spec_2081S0010X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2081S0010X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Physical Medicine &amp; Rehabilitation, Sports Medicine</field> 
-		    <field name="code">SPEC_143</field>
-		    <field name="taxonomy_code">2081S0010X</field>
+		    <field name="code">2081S0010X</field>
 		</record>
-		<record id="enrsimply_spec_2083S0010X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2083S0010X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Preventive Medicine, Sports Medicine</field> 
-		    <field name="code">SPEC_144</field>
-		    <field name="taxonomy_code">2083S0010X</field>
+		    <field name="code">2083S0010X</field>
 		</record>
-		<record id="enrsimply_spec_2084S0010X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084S0010X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology, Sports Medicine</field> 
-		    <field name="code">SPEC_145</field>
-		    <field name="taxonomy_code">2084S0010X</field>
+		    <field name="code">2084S0010X</field>
 		</record>
-		<record id="enrsimply_spec_2082S0099X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2082S0099X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Plastic Surgery, Plastic Surgery Within the Head and Neck</field> 
-		    <field name="code">SPEC_146</field>
-		    <field name="taxonomy_code">2082S0099X</field>
+		    <field name="code">2082S0099X</field>
 		</record>
-		<record id="enrsimply_spec_2082S0105X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2082S0105X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Plastic Surgery, Surgery of the Hand</field> 
-		    <field name="code">SPEC_147</field>
-		    <field name="taxonomy_code">2082S0105X</field>
+		    <field name="code">2082S0105X</field>
 		</record>
-		<record id="enrsimply_spec_208100000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_208100000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Physical Medicine &amp; Rehabilitation</field> 
-		    <field name="code">SPEC_148</field>
-		    <field name="taxonomy_code">208100000X</field>
+		    <field name="code">208100000X</field>
 		</record>
-		<record id="enrsimply_spec_2081H0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2081H0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Physical Medicine &amp; Rehabilitation, Hospice and Palliative Medicine</field> 
-		    <field name="code">SPEC_149</field>
-		    <field name="taxonomy_code">2081H0002X</field>
+		    <field name="code">2081H0002X</field>
 		</record>
-		<record id="enrsimply_spec_2081N0008X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2081N0008X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Physical Medicine &amp; Rehabilitation, Neuromuscular Medicine</field> 
-		    <field name="code">SPEC_150</field>
-		    <field name="taxonomy_code">2081N0008X</field>
+		    <field name="code">2081N0008X</field>
 		</record>
-		<record id="enrsimply_spec_2081P2900X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2081P2900X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Physical Medicine &amp; Rehabilitation, Pain Medicine</field> 
-		    <field name="code">SPEC_151</field>
-		    <field name="taxonomy_code">2081P2900X</field>
+		    <field name="code">2081P2900X</field>
 		</record>
-		<record id="enrsimply_spec_2081P0010X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2081P0010X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Physical Medicine &amp; Rehabilitation, Pediatric Rehabilitation Medicine</field> 
-		    <field name="code">SPEC_152</field>
-		    <field name="taxonomy_code">2081P0010X</field>
+		    <field name="code">2081P0010X</field>
 		</record>
-		<record id="enrsimply_spec_2081P0004X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2081P0004X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Physical Medicine &amp; Rehabilitation, Spinal Cord Injury Medicine</field> 
-		    <field name="code">SPEC_153</field>
-		    <field name="taxonomy_code">2081P0004X</field>
+		    <field name="code">2081P0004X</field>
 		</record>
-		<record id="enrsimply_spec_2084P0800X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084P0800X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Psychiatry</field> 
-		    <field name="code">SPEC_154</field>
-		    <field name="taxonomy_code">2084P0800X</field>
+		    <field name="code">2084P0800X</field>
 		</record>
-		<record id="enrsimply_spec_2084P0301X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084P0301X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Psychiatry &amp; Neurology/Respiratory, Developmental, Rehabilitative and Restorative Service , Brain Injury Medicine</field> 
-		    <field name="code">SPEC_155</field>
-		    <field name="taxonomy_code">2084P0301X</field>
+		    <field name="code">2084P0301X</field>
 		</record>
-		<record id="enrsimply_spec_2085R0202X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2085R0202X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Radiology, Diagnostic Radiology</field> 
-		    <field name="code">SPEC_156</field>
-		    <field name="taxonomy_code">2085R0202X</field>
+		    <field name="code">2085R0202X</field>
 		</record>
-		<record id="enrsimply_spec_367H00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_367H00000X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Anesthesiologist Assistant</field> 
-		    <field name="code">SPEC_157</field>
-		    <field name="taxonomy_code">367H00000X</field>
+		    <field name="code">367H00000X</field>
 		</record>
-		<record id="enrsimply_spec_208800000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_208800000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Urology</field> 
-		    <field name="code">SPEC_158</field>
-		    <field name="taxonomy_code">208800000X</field>
+		    <field name="code">208800000X</field>
 		</record>
-		<record id="enrsimply_spec_2088P0231X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2088P0231X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Urology, Pediatric Urology</field> 
-		    <field name="code">SPEC_159</field>
-		    <field name="taxonomy_code">2088P0231X</field>
+		    <field name="code">2088P0231X</field>
 		</record>
-		<record id="enrsimply_spec_2088F0040X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2088F0040X" model="enrsimply.taxonomy">
 		    <field name="name">Female Pelvic Medicine &amp; Reconstructive Surgery</field> 
-		    <field name="code">SPEC_160</field>
-		    <field name="taxonomy_code">2088F0040X</field>
+		    <field name="code">2088F0040X</field>
 		</record>
-		<record id="enrsimply_spec_111N00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_111N00000X" model="enrsimply.taxonomy">
 		    <field name="name">Chiropractic Providers/Chiropractor</field> 
-		    <field name="code">SPEC_161</field>
-		    <field name="taxonomy_code">111N00000X</field>
+		    <field name="code">111N00000X</field>
 		</record>
-		<record id="enrsimply_spec_111NI0013X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_111NI0013X" model="enrsimply.taxonomy">
 		    <field name="name">Chiropractic Providers/Chiropractor, Independent Medical Examiner</field> 
-		    <field name="code">SPEC_162</field>
-		    <field name="taxonomy_code">111NI0013X</field>
+		    <field name="code">111NI0013X</field>
 		</record>
-		<record id="enrsimply_spec_111NI0900X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_111NI0900X" model="enrsimply.taxonomy">
 		    <field name="name">Chiropractic Providers/Chiropractor, Internist</field> 
-		    <field name="code">SPEC_163</field>
-		    <field name="taxonomy_code">111NI0900X</field>
+		    <field name="code">111NI0900X</field>
 		</record>
-		<record id="enrsimply_spec_111NN0400X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_111NN0400X" model="enrsimply.taxonomy">
 		    <field name="name">Chiropractic Providers/Chiropractor, Neurology</field> 
-		    <field name="code">SPEC_164</field>
-		    <field name="taxonomy_code">111NN0400X</field>
+		    <field name="code">111NN0400X</field>
 		</record>
-		<record id="enrsimply_spec_111NN1001X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_111NN1001X" model="enrsimply.taxonomy">
 		    <field name="name">Chiropractic Providers/Chiropractor, Nutrition</field> 
-		    <field name="code">SPEC_165</field>
-		    <field name="taxonomy_code">111NN1001X</field>
+		    <field name="code">111NN1001X</field>
 		</record>
-		<record id="enrsimply_spec_111NX0100X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_111NX0100X" model="enrsimply.taxonomy">
 		    <field name="name">Chiropractic Providers/Chiropractor, Occupational Medicine</field> 
-		    <field name="code">SPEC_166</field>
-		    <field name="taxonomy_code">111NX0100X</field>
+		    <field name="code">111NX0100X</field>
 		</record>
-		<record id="enrsimply_spec_111NX0800X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_111NX0800X" model="enrsimply.taxonomy">
 		    <field name="name">Chiropractic Providers/Chiropractor, Orthopedic</field> 
-		    <field name="code">SPEC_167</field>
-		    <field name="taxonomy_code">111NX0800X</field>
+		    <field name="code">111NX0800X</field>
 		</record>
-		<record id="enrsimply_spec_111NP0017X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_111NP0017X" model="enrsimply.taxonomy">
 		    <field name="name">Chiropractic Providers/Chiropractor, Pediatric Chiropractor</field> 
-		    <field name="code">SPEC_168</field>
-		    <field name="taxonomy_code">111NP0017X</field>
+		    <field name="code">111NP0017X</field>
 		</record>
-		<record id="enrsimply_spec_111NR0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_111NR0200X" model="enrsimply.taxonomy">
 		    <field name="name">Chiropractic Providers/Chiropractor, Radiology</field> 
-		    <field name="code">SPEC_169</field>
-		    <field name="taxonomy_code">111NR0200X</field>
+		    <field name="code">111NR0200X</field>
 		</record>
-		<record id="enrsimply_spec_111NR0400X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_111NR0400X" model="enrsimply.taxonomy">
 		    <field name="name">Chiropractic Providers/Chiropractor, Rehabilitation</field> 
-		    <field name="code">SPEC_170</field>
-		    <field name="taxonomy_code">111NR0400X</field>
+		    <field name="code">111NR0400X</field>
 		</record>
-		<record id="enrsimply_spec_111NS0005X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_111NS0005X" model="enrsimply.taxonomy">
 		    <field name="name">Chiropractic Providers/Chiropractor, Sports Physician</field> 
-		    <field name="code">SPEC_171</field>
-		    <field name="taxonomy_code">111NS0005X</field>
+		    <field name="code">111NS0005X</field>
 		</record>
-		<record id="enrsimply_spec_111NT0100X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_111NT0100X" model="enrsimply.taxonomy">
 		    <field name="name">Chiropractic Providers/Chiropractor, Thermography</field> 
-		    <field name="code">SPEC_172</field>
-		    <field name="taxonomy_code">111NT0100X</field>
+		    <field name="code">111NT0100X</field>
 		</record>
-		<record id="enrsimply_spec_207U00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207U00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Nuclear Medicine</field> 
-		    <field name="code">SPEC_173</field>
-		    <field name="taxonomy_code">207U00000X</field>
+		    <field name="code">207U00000X</field>
 		</record>
-		<record id="enrsimply_spec_207UN0903X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207UN0903X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Nuclear Medicine, In Vivo &amp; In Vitro Nuclear Medicine</field> 
-		    <field name="code">SPEC_174</field>
-		    <field name="taxonomy_code">207UN0903X</field>
+		    <field name="code">207UN0903X</field>
 		</record>
-		<record id="enrsimply_spec_207UN0901X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207UN0901X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Nuclear Medicine, Nuclear Cardiology</field> 
-		    <field name="code">SPEC_175</field>
-		    <field name="taxonomy_code">207UN0901X</field>
+		    <field name="code">207UN0901X</field>
 		</record>
-		<record id="enrsimply_spec_207UN0902X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207UN0902X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Nuclear Medicine, Nuclear Imaging &amp; Therapy</field> 
-		    <field name="code">SPEC_176</field>
-		    <field name="taxonomy_code">207UN0902X</field>
+		    <field name="code">207UN0902X</field>
 		</record>
-		<record id="enrsimply_spec_208000000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_208000000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics</field> 
-		    <field name="code">SPEC_177</field>
-		    <field name="taxonomy_code">208000000X</field>
+		    <field name="code">208000000X</field>
 		</record>
-		<record id="enrsimply_spec_2080A0000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080A0000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Adolescent Medicine</field> 
-		    <field name="code">SPEC_178</field>
-		    <field name="taxonomy_code">2080A0000X</field>
+		    <field name="code">2080A0000X</field>
 		</record>
-		<record id="enrsimply_spec_2080I0007X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080I0007X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Clinical &amp; Laboratory Immunology</field> 
-		    <field name="code">SPEC_179</field>
-		    <field name="taxonomy_code">2080I0007X</field>
+		    <field name="code">2080I0007X</field>
 		</record>
-		<record id="enrsimply_spec_2080P0006X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080P0006X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Developmentalâ€“Behavioral Pediatrics</field> 
-		    <field name="code">SPEC_180</field>
-		    <field name="taxonomy_code">2080P0006X</field>
+		    <field name="code">2080P0006X</field>
 		</record>
-		<record id="enrsimply_spec_2080H0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080H0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Hospice and Palliative Medicine</field> 
-		    <field name="code">SPEC_181</field>
-		    <field name="taxonomy_code">2080H0002X</field>
+		    <field name="code">2080H0002X</field>
 		</record>
-		<record id="enrsimply_spec_2080T0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080T0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Medical Toxicology</field> 
-		    <field name="code">SPEC_182</field>
-		    <field name="taxonomy_code">2080T0002X</field>
+		    <field name="code">2080T0002X</field>
 		</record>
-		<record id="enrsimply_spec_2080N0001X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080N0001X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Neonatal-Perinatal Medicine</field> 
-		    <field name="code">SPEC_183</field>
-		    <field name="taxonomy_code">2080N0001X</field>
+		    <field name="code">2080N0001X</field>
 		</record>
-		<record id="enrsimply_spec_2080P0008X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080P0008X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Neurodevelopmental Disabilities</field> 
-		    <field name="code">SPEC_184</field>
-		    <field name="taxonomy_code">2080P0008X</field>
+		    <field name="code">2080P0008X</field>
 		</record>
-		<record id="enrsimply_spec_2080P0201X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080P0201X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Pediatric Allergy &amp; Immunology</field> 
-		    <field name="code">SPEC_185</field>
-		    <field name="taxonomy_code">2080P0201X</field>
+		    <field name="code">2080P0201X</field>
 		</record>
-		<record id="enrsimply_spec_2080P0202X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080P0202X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Pediatric Cardiology</field> 
-		    <field name="code">SPEC_186</field>
-		    <field name="taxonomy_code">2080P0202X</field>
+		    <field name="code">2080P0202X</field>
 		</record>
-		<record id="enrsimply_spec_2080P0203X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080P0203X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Pediatric Critical Care Medicine</field> 
-		    <field name="code">SPEC_187</field>
-		    <field name="taxonomy_code">2080P0203X</field>
+		    <field name="code">2080P0203X</field>
 		</record>
-		<record id="enrsimply_spec_2080P0204X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080P0204X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Pediatric Emergency Medicine</field> 
-		    <field name="code">SPEC_188</field>
-		    <field name="taxonomy_code">2080P0204X</field>
+		    <field name="code">2080P0204X</field>
 		</record>
-		<record id="enrsimply_spec_2080P0205X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080P0205X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Pediatric Endocrinology</field> 
-		    <field name="code">SPEC_189</field>
-		    <field name="taxonomy_code">2080P0205X</field>
+		    <field name="code">2080P0205X</field>
 		</record>
-		<record id="enrsimply_spec_2080P0206X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080P0206X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Pediatric Gastroenterology</field> 
-		    <field name="code">SPEC_190</field>
-		    <field name="taxonomy_code">2080P0206X</field>
+		    <field name="code">2080P0206X</field>
 		</record>
-		<record id="enrsimply_spec_2080P0207X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080P0207X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Pediatric Hematology-Oncology</field> 
-		    <field name="code">SPEC_191</field>
-		    <field name="taxonomy_code">2080P0207X</field>
+		    <field name="code">2080P0207X</field>
 		</record>
-		<record id="enrsimply_spec_2080P0208X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080P0208X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Pediatric Infectious Diseases</field> 
-		    <field name="code">SPEC_192</field>
-		    <field name="taxonomy_code">2080P0208X</field>
+		    <field name="code">2080P0208X</field>
 		</record>
-		<record id="enrsimply_spec_2080P0210X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080P0210X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Pediatric Nephrology</field> 
-		    <field name="code">SPEC_193</field>
-		    <field name="taxonomy_code">2080P0210X</field>
+		    <field name="code">2080P0210X</field>
 		</record>
-		<record id="enrsimply_spec_2080P0214X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080P0214X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Pediatric Pulmonology</field> 
-		    <field name="code">SPEC_194</field>
-		    <field name="taxonomy_code">2080P0214X</field>
+		    <field name="code">2080P0214X</field>
 		</record>
-		<record id="enrsimply_spec_2080P0216X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080P0216X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Pediatric Rheumatology</field> 
-		    <field name="code">SPEC_195</field>
-		    <field name="taxonomy_code">2080P0216X</field>
+		    <field name="code">2080P0216X</field>
 		</record>
-		<record id="enrsimply_spec_2080T0004X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080T0004X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Pediatric Transplant Hepatology</field> 
-		    <field name="code">SPEC_196</field>
-		    <field name="taxonomy_code">2080T0004X</field>
+		    <field name="code">2080T0004X</field>
 		</record>
-		<record id="enrsimply_spec_2080S0012X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2080S0012X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pediatrics, Sleep Medicine</field> 
-		    <field name="code">SPEC_197</field>
-		    <field name="taxonomy_code">2080S0012X</field>
+		    <field name="code">2080S0012X</field>
 		</record>
-		<record id="enrsimply_spec_2086S0105X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2086S0105X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery, Surgery of the Hand</field> 
-		    <field name="code">SPEC_198</field>
-		    <field name="taxonomy_code">2086S0105X</field>
+		    <field name="code">2086S0105X</field>
 		</record>
-		<record id="enrsimply_spec_152W00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_152W00000X" model="enrsimply.taxonomy">
 		    <field name="name">Eye and Vision Service Providers/Optometrist</field> 
-		    <field name="code">SPEC_199</field>
-		    <field name="taxonomy_code">152W00000X</field>
+		    <field name="code">152W00000X</field>
 		</record>
-		<record id="enrsimply_spec_152WC0802X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_152WC0802X" model="enrsimply.taxonomy">
 		    <field name="name">Eye and Vision Service Providers/Optometrist, Corneal and Contact Management</field> 
-		    <field name="code">SPEC_200</field>
-		    <field name="taxonomy_code">152WC0802X</field>
+		    <field name="code">152WC0802X</field>
 		</record>
-		<record id="enrsimply_spec_152WL0500X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_152WL0500X" model="enrsimply.taxonomy">
 		    <field name="name">Eye and Vision Service Providers/Optometrist, Low Vision Rehabilitation</field> 
-		    <field name="code">SPEC_201</field>
-		    <field name="taxonomy_code">152WL0500X</field>
+		    <field name="code">152WL0500X</field>
 		</record>
-		<record id="enrsimply_spec_152WX0102X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_152WX0102X" model="enrsimply.taxonomy">
 		    <field name="name">Eye and Vision Service Providers/Optometrist, Occupational Vision</field> 
-		    <field name="code">SPEC_202</field>
-		    <field name="taxonomy_code">152WX0102X</field>
+		    <field name="code">152WX0102X</field>
 		</record>
-		<record id="enrsimply_spec_152WP0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_152WP0200X" model="enrsimply.taxonomy">
 		    <field name="name">Eye and Vision Service Providers/Optometrist, Pediatrics</field> 
-		    <field name="code">SPEC_203</field>
-		    <field name="taxonomy_code">152WP0200X</field>
+		    <field name="code">152WP0200X</field>
 		</record>
-		<record id="enrsimply_spec_152WS0006X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_152WS0006X" model="enrsimply.taxonomy">
 		    <field name="name">Eye and Vision Service Providers/Optometrist, Sports Vision</field> 
-		    <field name="code">SPEC_204</field>
-		    <field name="taxonomy_code">152WS0006X</field>
+		    <field name="code">152WS0006X</field>
 		</record>
-		<record id="enrsimply_spec_152WV0400X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_152WV0400X" model="enrsimply.taxonomy">
 		    <field name="name">Eye and Vision Service Providers/Optometrist, Vision Therapy</field> 
-		    <field name="code">SPEC_205</field>
-		    <field name="taxonomy_code">152WV0400X</field>
+		    <field name="code">152WV0400X</field>
 		</record>
-		<record id="enrsimply_spec_367A00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_367A00000X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Midwife, Certified Nurse</field> 
-		    <field name="code">SPEC_206</field>
-		    <field name="taxonomy_code">367A00000X</field>
+		    <field name="code">367A00000X</field>
 		</record>
-		<record id="enrsimply_spec_367500000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_367500000X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Anesthetist, Certified Registered</field> 
-		    <field name="code">SPEC_207</field>
-		    <field name="taxonomy_code">367500000X</field>
+		    <field name="code">367500000X</field>
 		</record>
-		<record id="enrsimply_spec_261QR0208X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_261QR0208X" model="enrsimply.taxonomy">
 		    <field name="name">Ambulatory Health Care Facilities/Clinic-Center, Radiology, Mammography</field> 
-		    <field name="code">SPEC_208</field>
-		    <field name="taxonomy_code">261QR0208X</field>
+		    <field name="code">261QR0208X</field>
 		</record>
-		<record id="enrsimply_spec_261QR0207X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_261QR0207X" model="enrsimply.taxonomy">
 		    <field name="name">Ambulatory Health Care Facilities/Clinic-Center, Radiology, Mobile Mammography</field> 
-		    <field name="code">SPEC_209</field>
-		    <field name="taxonomy_code">261QR0207X</field>
+		    <field name="code">261QR0207X</field>
 		</record>
-		<record id="enrsimply_spec_207RE0101X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RE0101X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Endocrinology, Diabetes &amp; Metabolism</field> 
-		    <field name="code">SPEC_210</field>
-		    <field name="taxonomy_code">207RE0101X</field>
+		    <field name="code">207RE0101X</field>
 		</record>
-		<record id="enrsimply_spec_293D00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_293D00000X" model="enrsimply.taxonomy">
 		    <field name="name">Laboratories/Physiological Laboratory</field> 
-		    <field name="code">SPEC_211</field>
-		    <field name="taxonomy_code">293D00000X</field>
+		    <field name="code">293D00000X</field>
 		</record>
-		<record id="enrsimply_spec_213E00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_213E00000X" model="enrsimply.taxonomy">
 		    <field name="name">Podiatric Medicine &amp; Surgery Service Providers/Podiatrist</field> 
-		    <field name="code">SPEC_212</field>
-		    <field name="taxonomy_code">213E00000X</field>
+		    <field name="code">213E00000X</field>
 		</record>
-		<record id="enrsimply_spec_213ES0103X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_213ES0103X" model="enrsimply.taxonomy">
 		    <field name="name">Podiatric Medicine &amp; Surgery Service Providers/Podiatrist, Foot &amp; Ankle Surgery</field> 
-		    <field name="code">SPEC_213</field>
-		    <field name="taxonomy_code">213ES0103X</field>
+		    <field name="code">213ES0103X</field>
 		</record>
-		<record id="enrsimply_spec_213ES0131X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_213ES0131X" model="enrsimply.taxonomy">
 		    <field name="name">Podiatric Medicine &amp; Surgery Service Providers/Podiatrist, Foot Surgery</field> 
-		    <field name="code">SPEC_214</field>
-		    <field name="taxonomy_code">213ES0131X</field>
+		    <field name="code">213ES0131X</field>
 		</record>
-		<record id="enrsimply_spec_213EG0000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_213EG0000X" model="enrsimply.taxonomy">
 		    <field name="name">Podiatric Medicine &amp; Surgery Service Providers/Podiatrist, General Practice</field> 
-		    <field name="code">SPEC_215</field>
-		    <field name="taxonomy_code">213EG0000X</field>
+		    <field name="code">213EG0000X</field>
 		</record>
-		<record id="enrsimply_spec_213EP1101X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_213EP1101X" model="enrsimply.taxonomy">
 		    <field name="name">Podiatric Medicine &amp; Surgery Service Providers/Podiatrist, Primary Podiatric Medicine</field> 
-		    <field name="code">SPEC_216</field>
-		    <field name="taxonomy_code">213EP1101X</field>
+		    <field name="code">213EP1101X</field>
 		</record>
-		<record id="enrsimply_spec_213EP0504X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_213EP0504X" model="enrsimply.taxonomy">
 		    <field name="name">Podiatric Medicine &amp; Surgery Service Providers/Podiatrist, Public Medicine</field> 
-		    <field name="code">SPEC_217</field>
-		    <field name="taxonomy_code">213EP0504X</field>
+		    <field name="code">213EP0504X</field>
 		</record>
-		<record id="enrsimply_spec_213ER0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_213ER0200X" model="enrsimply.taxonomy">
 		    <field name="name">Podiatric Medicine &amp; Surgery Service Providers/Podiatrist, Radiology</field> 
-		    <field name="code">SPEC_218</field>
-		    <field name="taxonomy_code">213ER0200X</field>
+		    <field name="code">213ER0200X</field>
 		</record>
-		<record id="enrsimply_spec_213ES0000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_213ES0000X" model="enrsimply.taxonomy">
 		    <field name="name">Podiatric Medicine &amp; Surgery Service Providers/Podiatrist, Sports Medicine</field> 
-		    <field name="code">SPEC_219</field>
-		    <field name="taxonomy_code">213ES0000X</field>
+		    <field name="code">213ES0000X</field>
 		</record>
-		<record id="enrsimply_spec_261QA1903X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_261QA1903X" model="enrsimply.taxonomy">
 		    <field name="name">Ambulatory Health Care Facilities/Clinic-Center, Ambulatory Surgical</field> 
-		    <field name="code">SPEC_220</field>
-		    <field name="taxonomy_code">261QA1903X</field>
+		    <field name="code">261QA1903X</field>
 		</record>
-		<record id="enrsimply_spec_363L00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363L00000X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Practitioner</field> 
-		    <field name="code">SPEC_221</field>
-		    <field name="taxonomy_code">363L00000X</field>
+		    <field name="code">363L00000X</field>
 		</record>
-		<record id="enrsimply_spec_363LA2100X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363LA2100X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Practitioner, Acute Care</field> 
-		    <field name="code">SPEC_222</field>
-		    <field name="taxonomy_code">363LA2100X</field>
+		    <field name="code">363LA2100X</field>
 		</record>
-		<record id="enrsimply_spec_363LA2200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363LA2200X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Practitioner, Adult Health</field> 
-		    <field name="code">SPEC_223</field>
-		    <field name="taxonomy_code">363LA2200X</field>
+		    <field name="code">363LA2200X</field>
 		</record>
-		<record id="enrsimply_spec_363LC1500X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363LC1500X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Practitioner, Community Health</field> 
-		    <field name="code">SPEC_224</field>
-		    <field name="taxonomy_code">363LC1500X</field>
+		    <field name="code">363LC1500X</field>
 		</record>
-		<record id="enrsimply_spec_363LC0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363LC0200X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Practitioner, Critical Care Medicine</field> 
-		    <field name="code">SPEC_225</field>
-		    <field name="taxonomy_code">363LC0200X</field>
+		    <field name="code">363LC0200X</field>
 		</record>
-		<record id="enrsimply_spec_363LF0000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363LF0000X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Practitioner, Family</field> 
-		    <field name="code">SPEC_226</field>
-		    <field name="taxonomy_code">363LF0000X</field>
+		    <field name="code">363LF0000X</field>
 		</record>
-		<record id="enrsimply_spec_363LG0600X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363LG0600X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Practitioner, Gerontology</field> 
-		    <field name="code">SPEC_227</field>
-		    <field name="taxonomy_code">363LG0600X</field>
+		    <field name="code">363LG0600X</field>
 		</record>
-		<record id="enrsimply_spec_363LN0000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363LN0000X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Practitioner, Neonatal</field> 
-		    <field name="code">SPEC_228</field>
-		    <field name="taxonomy_code">363LN0000X</field>
+		    <field name="code">363LN0000X</field>
 		</record>
-		<record id="enrsimply_spec_363LN0005X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363LN0005X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Practitioner, Neonatal, Critical Care</field> 
-		    <field name="code">SPEC_229</field>
-		    <field name="taxonomy_code">363LN0005X</field>
+		    <field name="code">363LN0005X</field>
 		</record>
-		<record id="enrsimply_spec_363LX0001X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363LX0001X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Practitioner, Obstetrics &amp; Gynecology</field> 
-		    <field name="code">SPEC_230</field>
-		    <field name="taxonomy_code">363LX0001X</field>
+		    <field name="code">363LX0001X</field>
 		</record>
-		<record id="enrsimply_spec_363LX0106X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363LX0106X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Practitioner, Occupational Health</field> 
-		    <field name="code">SPEC_231</field>
-		    <field name="taxonomy_code">363LX0106X</field>
+		    <field name="code">363LX0106X</field>
 		</record>
-		<record id="enrsimply_spec_363LP0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363LP0200X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Practitioner, Pediatrics</field> 
-		    <field name="code">SPEC_232</field>
-		    <field name="taxonomy_code">363LP0200X</field>
+		    <field name="code">363LP0200X</field>
 		</record>
-		<record id="enrsimply_spec_363LP0222X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363LP0222X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Practitioner, Pediatrics, Critical Care</field> 
-		    <field name="code">SPEC_233</field>
-		    <field name="taxonomy_code">363LP0222X</field>
+		    <field name="code">363LP0222X</field>
 		</record>
-		<record id="enrsimply_spec_363LP1700X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363LP1700X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Practitioner, Perinatal</field> 
-		    <field name="code">SPEC_234</field>
-		    <field name="taxonomy_code">363LP1700X</field>
+		    <field name="code">363LP1700X</field>
 		</record>
-		<record id="enrsimply_spec_363LP2300X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363LP2300X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Practitioner, Primary Care</field> 
-		    <field name="code">SPEC_235</field>
-		    <field name="taxonomy_code">363LP2300X</field>
+		    <field name="code">363LP2300X</field>
 		</record>
-		<record id="enrsimply_spec_363LP0808X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363LP0808X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Practitioner, Psychiatric/Mental Health</field> 
-		    <field name="code">SPEC_236</field>
-		    <field name="taxonomy_code">363LP0808X</field>
+		    <field name="code">363LP0808X</field>
 		</record>
-		<record id="enrsimply_spec_363LS0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363LS0200X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Practitioner, School</field> 
-		    <field name="code">SPEC_237</field>
-		    <field name="taxonomy_code">363LS0200X</field>
+		    <field name="code">363LS0200X</field>
 		</record>
-		<record id="enrsimply_spec_363LW0102X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363LW0102X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Nurse Practitioner, Womenâ€™s Health</field> 
-		    <field name="code">SPEC_238</field>
-		    <field name="taxonomy_code">363LW0102X</field>
+		    <field name="code">363LW0102X</field>
 		</record>
-		<record id="enrsimply_spec_335E00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_335E00000X" model="enrsimply.taxonomy">
 		    <field name="name">Suppliers/Prosthetic/Orthotic Supplier</field> 
-		    <field name="code">SPEC_239</field>
-		    <field name="taxonomy_code">335E00000X</field>
+		    <field name="code">335E00000X</field>
 		</record>
-		<record id="enrsimply_spec_332B00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_332B00000X" model="enrsimply.taxonomy">
 		    <field name="name">Suppliers/Durable Medical Equipment &amp; Medical Supplies</field> 
-		    <field name="code">SPEC_240</field>
-		    <field name="taxonomy_code">332B00000X</field>
+		    <field name="code">332B00000X</field>
 		</record>
-		<record id="enrsimply_spec_222Z00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_222Z00000X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative, and Restorative Service Providers/Orthotist</field> 
-		    <field name="code">SPEC_241</field>
-		    <field name="taxonomy_code">222Z00000X</field>
+		    <field name="code">222Z00000X</field>
 		</record>
-		<record id="enrsimply_spec_229N00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_229N00000X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative, and Restorative Service Providers/Anaplastologist</field> 
-		    <field name="code">SPEC_242</field>
-		    <field name="taxonomy_code">229N00000X</field>
+		    <field name="code">229N00000X</field>
 		</record>
-		<record id="enrsimply_spec_224P00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_224P00000X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative, and Restorative Service Providers/Prosthetist</field> 
-		    <field name="code">SPEC_243</field>
-		    <field name="taxonomy_code">224P00000X</field>
+		    <field name="code">224P00000X</field>
 		</record>
-		<record id="enrsimply_spec_333600000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_333600000X" model="enrsimply.taxonomy">
 		    <field name="name">Suppliers/Pharmacy</field> 
-		    <field name="code">SPEC_244</field>
-		    <field name="taxonomy_code">333600000X</field>
+		    <field name="code">333600000X</field>
 		</record>
-		<record id="enrsimply_spec_3336C0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_3336C0002X" model="enrsimply.taxonomy">
 		    <field name="name">Suppliers/Pharmacy, Clinic Pharmacy</field> 
-		    <field name="code">SPEC_245</field>
-		    <field name="taxonomy_code">3336C0002X</field>
+		    <field name="code">3336C0002X</field>
 		</record>
-		<record id="enrsimply_spec_3336C0003X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_3336C0003X" model="enrsimply.taxonomy">
 		    <field name="name">Suppliers/Pharmacy, Community/Retail Pharmacy</field> 
-		    <field name="code">SPEC_246</field>
-		    <field name="taxonomy_code">3336C0003X</field>
+		    <field name="code">3336C0003X</field>
 		</record>
-		<record id="enrsimply_spec_3336C0004X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_3336C0004X" model="enrsimply.taxonomy">
 		    <field name="name">Suppliers/Pharmacy, Compounding Pharmacy</field> 
-		    <field name="code">SPEC_247</field>
-		    <field name="taxonomy_code">3336C0004X</field>
+		    <field name="code">3336C0004X</field>
 		</record>
-		<record id="enrsimply_spec_3336H0001X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_3336H0001X" model="enrsimply.taxonomy">
 		    <field name="name">Suppliers/Pharmacy, Home Infusion Therapy Pharmacy</field> 
-		    <field name="code">SPEC_248</field>
-		    <field name="taxonomy_code">3336H0001X</field>
+		    <field name="code">3336H0001X</field>
 		</record>
-		<record id="enrsimply_spec_3336I0012X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_3336I0012X" model="enrsimply.taxonomy">
 		    <field name="name">Suppliers/Pharmacy, Institutional Pharmacy</field> 
-		    <field name="code">SPEC_249</field>
-		    <field name="taxonomy_code">3336I0012X</field>
+		    <field name="code">3336I0012X</field>
 		</record>
-		<record id="enrsimply_spec_3336L0003X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_3336L0003X" model="enrsimply.taxonomy">
 		    <field name="name">Suppliers/Pharmacy, Long-term Care Pharmacy</field> 
-		    <field name="code">SPEC_250</field>
-		    <field name="taxonomy_code">3336L0003X</field>
+		    <field name="code">3336L0003X</field>
 		</record>
-		<record id="enrsimply_spec_3336M0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_3336M0002X" model="enrsimply.taxonomy">
 		    <field name="name">Suppliers/Pharmacy, Mail Order Pharmacy</field> 
-		    <field name="code">SPEC_251</field>
-		    <field name="taxonomy_code">3336M0002X</field>
+		    <field name="code">3336M0002X</field>
 		</record>
-		<record id="enrsimply_spec_3336M0003X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_3336M0003X" model="enrsimply.taxonomy">
 		    <field name="name">Suppliers/Pharmacy, Managed Care Organization Pharmacy</field> 
-		    <field name="code">SPEC_252</field>
-		    <field name="taxonomy_code">3336M0003X</field>
+		    <field name="code">3336M0003X</field>
 		</record>
-		<record id="enrsimply_spec_3336N0007X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_3336N0007X" model="enrsimply.taxonomy">
 		    <field name="name">Suppliers/Pharmacy, Nuclear Pharmacy</field> 
-		    <field name="code">SPEC_253</field>
-		    <field name="taxonomy_code">3336N0007X</field>
+		    <field name="code">3336N0007X</field>
 		</record>
-		<record id="enrsimply_spec_3336S0011X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_3336S0011X" model="enrsimply.taxonomy">
 		    <field name="name">Suppliers/Pharmacy, Specialty Pharmacy</field> 
-		    <field name="code">SPEC_254</field>
-		    <field name="taxonomy_code">3336S0011X</field>
+		    <field name="code">3336S0011X</field>
 		</record>
-		<record id="enrsimply_spec_341600000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_341600000X" model="enrsimply.taxonomy">
 		    <field name="name">Transportation Services/Ambulance</field> 
-		    <field name="code">SPEC_255</field>
-		    <field name="taxonomy_code">341600000X</field>
+		    <field name="code">341600000X</field>
 		</record>
-		<record id="enrsimply_spec_3416A0800X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_3416A0800X" model="enrsimply.taxonomy">
 		    <field name="name">Transportation Services/Ambulance, Air Transport</field> 
-		    <field name="code">SPEC_256</field>
-		    <field name="taxonomy_code">3416A0800X</field>
+		    <field name="code">3416A0800X</field>
 		</record>
-		<record id="enrsimply_spec_3416L0300X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_3416L0300X" model="enrsimply.taxonomy">
 		    <field name="name">Transportation Services/Ambulance, Land Transport</field> 
-		    <field name="code">SPEC_257</field>
-		    <field name="taxonomy_code">3416L0300X</field>
+		    <field name="code">3416L0300X</field>
 		</record>
-		<record id="enrsimply_spec_3416S0300X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_3416S0300X" model="enrsimply.taxonomy">
 		    <field name="name">Transportation Services/Ambulance, Water Transport</field> 
-		    <field name="code">SPEC_258</field>
-		    <field name="taxonomy_code">3416S0300X</field>
+		    <field name="code">3416S0300X</field>
 		</record>
-		<record id="enrsimply_spec_251K00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_251K00000X" model="enrsimply.taxonomy">
 		    <field name="name">Agencies/Public Health or Welfare</field> 
-		    <field name="code">SPEC_259</field>
-		    <field name="taxonomy_code">251K00000X</field>
+		    <field name="code">251K00000X</field>
 		</record>
-		<record id="enrsimply_spec_251V00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_251V00000X" model="enrsimply.taxonomy">
 		    <field name="name">Agencies/Voluntary or Charitable</field> 
-		    <field name="code">SPEC_260</field>
-		    <field name="taxonomy_code">251V00000X</field>
+		    <field name="code">251V00000X</field>
 		</record>
-		<record id="enrsimply_spec_103T00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103T00000X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist</field> 
-		    <field name="code">SPEC_261</field>
-		    <field name="taxonomy_code">103T00000X</field>
+		    <field name="code">103T00000X</field>
 		</record>
-		<record id="enrsimply_spec_103TA0400X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TA0400X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Addiction (Substance Abuse Disorder)</field> 
-		    <field name="code">SPEC_262</field>
-		    <field name="taxonomy_code">103TA0400X</field>
+		    <field name="code">103TA0400X</field>
 		</record>
-		<record id="enrsimply_spec_103TA0700X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TA0700X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Adult Development &amp; Aging</field> 
-		    <field name="code">SPEC_263</field>
-		    <field name="taxonomy_code">103TA0700X</field>
+		    <field name="code">103TA0700X</field>
 		</record>
-		<record id="enrsimply_spec_103TC0700X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TC0700X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Clinical</field> 
-		    <field name="code">SPEC_264</field>
-		    <field name="taxonomy_code">103TC0700X</field>
+		    <field name="code">103TC0700X</field>
 		</record>
-		<record id="enrsimply_spec_103TC2200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TC2200X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Clinical Child &amp; Adolescent</field> 
-		    <field name="code">SPEC_265</field>
-		    <field name="taxonomy_code">103TC2200X</field>
+		    <field name="code">103TC2200X</field>
 		</record>
-		<record id="enrsimply_spec_103TB0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TB0200X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Cognitive &amp; Behavioral</field> 
-		    <field name="code">SPEC_266</field>
-		    <field name="taxonomy_code">103TB0200X</field>
+		    <field name="code">103TB0200X</field>
 		</record>
-		<record id="enrsimply_spec_103TC1900X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TC1900X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Counseling</field> 
-		    <field name="code">SPEC_267</field>
-		    <field name="taxonomy_code">103TC1900X</field>
+		    <field name="code">103TC1900X</field>
 		</record>
-		<record id="enrsimply_spec_103TE1000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TE1000X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Educational</field> 
-		    <field name="code">SPEC_268</field>
-		    <field name="taxonomy_code">103TE1000X</field>
+		    <field name="code">103TE1000X</field>
 		</record>
-		<record id="enrsimply_spec_103TE1100X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TE1100X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Exercise &amp; Sports</field> 
-		    <field name="code">SPEC_269</field>
-		    <field name="taxonomy_code">103TE1100X</field>
+		    <field name="code">103TE1100X</field>
 		</record>
-		<record id="enrsimply_spec_103TF0000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TF0000X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Family</field> 
-		    <field name="code">SPEC_270</field>
-		    <field name="taxonomy_code">103TF0000X</field>
+		    <field name="code">103TF0000X</field>
 		</record>
-		<record id="enrsimply_spec_103TF0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TF0200X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Forensic</field> 
-		    <field name="code">SPEC_271</field>
-		    <field name="taxonomy_code">103TF0200X</field>
+		    <field name="code">103TF0200X</field>
 		</record>
-		<record id="enrsimply_spec_103TP2701X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TP2701X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Group Psychotherapy</field> 
-		    <field name="code">SPEC_272</field>
-		    <field name="taxonomy_code">103TP2701X</field>
+		    <field name="code">103TP2701X</field>
 		</record>
-		<record id="enrsimply_spec_103TH0004X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TH0004X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Health</field> 
-		    <field name="code">SPEC_273</field>
-		    <field name="taxonomy_code">103TH0004X</field>
+		    <field name="code">103TH0004X</field>
 		</record>
-		<record id="enrsimply_spec_103TH0100X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TH0100X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Health Service</field> 
-		    <field name="code">SPEC_274</field>
-		    <field name="taxonomy_code">103TH0100X</field>
+		    <field name="code">103TH0100X</field>
 		</record>
-		<record id="enrsimply_spec_103TM1700X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TM1700X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Men &amp; Masculinity</field> 
-		    <field name="code">SPEC_275</field>
-		    <field name="taxonomy_code">103TM1700X</field>
+		    <field name="code">103TM1700X</field>
 		</record>
-		<record id="enrsimply_spec_103TM1800X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TM1800X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Mental Retardation &amp; Developmental Disabilities</field> 
-		    <field name="code">SPEC_276</field>
-		    <field name="taxonomy_code">103TM1800X</field>
+		    <field name="code">103TM1800X</field>
 		</record>
-		<record id="enrsimply_spec_103TP0016X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TP0016X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Prescribing (Medical)</field> 
-		    <field name="code">SPEC_277</field>
-		    <field name="taxonomy_code">103TP0016X</field>
+		    <field name="code">103TP0016X</field>
 		</record>
-		<record id="enrsimply_spec_103TP0814X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TP0814X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Psychoanalysis</field> 
-		    <field name="code">SPEC_278</field>
-		    <field name="taxonomy_code">103TP0814X</field>
+		    <field name="code">103TP0814X</field>
 		</record>
-		<record id="enrsimply_spec_103TP2700X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TP2700X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Psychotherapy</field> 
-		    <field name="code">SPEC_279</field>
-		    <field name="taxonomy_code">103TP2700X</field>
+		    <field name="code">103TP2700X</field>
 		</record>
-		<record id="enrsimply_spec_103TR0400X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TR0400X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Rehabilitation</field> 
-		    <field name="code">SPEC_280</field>
-		    <field name="taxonomy_code">103TR0400X</field>
+		    <field name="code">103TR0400X</field>
 		</record>
-		<record id="enrsimply_spec_103TS0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TS0200X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, School</field> 
-		    <field name="code">SPEC_281</field>
-		    <field name="taxonomy_code">103TS0200X</field>
+		    <field name="code">103TS0200X</field>
 		</record>
-		<record id="enrsimply_spec_103TW0100X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_103TW0100X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Psychologist, Women</field> 
-		    <field name="code">SPEC_282</field>
-		    <field name="taxonomy_code">103TW0100X</field>
+		    <field name="code">103TW0100X</field>
 		</record>
-		<record id="enrsimply_spec_106E00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_106E00000X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Assistant Behavior Analyst</field> 
-		    <field name="code">SPEC_283</field>
-		    <field name="taxonomy_code">106E00000X</field>
+		    <field name="code">106E00000X</field>
 		</record>
-		<record id="enrsimply_spec_106S00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_106S00000X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Technician</field> 
-		    <field name="code">SPEC_284</field>
-		    <field name="taxonomy_code">106S00000X</field>
+		    <field name="code">106S00000X</field>
 		</record>
-		<record id="enrsimply_spec_335V00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_335V00000X" model="enrsimply.taxonomy">
 		    <field name="name">Suppliers/Portable X-Ray Supplier</field> 
-		    <field name="code">SPEC_285</field>
-		    <field name="taxonomy_code">335V00000X</field>
+		    <field name="code">335V00000X</field>
 		</record>
-		<record id="enrsimply_spec_231H00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_231H00000X" model="enrsimply.taxonomy">
 		    <field name="name">Speech, Language and Hearing Service Providers/Audiologist</field> 
-		    <field name="code">SPEC_286</field>
-		    <field name="taxonomy_code">231H00000X</field>
+		    <field name="code">231H00000X</field>
 		</record>
-		<record id="enrsimply_spec_231HA2400X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_231HA2400X" model="enrsimply.taxonomy">
 		    <field name="name">Speech, Language and Hearing Service Providers/Audiologist, Assistive Technology Practitioner</field> 
-		    <field name="code">SPEC_287</field>
-		    <field name="taxonomy_code">231HA2400X</field>
+		    <field name="code">231HA2400X</field>
 		</record>
-		<record id="enrsimply_spec_225100000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_225100000X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Physical Therapist</field> 
-		    <field name="code">SPEC_288</field>
-		    <field name="taxonomy_code">225100000X</field>
+		    <field name="code">225100000X</field>
 		</record>
-		<record id="enrsimply_spec_2251C2600X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2251C2600X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Physical Therapist, Cardiopulmonary</field> 
-		    <field name="code">SPEC_289</field>
-		    <field name="taxonomy_code">2251C2600X</field>
+		    <field name="code">2251C2600X</field>
 		</record>
-		<record id="enrsimply_spec_2251E1300X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2251E1300X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Physical Therapist, Electrophysiology, Clinical</field> 
-		    <field name="code">SPEC_290</field>
-		    <field name="taxonomy_code">2251E1300X</field>
+		    <field name="code">2251E1300X</field>
 		</record>
-		<record id="enrsimply_spec_2251E1200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2251E1200X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Physical Therapist, Ergonomics</field> 
-		    <field name="code">SPEC_291</field>
-		    <field name="taxonomy_code">2251E1200X</field>
+		    <field name="code">2251E1200X</field>
 		</record>
-		<record id="enrsimply_spec_2251G0304X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2251G0304X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Physical Therapist, Geriatrics</field> 
-		    <field name="code">SPEC_292</field>
-		    <field name="taxonomy_code">2251G0304X</field>
+		    <field name="code">2251G0304X</field>
 		</record>
-		<record id="enrsimply_spec_2251H1200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2251H1200X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Physical Therapist, Hand</field> 
-		    <field name="code">SPEC_293</field>
-		    <field name="taxonomy_code">2251H1200X</field>
+		    <field name="code">2251H1200X</field>
 		</record>
-		<record id="enrsimply_spec_2251H1300X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2251H1300X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Physical Therapist, Human Factors</field> 
-		    <field name="code">SPEC_294</field>
-		    <field name="taxonomy_code">2251H1300X</field>
+		    <field name="code">2251H1300X</field>
 		</record>
-		<record id="enrsimply_spec_2251N0400X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2251N0400X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Physical Therapist, Neurology</field> 
-		    <field name="code">SPEC_295</field>
-		    <field name="taxonomy_code">2251N0400X</field>
+		    <field name="code">2251N0400X</field>
 		</record>
-		<record id="enrsimply_spec_2251X0800X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2251X0800X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Physical Therapist, Orthopedic</field> 
-		    <field name="code">SPEC_296</field>
-		    <field name="taxonomy_code">2251X0800X</field>
+		    <field name="code">2251X0800X</field>
 		</record>
-		<record id="enrsimply_spec_2251P0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2251P0200X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Physical Therapist, Pediatrics</field> 
-		    <field name="code">SPEC_297</field>
-		    <field name="taxonomy_code">2251P0200X</field>
+		    <field name="code">2251P0200X</field>
 		</record>
-		<record id="enrsimply_spec_2251S0007X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2251S0007X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Rehabilitative &amp; Restorative Service Providers/Physical Therapist, Sports</field> 
-		    <field name="code">SPEC_298</field>
-		    <field name="taxonomy_code">2251S0007X</field>
+		    <field name="code">2251S0007X</field>
 		</record>
-		<record id="enrsimply_spec_225X00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_225X00000X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Occupational Therapist</field> 
-		    <field name="code">SPEC_299</field>
-		    <field name="taxonomy_code">225X00000X</field>
+		    <field name="code">225X00000X</field>
 		</record>
-		<record id="enrsimply_spec_225XR0403X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_225XR0403X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Occupational Therapist, Driving and Community Mobility</field> 
-		    <field name="code">SPEC_300</field>
-		    <field name="taxonomy_code">225XR0403X</field>
+		    <field name="code">225XR0403X</field>
 		</record>
-		<record id="enrsimply_spec_225XE0001X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_225XE0001X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Occupational Therapist, Environmental Modification</field> 
-		    <field name="code">SPEC_301</field>
-		    <field name="taxonomy_code">225XE0001X</field>
+		    <field name="code">225XE0001X</field>
 		</record>
-		<record id="enrsimply_spec_225XE1200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_225XE1200X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Occupational Therapist, Ergonomics</field> 
-		    <field name="code">SPEC_302</field>
-		    <field name="taxonomy_code">225XE1200X</field>
+		    <field name="code">225XE1200X</field>
 		</record>
-		<record id="enrsimply_spec_225XF0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_225XF0002X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Occupational Therapist, Feeding, Eating &amp; Swallowing</field> 
-		    <field name="code">SPEC_303</field>
-		    <field name="taxonomy_code">225XF0002X</field>
+		    <field name="code">225XF0002X</field>
 		</record>
-		<record id="enrsimply_spec_225XG0600X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_225XG0600X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Occupational Therapist, Gerontology</field> 
-		    <field name="code">SPEC_304</field>
-		    <field name="taxonomy_code">225XG0600X</field>
+		    <field name="code">225XG0600X</field>
 		</record>
-		<record id="enrsimply_spec_225XH1200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_225XH1200X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Occupational Therapist, Hand</field> 
-		    <field name="code">SPEC_305</field>
-		    <field name="taxonomy_code">225XH1200X</field>
+		    <field name="code">225XH1200X</field>
 		</record>
-		<record id="enrsimply_spec_225XH1300X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_225XH1300X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Occupational Therapist, Human Factors</field> 
-		    <field name="code">SPEC_306</field>
-		    <field name="taxonomy_code">225XH1300X</field>
+		    <field name="code">225XH1300X</field>
 		</record>
-		<record id="enrsimply_spec_225XL0004X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_225XL0004X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Occupational Therapist, Low Vision</field> 
-		    <field name="code">SPEC_307</field>
-		    <field name="taxonomy_code">225XL0004X</field>
+		    <field name="code">225XL0004X</field>
 		</record>
-		<record id="enrsimply_spec_225XM0800X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_225XM0800X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Occupational Therapist, Mental Health</field> 
-		    <field name="code">SPEC_308</field>
-		    <field name="taxonomy_code">225XM0800X</field>
+		    <field name="code">225XM0800X</field>
 		</record>
-		<record id="enrsimply_spec_225XN1300X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_225XN1300X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Occupational Therapist, Neurorehabilitation</field> 
-		    <field name="code">SPEC_309</field>
-		    <field name="taxonomy_code">225XN1300X</field>
+		    <field name="code">225XN1300X</field>
 		</record>
-		<record id="enrsimply_spec_225XP0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_225XP0200X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Occupational Therapist, Pediatrics</field> 
-		    <field name="code">SPEC_310</field>
-		    <field name="taxonomy_code">225XP0200X</field>
+		    <field name="code">225XP0200X</field>
 		</record>
-		<record id="enrsimply_spec_225XP0019X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_225XP0019X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative &amp; Restorative Service Providers/Occupational Therapist, Physical Rehabilitation</field> 
-		    <field name="code">SPEC_311</field>
-		    <field name="taxonomy_code">225XP0019X</field>
+		    <field name="code">225XP0019X</field>
 		</record>
-		<record id="enrsimply_spec_291U00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_291U00000X" model="enrsimply.taxonomy">
 		    <field name="name">Laboratories/Clinical Medical Laboratory</field> 
-		    <field name="code">SPEC_312</field>
-		    <field name="taxonomy_code">291U00000X</field>
+		    <field name="code">291U00000X</field>
 		</record>
-		<record id="enrsimply_spec_261QM1300X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_261QM1300X" model="enrsimply.taxonomy">
 		    <field name="name">Ambulatory Health Care Facilities/Clinic/Center, Multi-Specialty</field> 
-		    <field name="code">SPEC_313</field>
-		    <field name="taxonomy_code">261QM1300X</field>
+		    <field name="code">261QM1300X</field>
 		</record>
-		<record id="enrsimply_spec_261QP2000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_261QP2000X" model="enrsimply.taxonomy">
 		    <field name="name">Ambulatory Health Care Facilities/Clinic/Center, Physical Therapy</field> 
-		    <field name="code">SPEC_314</field>
-		    <field name="taxonomy_code">261QP2000X</field>
+		    <field name="code">261QP2000X</field>
 		</record>
-		<record id="enrsimply_spec_193200000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_193200000X" model="enrsimply.taxonomy">
 		    <field name="name">Group/Multi-Specialty</field> 
-		    <field name="code">SPEC_315</field>
-		    <field name="taxonomy_code">193200000X</field>
+		    <field name="code">193200000X</field>
 		</record>
-		<record id="enrsimply_spec_261Q00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_261Q00000X" model="enrsimply.taxonomy">
 		    <field name="name">Ambulatory Health Care Facilities/Clinic/Center, Multi-Specialty</field> 
-		    <field name="code">SPEC_316</field>
-		    <field name="taxonomy_code">261Q00000X</field>
+		    <field name="code">261Q00000X</field>
 		</record>
-		<record id="enrsimply_spec_193400000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_193400000X" model="enrsimply.taxonomy">
 		    <field name="name">Group/Single-Specialty</field> 
-		    <field name="code">SPEC_317</field>
-		    <field name="taxonomy_code">193400000X</field>
+		    <field name="code">193400000X</field>
 		</record>
-		<record id="enrsimply_spec_133V00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_133V00000X" model="enrsimply.taxonomy">
 		    <field name="name">Dietary &amp; Nutritional Service Providers/Dietician, Registered</field> 
-		    <field name="code">SPEC_318</field>
-		    <field name="taxonomy_code">133V00000X</field>
+		    <field name="code">133V00000X</field>
 		</record>
-		<record id="enrsimply_spec_133VN1006X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_133VN1006X" model="enrsimply.taxonomy">
 		    <field name="name">Dietary &amp; Nutritional Service Providers/Dietician, Registered, Nutrition, Metabolic</field> 
-		    <field name="code">SPEC_319</field>
-		    <field name="taxonomy_code">133VN1006X</field>
+		    <field name="code">133VN1006X</field>
 		</record>
-		<record id="enrsimply_spec_133VN1004X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_133VN1004X" model="enrsimply.taxonomy">
 		    <field name="name">Dietary &amp; Nutritional Service Providers/Dietician, Registered, Nutrition, Pediatric</field> 
-		    <field name="code">SPEC_320</field>
-		    <field name="taxonomy_code">133VN1004X</field>
+		    <field name="code">133VN1004X</field>
 		</record>
-		<record id="enrsimply_spec_133VN1005X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_133VN1005X" model="enrsimply.taxonomy">
 		    <field name="name">Dietary &amp; Nutritional Service Providers/Dietician, Registered, Nutrition, Renal</field> 
-		    <field name="code">SPEC_321</field>
-		    <field name="taxonomy_code">133VN1005X</field>
+		    <field name="code">133VN1005X</field>
 		</record>
-		<record id="enrsimply_spec_208VP0000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_208VP0000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Pain Medicine, Pain Medicine</field> 
-		    <field name="code">SPEC_322</field>
-		    <field name="taxonomy_code">208VP0000X</field>
+		    <field name="code">208VP0000X</field>
 		</record>
-		<record id="enrsimply_spec_261QR0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_261QR0200X" model="enrsimply.taxonomy">
 		    <field name="name">Ambulatory Health Care Facilities/Clinic/Center, Radiology</field> 
-		    <field name="code">SPEC_323</field>
-		    <field name="taxonomy_code">261QR0200X</field>
+		    <field name="code">261QR0200X</field>
 		</record>
-		<record id="enrsimply_spec_247200000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_247200000X" model="enrsimply.taxonomy">
 		    <field name="name">Technologists, Technicians &amp; Other Technical Service Providers/Technician, Other</field> 
-		    <field name="code">SPEC_324</field>
-		    <field name="taxonomy_code">247200000X</field>
+		    <field name="code">247200000X</field>
 		</record>
-		<record id="enrsimply_spec_2086S0129X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2086S0129X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery, Vascular Surgery</field> 
-		    <field name="code">SPEC_325</field>
-		    <field name="taxonomy_code">2086S0129X</field>
+		    <field name="code">2086S0129X</field>
 		</record>
-		<record id="enrsimply_spec_207L00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207L00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Anesthesiology, Addiction Medicine</field> 
-		    <field name="code">SPEC_326</field>
-		    <field name="taxonomy_code">207L00000X</field>
+		    <field name="code">207L00000X</field>
 		</record>
-		<record id="enrsimply_spec_2084A0401X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084A0401X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Psychiatry &amp; Neurology, Addiction Medicine</field> 
-		    <field name="code">SPEC_327</field>
-		    <field name="taxonomy_code">2084A0401X</field>
+		    <field name="code">2084A0401X</field>
 		</record>
-		<record id="enrsimply_spec_1041C0700X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_1041C0700X" model="enrsimply.taxonomy">
 		    <field name="name">Behavioral Health &amp; Social Service Providers/Social Worker, Clinical</field> 
-		    <field name="code">SPEC_328</field>
-		    <field name="taxonomy_code">1041C0700X</field>
+		    <field name="code">1041C0700X</field>
 		</record>
-		<record id="enrsimply_spec_2083A0100X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2083A0100X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Preventive Medicine, Aerospace Medicine</field> 
-		    <field name="code">SPEC_329</field>
-		    <field name="taxonomy_code">2083A0100X</field>
+		    <field name="code">2083A0100X</field>
 		</record>
-		<record id="enrsimply_spec_2083T0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2083T0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Preventive Medicine, Medical Toxicology</field> 
-		    <field name="code">SPEC_330</field>
-		    <field name="taxonomy_code">2083T0002X</field>
+		    <field name="code">2083T0002X</field>
 		</record>
-		<record id="enrsimply_spec_2083X0100X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2083X0100X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Preventive Medicine, Occupational Medicine</field> 
-		    <field name="code">SPEC_331</field>
-		    <field name="taxonomy_code">2083X0100X</field>
+		    <field name="code">2083X0100X</field>
 		</record>
-		<record id="enrsimply_spec_2083P0500X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2083P0500X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Preventive Medicine,  Preventive Medicine/Occupational Environmental Medicine</field> 
-		    <field name="code">SPEC_332</field>
-		    <field name="taxonomy_code">2083P0500X</field>
+		    <field name="code">2083P0500X</field>
 		</record>
-		<record id="enrsimply_spec_2083P0901X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2083P0901X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Preventive Medicine, Public Health &amp; General Preventive Medicine</field> 
-		    <field name="code">SPEC_333</field>
-		    <field name="taxonomy_code">2083P0901X</field>
+		    <field name="code">2083P0901X</field>
 		</record>
-		<record id="enrsimply_spec_2083P0011X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2083P0011X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Preventive Medicine, Undersea and Hyperbaric Medicine</field> 
-		    <field name="code">SPEC_334</field>
-		    <field name="taxonomy_code">2083P0011X</field>
+		    <field name="code">2083P0011X</field>
 		</record>
-		<record id="enrsimply_spec_204E00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_204E00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Oral and Maxillofacial Surgery</field> 
-		    <field name="code">SPEC_335</field>
-		    <field name="taxonomy_code">204E00000X</field>
+		    <field name="code">204E00000X</field>
 		</record>
-		<record id="enrsimply_spec_2084A0401X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084A0401X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology</field> 
-		    <field name="code">SPEC_336</field>
-		    <field name="taxonomy_code">2084A0401X</field>
+		    <field name="code">2084A0401X</field>
 		</record>
-		<record id="enrsimply_spec_2084P0802X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084P0802X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology, Addiction Psychiatry</field> 
-		    <field name="code">SPEC_337</field>
-		    <field name="taxonomy_code">2084P0802X</field>
+		    <field name="code">2084P0802X</field>
 		</record>
-		<record id="enrsimply_spec_2084B0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084B0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology, Bariatric Medicine</field> 
-		    <field name="code">SPEC_338</field>
-		    <field name="taxonomy_code">2084B0002X</field>
+		    <field name="code">2084B0002X</field>
 		</record>
-		<record id="enrsimply_spec_2084P0804X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084P0804X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology, Child &amp; Adolescent Psychiatry</field> 
-		    <field name="code">SPEC_339</field>
-		    <field name="taxonomy_code">2084P0804X</field>
+		    <field name="code">2084P0804X</field>
 		</record>
-		<record id="enrsimply_spec_2084N0600X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084N0600X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology, Clinical Neurophysiology</field> 
-		    <field name="code">SPEC_340</field>
-		    <field name="taxonomy_code">2084N0600X</field>
+		    <field name="code">2084N0600X</field>
 		</record>
-		<record id="enrsimply_spec_2084D0003X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084D0003X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology, Diagnostic Neuroimaging</field> 
-		    <field name="code">SPEC_341</field>
-		    <field name="taxonomy_code">2084D0003X</field>
+		    <field name="code">2084D0003X</field>
 		</record>
-		<record id="enrsimply_spec_2084F0202X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084F0202X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology, Forensic Psychiatry</field> 
-		    <field name="code">SPEC_342</field>
-		    <field name="taxonomy_code">2084F0202X</field>
+		    <field name="code">2084F0202X</field>
 		</record>
-		<record id="enrsimply_spec_2084P0805X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084P0805X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology, Geriatric Psychiatry</field> 
-		    <field name="code">SPEC_343</field>
-		    <field name="taxonomy_code">2084P0805X</field>
+		    <field name="code">2084P0805X</field>
 		</record>
-		<record id="enrsimply_spec_2084H0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084H0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology, Hospice &amp; Palliative Medicine</field> 
-		    <field name="code">SPEC_344</field>
-		    <field name="taxonomy_code">2084H0002X</field>
+		    <field name="code">2084H0002X</field>
 		</record>
-		<record id="enrsimply_spec_2084P0005X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084P0005X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology, Neurodevelopmental Disabilities</field> 
-		    <field name="code">SPEC_345</field>
-		    <field name="taxonomy_code">2084P0005X</field>
+		    <field name="code">2084P0005X</field>
 		</record>
-		<record id="enrsimply_spec_2084N0400X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084N0400X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology, Neurology</field> 
-		    <field name="code">SPEC_346</field>
-		    <field name="taxonomy_code">2084N0400X</field>
+		    <field name="code">2084N0400X</field>
 		</record>
-		<record id="enrsimply_spec_2084N0402X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084N0402X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology, Neurology with Special Qualifications in Child Neurology</field> 
-		    <field name="code">SPEC_347</field>
-		    <field name="taxonomy_code">2084N0402X</field>
+		    <field name="code">2084N0402X</field>
 		</record>
-		<record id="enrsimply_spec_2084N0008X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084N0008X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology, Neuromuscular Medicine</field> 
-		    <field name="code">SPEC_348</field>
-		    <field name="taxonomy_code">2084N0008X</field>
+		    <field name="code">2084N0008X</field>
 		</record>
-		<record id="enrsimply_spec_2084P2900X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084P2900X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology, Pain Medicine</field> 
-		    <field name="code">SPEC_349</field>
-		    <field name="taxonomy_code">2084P2900X</field>
+		    <field name="code">2084P2900X</field>
 		</record>
-		<record id="enrsimply_spec_2084P0800X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084P0800X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology, Psychiatry</field> 
-		    <field name="code">SPEC_350</field>
-		    <field name="taxonomy_code">2084P0800X</field>
+		    <field name="code">2084P0800X</field>
 		</record>
-		<record id="enrsimply_spec_2084P0015X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084P0015X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology, Psychosomatic Medicine</field> 
-		    <field name="code">SPEC_351</field>
-		    <field name="taxonomy_code">2084P0015X</field>
+		    <field name="code">2084P0015X</field>
 		</record>
-		<record id="enrsimply_spec_2084S0012X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084S0012X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology, Sleep Medicine</field> 
-		    <field name="code">SPEC_352</field>
-		    <field name="taxonomy_code">2084S0012X</field>
+		    <field name="code">2084S0012X</field>
 		</record>
-		<record id="enrsimply_spec_2084V0102X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2084V0102X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/ Psychiatry &amp; Neurology, Vascular Neurology</field> 
-		    <field name="code">SPEC_353</field>
-		    <field name="taxonomy_code">2084V0102X</field>
+		    <field name="code">2084V0102X</field>
 		</record>
-		<record id="enrsimply_spec_364S00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364S00000X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist</field> 
-		    <field name="code">SPEC_354</field>
-		    <field name="taxonomy_code">364S00000X</field>
+		    <field name="code">364S00000X</field>
 		</record>
-		<record id="enrsimply_spec_364SA2100X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SA2100X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Acute Care</field> 
-		    <field name="code">SPEC_355</field>
-		    <field name="taxonomy_code">364SA2100X</field>
+		    <field name="code">364SA2100X</field>
 		</record>
-		<record id="enrsimply_spec_364SA2200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SA2200X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Adult Health</field> 
-		    <field name="code">SPEC_356</field>
-		    <field name="taxonomy_code">364SA2200X</field>
+		    <field name="code">364SA2200X</field>
 		</record>
-		<record id="enrsimply_spec_364SC2300X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SC2300X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Chronic Care</field> 
-		    <field name="code">SPEC_357</field>
-		    <field name="taxonomy_code">364SC2300X</field>
+		    <field name="code">364SC2300X</field>
 		</record>
-		<record id="enrsimply_spec_364SC1501X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SC1501X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Community Health/Public Health</field> 
-		    <field name="code">SPEC_358</field>
-		    <field name="taxonomy_code">364SC1501X</field>
+		    <field name="code">364SC1501X</field>
 		</record>
-		<record id="enrsimply_spec_364SC0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SC0200X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Critical Care Medicine</field> 
-		    <field name="code">SPEC_359</field>
-		    <field name="taxonomy_code">364SC0200X</field>
+		    <field name="code">364SC0200X</field>
 		</record>
-		<record id="enrsimply_spec_364SE0003X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SE0003X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Emergency</field> 
-		    <field name="code">SPEC_360</field>
-		    <field name="taxonomy_code">364SE0003X</field>
+		    <field name="code">364SE0003X</field>
 		</record>
-		<record id="enrsimply_spec_364SE1400X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SE1400X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Ethics</field> 
-		    <field name="code">SPEC_361</field>
-		    <field name="taxonomy_code">364SE1400X</field>
+		    <field name="code">364SE1400X</field>
 		</record>
-		<record id="enrsimply_spec_364SF0001X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SF0001X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Family Health</field> 
-		    <field name="code">SPEC_362</field>
-		    <field name="taxonomy_code">364SF0001X</field>
+		    <field name="code">364SF0001X</field>
 		</record>
-		<record id="enrsimply_spec_364SG0600X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SG0600X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Gerontology</field> 
-		    <field name="code">SPEC_363</field>
-		    <field name="taxonomy_code">364SG0600X</field>
+		    <field name="code">364SG0600X</field>
 		</record>
-		<record id="enrsimply_spec_364SH1100X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SH1100X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Holistic</field> 
-		    <field name="code">SPEC_364</field>
-		    <field name="taxonomy_code">364SH1100X</field>
+		    <field name="code">364SH1100X</field>
 		</record>
-		<record id="enrsimply_spec_364SH0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SH0200X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Home Health</field> 
-		    <field name="code">SPEC_365</field>
-		    <field name="taxonomy_code">364SH0200X</field>
+		    <field name="code">364SH0200X</field>
 		</record>
-		<record id="enrsimply_spec_364SI0800X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SI0800X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Informatics</field> 
-		    <field name="code">SPEC_366</field>
-		    <field name="taxonomy_code">364SI0800X</field>
+		    <field name="code">364SI0800X</field>
 		</record>
-		<record id="enrsimply_spec_364SL0600X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SL0600X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Long-term Care</field> 
-		    <field name="code">SPEC_367</field>
-		    <field name="taxonomy_code">364SL0600X</field>
+		    <field name="code">364SL0600X</field>
 		</record>
-		<record id="enrsimply_spec_364SM0705X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SM0705X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Medical-Surgical</field> 
-		    <field name="code">SPEC_368</field>
-		    <field name="taxonomy_code">364SM0705X</field>
+		    <field name="code">364SM0705X</field>
 		</record>
-		<record id="enrsimply_spec_364SN0000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SN0000X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Neonatal</field> 
-		    <field name="code">SPEC_369</field>
-		    <field name="taxonomy_code">364SN0000X</field>
+		    <field name="code">364SN0000X</field>
 		</record>
-		<record id="enrsimply_spec_364SN0800X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SN0800X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Neuroscience</field> 
-		    <field name="code">SPEC_370</field>
-		    <field name="taxonomy_code">364SN0800X</field>
+		    <field name="code">364SN0800X</field>
 		</record>
-		<record id="enrsimply_spec_364SX0106X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SX0106X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Occupational Health</field> 
-		    <field name="code">SPEC_371</field>
-		    <field name="taxonomy_code">364SX0106X</field>
+		    <field name="code">364SX0106X</field>
 		</record>
-		<record id="enrsimply_spec_364SX0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SX0200X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Oncology</field> 
-		    <field name="code">SPEC_372</field>
-		    <field name="taxonomy_code">364SX0200X</field>
+		    <field name="code">364SX0200X</field>
 		</record>
-		<record id="enrsimply_spec_364SX0204X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SX0204X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Oncology, Pediatrics</field> 
-		    <field name="code">SPEC_373</field>
-		    <field name="taxonomy_code">364SX0204X</field>
+		    <field name="code">364SX0204X</field>
 		</record>
-		<record id="enrsimply_spec_364SP0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SP0200X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Pediatrics</field> 
-		    <field name="code">SPEC_374</field>
-		    <field name="taxonomy_code">364SP0200X</field>
+		    <field name="code">364SP0200X</field>
 		</record>
-		<record id="enrsimply_spec_364SP1700X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SP1700X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Perinatal</field> 
-		    <field name="code">SPEC_375</field>
-		    <field name="taxonomy_code">364SP1700X</field>
+		    <field name="code">364SP1700X</field>
 		</record>
-		<record id="enrsimply_spec_364SP2800X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SP2800X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Perioperative</field> 
-		    <field name="code">SPEC_376</field>
-		    <field name="taxonomy_code">364SP2800X</field>
+		    <field name="code">364SP2800X</field>
 		</record>
-		<record id="enrsimply_spec_364SP0808X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SP0808X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Psychiatric/Mental Health</field> 
-		    <field name="code">SPEC_377</field>
-		    <field name="taxonomy_code">364SP0808X</field>
+		    <field name="code">364SP0808X</field>
 		</record>
-		<record id="enrsimply_spec_364SP0809X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SP0809X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Psychiatric/Mental Health, Adult</field> 
-		    <field name="code">SPEC_378</field>
-		    <field name="taxonomy_code">364SP0809X</field>
+		    <field name="code">364SP0809X</field>
 		</record>
-		<record id="enrsimply_spec_364SP0807X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SP0807X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Psychiatric/Mental Health, Child &amp; Adolescent</field> 
-		    <field name="code">SPEC_379</field>
-		    <field name="taxonomy_code">364SP0807X</field>
+		    <field name="code">364SP0807X</field>
 		</record>
-		<record id="enrsimply_spec_364SP0810X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SP0810X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Psychiatric/Mental Health, Child &amp; Family</field> 
-		    <field name="code">SPEC_380</field>
-		    <field name="taxonomy_code">364SP0810X</field>
+		    <field name="code">364SP0810X</field>
 		</record>
-		<record id="enrsimply_spec_364SP0811X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SP0811X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Psychiatric/Mental Health, Chronically Ill</field> 
-		    <field name="code">SPEC_381</field>
-		    <field name="taxonomy_code">364SP0811X</field>
+		    <field name="code">364SP0811X</field>
 		</record>
-		<record id="enrsimply_spec_364SP0812X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SP0812X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Psychiatric/Mental Health, Community</field> 
-		    <field name="code">SPEC_382</field>
-		    <field name="taxonomy_code">364SP0812X</field>
+		    <field name="code">364SP0812X</field>
 		</record>
-		<record id="enrsimply_spec_364SP0813X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SP0813X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Psychiatric/Mental Health, Geropsychiatric</field> 
-		    <field name="code">SPEC_383</field>
-		    <field name="taxonomy_code">364SP0813X</field>
+		    <field name="code">364SP0813X</field>
 		</record>
-		<record id="enrsimply_spec_364SR0400X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SR0400X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Rehabilitation</field> 
-		    <field name="code">SPEC_384</field>
-		    <field name="taxonomy_code">364SR0400X</field>
+		    <field name="code">364SR0400X</field>
 		</record>
-		<record id="enrsimply_spec_364SS0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SS0200X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, School</field> 
-		    <field name="code">SPEC_385</field>
-		    <field name="taxonomy_code">364SS0200X</field>
+		    <field name="code">364SS0200X</field>
 		</record>
-		<record id="enrsimply_spec_364ST0500X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364ST0500X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Transplantation</field> 
-		    <field name="code">SPEC_386</field>
-		    <field name="taxonomy_code">364ST0500X</field>
+		    <field name="code">364ST0500X</field>
 		</record>
-		<record id="enrsimply_spec_364SW0102X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_364SW0102X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Clinical Nurse Specialist, Womenâ€™s Health</field> 
-		    <field name="code">SPEC_387</field>
-		    <field name="taxonomy_code">364SW0102X</field>
+		    <field name="code">364SW0102X</field>
 		</record>
-		<record id="enrsimply_spec_2086X0206X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2086X0206X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Surgery, Surgical Oncology</field> 
-		    <field name="code">SPEC_388</field>
-		    <field name="taxonomy_code">2086X0206X</field>
+		    <field name="code">2086X0206X</field>
 		</record>
-		<record id="enrsimply_spec_2085R0001X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2085R0001X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Radiology, Radiation Oncology</field> 
-		    <field name="code">SPEC_389</field>
-		    <field name="taxonomy_code">2085R0001X</field>
+		    <field name="code">2085R0001X</field>
 		</record>
-		<record id="enrsimply_spec_207P00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207P00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Emergency Medicine</field> 
-		    <field name="code">SPEC_390</field>
-		    <field name="taxonomy_code">207P00000X</field>
+		    <field name="code">207P00000X</field>
 		</record>
-		<record id="enrsimply_spec_207PE0004X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207PE0004X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Emergency Medicine, Emergency Medical Services</field> 
-		    <field name="code">SPEC_391</field>
-		    <field name="taxonomy_code">207PE0004X</field>
+		    <field name="code">207PE0004X</field>
 		</record>
-		<record id="enrsimply_spec_207PH0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207PH0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Emergency Medicine, Hospice and Palliative Medicine</field> 
-		    <field name="code">SPEC_392</field>
-		    <field name="taxonomy_code">207PH0002X</field>
+		    <field name="code">207PH0002X</field>
 		</record>
-		<record id="enrsimply_spec_207PT0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207PT0002X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Emergency Medicine, Medical Toxicology</field> 
-		    <field name="code">SPEC_393</field>
-		    <field name="taxonomy_code">207PT0002X</field>
+		    <field name="code">207PT0002X</field>
 		</record>
-		<record id="enrsimply_spec_207PP0204X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207PP0204X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Emergency Medicine, Pediatric Emergency Medicine</field> 
-		    <field name="code">SPEC_394</field>
-		    <field name="taxonomy_code">207PP0204X</field>
+		    <field name="code">207PP0204X</field>
 		</record>
-		<record id="enrsimply_spec_207PE0005X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207PE0005X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Emergency Medicine, Undersea and Hyperbaric Medicine</field> 
-		    <field name="code">SPEC_395</field>
-		    <field name="taxonomy_code">207PE0005X</field>
+		    <field name="code">207PE0005X</field>
 		</record>
-		<record id="enrsimply_spec_2085R0204X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2085R0204X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Radiology, Vascular and Interventional Radiology</field> 
-		    <field name="code">SPEC_396</field>
-		    <field name="taxonomy_code">2085R0204X</field>
+		    <field name="code">2085R0204X</field>
 		</record>
-		<record id="enrsimply_spec_2085H0002X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2085H0002X" model="enrsimply.taxonomy">
 		    <field name="name">Hospice &amp; Palliative Medicine</field> 
-		    <field name="code">SPEC_397</field>
-		    <field name="taxonomy_code">2085H0002X</field>
+		    <field name="code">2085H0002X</field>
 		</record>
-		<record id="enrsimply_spec_156FX1800X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_156FX1800X" model="enrsimply.taxonomy">
 		    <field name="name">Eye &amp; Vision Service Providers/Technician/Technologist, Optician</field> 
-		    <field name="code">SPEC_398</field>
-		    <field name="taxonomy_code">156FX1800X</field>
+		    <field name="code">156FX1800X</field>
 		</record>
-		<record id="enrsimply_spec_363A00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363A00000X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Physician Assistant</field> 
-		    <field name="code">SPEC_399</field>
-		    <field name="taxonomy_code">363A00000X</field>
+		    <field name="code">363A00000X</field>
 		</record>
-		<record id="enrsimply_spec_363AM0700X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363AM0700X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Physician Assistant, Medical</field> 
-		    <field name="code">SPEC_400</field>
-		    <field name="taxonomy_code">363AM0700X</field>
+		    <field name="code">363AM0700X</field>
 		</record>
-		<record id="enrsimply_spec_363AS0400X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_363AS0400X" model="enrsimply.taxonomy">
 		    <field name="name">Physician Assistants &amp; Advanced Practice Nursing Providers/Physician Assistant, Surgical</field> 
-		    <field name="code">SPEC_401</field>
-		    <field name="taxonomy_code">363AS0400X</field>
+		    <field name="code">363AS0400X</field>
 		</record>
-		<record id="enrsimply_spec_282N00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_282N00000X" model="enrsimply.taxonomy">
 		    <field name="name">Hospitals/General Acute Care Hospital</field> 
-		    <field name="code">SPEC_402</field>
-		    <field name="taxonomy_code">282N00000X</field>
+		    <field name="code">282N00000X</field>
 		</record>
-		<record id="enrsimply_spec_282NC2000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_282NC2000X" model="enrsimply.taxonomy">
 		    <field name="name">Hospitals/General Acute Care Hospital, Children</field> 
-		    <field name="code">SPEC_403</field>
-		    <field name="taxonomy_code">282NC2000X</field>
+		    <field name="code">282NC2000X</field>
 		</record>
-		<record id="enrsimply_spec_282E00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_282E00000X" model="enrsimply.taxonomy">
 		    <field name="name">Hospitals/Long Term Care Hospital</field> 
-		    <field name="code">SPEC_404</field>
-		    <field name="taxonomy_code">282E00000X</field>
+		    <field name="code">282E00000X</field>
 		</record>
-		<record id="enrsimply_spec_283Q00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_283Q00000X" model="enrsimply.taxonomy">
 		    <field name="name">Hospitals/Psychiatric Hospital</field> 
-		    <field name="code">SPEC_405</field>
-		    <field name="taxonomy_code">283Q00000X</field>
+		    <field name="code">283Q00000X</field>
 		</record>
-		<record id="enrsimply_spec_283X00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_283X00000X" model="enrsimply.taxonomy">
 		    <field name="name">Hospitals/Rehabilitation Hospital</field> 
-		    <field name="code">SPEC_406</field>
-		    <field name="taxonomy_code">283X00000X</field>
+		    <field name="code">283X00000X</field>
 		</record>
-		<record id="enrsimply_spec_2843000000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_2843000000X" model="enrsimply.taxonomy">
 		    <field name="name">Hospitals/Special(ty) Hospital</field> 
-		    <field name="code">SPEC_407</field>
-		    <field name="taxonomy_code">2843000000X</field>
+		    <field name="code">2843000000X</field>
 		</record>
-		<record id="enrsimply_spec_275N00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_275N00000X" model="enrsimply.taxonomy">
 		    <field name="name">Hospital Units/Medicare Defined Swing Bed Unit</field> 
-		    <field name="code">SPEC_408</field>
-		    <field name="taxonomy_code">275N00000X</field>
+		    <field name="code">275N00000X</field>
 		</record>
-		<record id="enrsimply_spec_273R00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_273R00000X" model="enrsimply.taxonomy">
 		    <field name="name">Hospital Units/Psychiatric Unit</field> 
-		    <field name="code">SPEC_409</field>
-		    <field name="taxonomy_code">273R00000X</field>
+		    <field name="code">273R00000X</field>
 		</record>
-		<record id="enrsimply_spec_273Y00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_273Y00000X" model="enrsimply.taxonomy">
 		    <field name="name">Hospital Units/Rehabilitation Unit</field> 
-		    <field name="code">SPEC_410</field>
-		    <field name="taxonomy_code">273Y00000X</field>
+		    <field name="code">273Y00000X</field>
 		</record>
-		<record id="enrsimply_spec_284300000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_284300000X" model="enrsimply.taxonomy">
 		    <field name="name">Hospitals/Special(ty) Hospital</field> 
-		    <field name="code">SPEC_411</field>
-		    <field name="taxonomy_code">284300000X</field>
+		    <field name="code">284300000X</field>
 		</record>
-		<record id="enrsimply_spec_282NC0060X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_282NC0060X" model="enrsimply.taxonomy">
 		    <field name="name">Hospitals/General Acute Care Hospital, Critical Access</field> 
-		    <field name="code">SPEC_412</field>
-		    <field name="taxonomy_code">282NC0060X</field>
+		    <field name="code">282NC0060X</field>
 		</record>
-		<record id="enrsimply_spec_314000000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_314000000X" model="enrsimply.taxonomy">
 		    <field name="name">Nursing and Custodial Care Facilities/Skilled Nursing Facility</field> 
-		    <field name="code">SPEC_413</field>
-		    <field name="taxonomy_code">314000000X</field>
+		    <field name="code">314000000X</field>
 		</record>
-		<record id="enrsimply_spec_313M00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_313M00000X" model="enrsimply.taxonomy">
 		    <field name="name">Nursing and Custodial Care Facilities/Nursing Facility</field> 
-		    <field name="code">SPEC_414</field>
-		    <field name="taxonomy_code">313M00000X</field>
+		    <field name="code">313M00000X</field>
 		</record>
-		<record id="enrsimply_spec_251E00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_251E00000X" model="enrsimply.taxonomy">
 		    <field name="name">Agencies/Home Health</field> 
-		    <field name="code">SPEC_415</field>
-		    <field name="taxonomy_code">251E00000X</field>
+		    <field name="code">251E00000X</field>
 		</record>
-		<record id="enrsimply_spec_1835C0205X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_1835C0205X" model="enrsimply.taxonomy">
 		    <field name="name">Suppliers/Pharmacy, Critical Care</field> 
-		    <field name="code">SPEC_416</field>
-		    <field name="taxonomy_code">1835C0205X</field>
+		    <field name="code">1835C0205X</field>
 		</record>
-		<record id="enrsimply_spec_1835P0200X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_1835P0200X" model="enrsimply.taxonomy">
 		    <field name="name">Suppliers/Pharmacy, Pediatrics</field> 
-		    <field name="code">SPEC_417</field>
-		    <field name="taxonomy_code">1835P0200X</field>
+		    <field name="code">1835P0200X</field>
 		</record>
-		<record id="enrsimply_spec_332BX2000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_332BX2000X" model="enrsimply.taxonomy">
 		    <field name="name">Suppliers/Durable Medical Equipment &amp; Medical Supplies, Oxygen Equipment &amp; Supplies</field> 
-		    <field name="code">SPEC_418</field>
-		    <field name="taxonomy_code">332BX2000X</field>
+		    <field name="code">332BX2000X</field>
 		</record>
-		<record id="enrsimply_spec_222Z00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_222Z00000X" model="enrsimply.taxonomy">
 		    <field name="name">Respiratory, Developmental, Rehabilitative and Restorative Service Providers/Orthotist</field> 
-		    <field name="code">SPEC_419</field>
-		    <field name="taxonomy_code">222Z00000X</field>
+		    <field name="code">222Z00000X</field>
 		</record>
-		<record id="enrsimply_spec_261QR0400X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_261QR0400X" model="enrsimply.taxonomy">
 		    <field name="name">Ambulatory Health Care Facilities/Clinic/Center, Rehabilitation</field> 
-		    <field name="code">SPEC_420</field>
-		    <field name="taxonomy_code">261QR0400X</field>
+		    <field name="code">261QR0400X</field>
 		</record>
-		<record id="enrsimply_spec_335U00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_335U00000X" model="enrsimply.taxonomy">
 		    <field name="name">Suppliers/Organ Procurement Organization</field> 
-		    <field name="code">SPEC_421</field>
-		    <field name="taxonomy_code">335U00000X</field>
+		    <field name="code">335U00000X</field>
 		</record>
-		<record id="enrsimply_spec_261QM0801X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_261QM0801X" model="enrsimply.taxonomy">
 		    <field name="name">Ambulatory Health Care Facilities/Clinic/Center, Mental Health</field> 
-		    <field name="code">SPEC_422</field>
-		    <field name="taxonomy_code">261QM0801X</field>
+		    <field name="code">261QM0801X</field>
 		</record>
-		<record id="enrsimply_spec_261QR0401X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_261QR0401X" model="enrsimply.taxonomy">
 		    <field name="name">Ambulatory Health Care Facilities/Clinic/Center, Rehabilitation, Comprehensive Outpatient Rehabilitation Facility (CORF)</field> 
-		    <field name="code">SPEC_423</field>
-		    <field name="taxonomy_code">261QR0401X</field>
+		    <field name="code">261QR0401X</field>
 		</record>
-		<record id="enrsimply_spec_261QE0700X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_261QE0700X" model="enrsimply.taxonomy">
 		    <field name="name">Ambulatory Health Care Facilities/End-Stage Renal Disease (ESRD) Treatment</field> 
-		    <field name="code">SPEC_424</field>
-		    <field name="taxonomy_code">261QE0700X</field>
+		    <field name="code">261QE0700X</field>
 		</record>
-		<record id="enrsimply_spec_261QF0400X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_261QF0400X" model="enrsimply.taxonomy">
 		    <field name="name">Ambulatory Health Care Facilities/Federally Qualified Health Center (FQHC)</field> 
-		    <field name="code">SPEC_425</field>
-		    <field name="taxonomy_code">261QF0400X</field>
+		    <field name="code">261QF0400X</field>
 		</record>
-		<record id="enrsimply_spec_251G00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_251G00000X" model="enrsimply.taxonomy">
 		    <field name="name">Agencies/Hospice Care, Community Based</field> 
-		    <field name="code">SPEC_426</field>
-		    <field name="taxonomy_code">251G00000X</field>
+		    <field name="code">251G00000X</field>
 		</record>
-		<record id="enrsimply_spec_291900000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_291900000X" model="enrsimply.taxonomy">
 		    <field name="name">Laboratories/Military Clinical Medical Laboratory</field> 
-		    <field name="code">SPEC_427</field>
-		    <field name="taxonomy_code">291900000X</field>
+		    <field name="code">291900000X</field>
 		</record>
-		<record id="enrsimply_spec_282J00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_282J00000X" model="enrsimply.taxonomy">
 		    <field name="name">Hospitals/Religious Non-medical Health Care Institution</field> 
-		    <field name="code">SPEC_428</field>
-		    <field name="taxonomy_code">282J00000X</field>
+		    <field name="code">282J00000X</field>
 		</record>
-		<record id="enrsimply_spec_261QR1300X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_261QR1300X" model="enrsimply.taxonomy">
 		    <field name="name">Ambulatory Health Care Facilities/Clinic/Center, Rural Health</field> 
-		    <field name="code">SPEC_429</field>
-		    <field name="taxonomy_code">261QR1300X</field>
+		    <field name="code">261QR1300X</field>
 		</record>
-		<record id="enrsimply_spec_207RI0011X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_207RI0011X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Internal Medicine, Interventional Cardiology</field> 
-		    <field name="code">SPEC_430</field>
-		    <field name="taxonomy_code">207RI0011X</field>
+		    <field name="code">207RI0011X</field>
 		</record>
-		<record id="enrsimply_spec_122300000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_122300000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Ophthalmology, Dental Providers/Dentist</field> 
-		    <field name="code">SPEC_431</field>
-		    <field name="taxonomy_code">122300000X</field>
+		    <field name="code">122300000X</field>
 		</record>
-		<record id="enrsimply_spec_208M00000X" model="enrsimply.specialization">
+		<record id="enrsimply_taxn_208M00000X" model="enrsimply.taxonomy">
 		    <field name="name">Allopathic &amp; Osteopathic Physicians/Hospitalist</field> 
-		    <field name="code">SPEC_432</field>
-		    <field name="taxonomy_code">208M00000X</field>
+		    <field name="code">208M00000X</field>
 		</record>
 
     </data>
@@ -3518,5 +3173,27 @@
 		    <field name="code">0</field>
 		</record>    	
     </data>
-
+    <data noupdate="1">
+		<record id="enrsimply_addresstype_1" model="enrsimply.addresstype">
+		    <field name="name">Payroll</field> 
+		    <field name="code">1</field>
+		</record>
+		<record id="enrsimply_addresstype_2" model="enrsimply.addresstype">
+		    <field name="name">Alternate</field> 
+		    <field name="code">2</field>
+		</record>
+		<record id="enrsimply_addresstype_3" model="enrsimply.addresstype">
+		    <field name="name">Home</field> 
+		    <field name="code">3</field>
+		</record>
+		<record id="enrsimply_addresstype_4" model="enrsimply.addresstype">
+		    <field name="name">Remote</field> 
+		    <field name="code">4</field>
+		</record>
+		<record id="enrsimply_addresstype_5" model="enrsimply.addresstype">
+		    <field name="name">Work</field> 
+		    <field name="code">5</field>
+		</record>
+    	
+    </data>
 </odoo>
