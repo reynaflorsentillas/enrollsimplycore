@@ -92,7 +92,7 @@
 		        </form> 
 		    </field> 
 		</record>
-		<record id="enrsimply_prov_aca_form" model="ir.ui.view">
+		<!-- <record id="enrsimply_prov_aca_form" model="ir.ui.view">
 		    <field name="name">enrsimply.prov.aca.form</field> 
 		    <field name="model">enrsimply.prov.aca</field>
 		    <field name="arch" type="xml">
@@ -107,7 +107,7 @@
 		        	</sheet>
 		        </form> 
 		    </field> 
-		</record>
+		</record> -->
 
 		<record id="enrsimply_prov_licenses_form" model="ir.ui.view">
 		    <field name="name">enrsimply.prov.licenses.form</field> 
@@ -116,6 +116,7 @@
 		        <form string="Provider Licenses">
 		        	<sheet>
 		        		<group>
+		        			<field name="provider_id"/>
                             <field name="license_type_id"/>
                             <field name="license_number"/>
                             <field name="effctive_date"/>
@@ -133,6 +134,7 @@
 		        <form string="Provider Board Certification">
 		        	<sheet>
 		        		<group>
+		        			<field name="provider_id"/>
 							<field name="certified_yr"/>
 							<field name="certified"/>
 							<field name="specialty_id"/>

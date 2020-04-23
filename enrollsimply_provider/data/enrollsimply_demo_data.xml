@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="1">
+		<!-- Department -->
+		<record id="dep_general_services" model="hr.department">
+			<field name="name">General Services</field>
+		</record>
+
+		<record id="dep_general_surgery" model="hr.department">
+			<field name="name">General Surgery</field>
+		</record>
+
+		<record id="dep_radiology" model="hr.department">
+			<field name="name">Radiology</field>
+		</record>
+
+		<record id="dep_social_work" model="hr.department">
+			<field name="name">Social Work</field>
+		</record>
+
+		<!-- Job -->
+		<record id="job_hc_audiologist" model="hr.job">
+			<field name="name">Audiologist</field>
+		</record>
+
+		<record id="job_hc_midwife" model="hr.job">
+			<field name="name">Certified Nurse Midwife</field>
+		</record>
+
+		<record id="job_hc_nurse_anesthetist" model="hr.job">
+			<field name="name">Certified Registered Nurse Anesthetist</field>
+		</record>
+
+		<record id="job_hc_dental_surgery" model="hr.job">
+			<field name="name">Doctor of Dental Surgery</field>
+		</record>
+
+		<record id="job_hc_osteopathic_med" model="hr.job">
+			<field name="name">Doctor of Osteopathic Medicine</field>
+		</record>
+
+		<record id="job_hc_genetic_counselor" model="hr.job">
+			<field name="name">Genetic Counselor</field>
+		</record>
+
+		<record id="job_hc_clinical_social_worker" model="hr.job">
+			<field name="name">Licensed Clinical Social Worker</field>
+		</record>
+
+		<record id="job_hc_family_therapist" model="hr.job">
+			<field name="name">Marriage  Therapist &amp; Family Therapist</field>
+		</record>
+
+		<record id="job_hc_nurse_practictioner" model="hr.job">
+			<field name="name">Nurse Practictioner</field>
+		</record>
+
+		<record id="job_hc_occu_therapist" model="hr.job">
+			<field name="name">Occupational Therapist</field>
+		</record>
+
+		<record id="job_hc_opto" model="hr.job">
+			<field name="name">Optometrist (OD)</field>
+		</record>
+
+		<record id="job_hc_physical_therapist" model="hr.job">
+			<field name="name">Physical Therapist</field>
+		</record>
+
+		<record id="job_hc_physician_assistant" model="hr.job">
+			<field name="name">Physician Assistant</field>
+		</record>
+
+		<record id="job_hc_physician_intern" model="hr.job">
+			<field name="name">Physician Intern</field>
+		</record>
+
+		<record id="job_hc_physician_md" model="hr.job">
+			<field name="name">Physician MD</field>
+		</record>
+
+		<record id="job_hc_podiatrist" model="hr.job">
+			<field name="name">Podiatrist (DPM)</field>
+		</record>
+
+		<record id="job_hc_psychiatric_social_worker" model="hr.job">
+			<field name="name">Psychiatric Social Worker</field>
+		</record>
+
+		<record id="job_hc_psychologist" model="hr.job">
+			<field name="name">Psychologist</field>
+		</record>
+
+		<record id="job_hc_registered_dietician" model="hr.job">
+			<field name="name">Registered Dietician</field>
+		</record>
+
+		<record id="job_hc_resident_do" model="hr.job">
+			<field name="name">Resident DO</field>
+		</record>
+
+		<record id="job_hc_resident_physician" model="hr.job">
+			<field name="name">Resident Physician</field>
+		</record>
+
+		<record id="job_hc_speech_therapist" model="hr.job">
+			<field name="name">Speech Therapist</field>
+		</record>
+	</data>
+</odoo> 

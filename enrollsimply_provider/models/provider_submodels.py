@@ -59,25 +59,25 @@ class ACA_Attestation(models.Model):
     taxonomy_cd = fields.Many2one('enrsimply.specialization',string='Taxonomy Code', required=False)
 
 
-class License(models.Model):
-    _name = 'enrsimply.prov.aca'
-    _description = 'Provider Licenses'
-    provider_id = fields.Many2one('hr.employee',string='Provider ID') #, required=True)
-    license_type_id = fields.Many2one('enrsimply.license',string='License Type') #, required=True)
-    license_number = fields.Char(string='License Number')
-    eff_dt = fields.Date(string='Effective Date') #, required=True)
-    exp_dt = fields.Date(string='Expiration Date', required=False)
+# class License(models.Model):
+#     _name = 'enrsimply.prov.aca'
+#     _description = 'Provider Licenses'
+#     provider_id = fields.Many2one('hr.employee',string='Provider ID') #, required=True)
+#     license_type_id = fields.Many2one('enrsimply.license',string='License Type') #, required=True)
+#     license_number = fields.Char(string='License Number')
+#     eff_dt = fields.Date(string='Effective Date') #, required=True)
+#     exp_dt = fields.Date(string='Expiration Date', required=False)
 
 
 class Licenses(models.Model):
     _name = 'enrsimply.prov.licenses'
     _description = 'Provider Licenses'
-    provider_id = fields.Many2one('hr.employee',string='Provider ID')
-    license_type_id = fields.Many2one('enrsimply.licenses',string='License Type') #, required=True)
+    provider_id = fields.Many2one('hr.employee', string='Provider ID')
+    license_type_id = fields.Many2one('enrsimply.licenses', string='License Type') #, required=True)
     license_number = fields.Char(string='License Number') #, required=True)
     effctive_date  = fields.Date(string='Effective Date') #, required=True)
-    expry_date = fields.Date(string='Expiration Date', required=False)
-    active = fields.Boolean('Active')
+    expry_date = fields.Date(string='Expiration Date')
+    active = fields.Boolean('Active', default=True)
 
 
 class BoardCertification(models.Model):

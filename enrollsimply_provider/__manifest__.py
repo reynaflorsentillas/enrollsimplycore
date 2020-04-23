@@ -30,7 +30,10 @@
         'views/models_lookup.xml',
         'views/provider_submodels_views.xml',
         'views/menu_views.xml',
-    ],    
+    ],
+    'demo': [
+        'data/enrollsimply_demo_data.xml',
+    ],
     'installable': True,
     'application': True,
     'auto_install': True,
