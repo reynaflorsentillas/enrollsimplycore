@@ -4,6 +4,90 @@ from datetime import datetime
 STATUS = [('active', 'Active'), ('inactive', 'Inactive')]
 STATUS_PIN = [('active', 'Active'), ('inactive', 'Inactive'), ('pending', 'Pending')]
 
+
+class ProviderAdress(models.Model):
+    _name = 'enrsimply.prov.address'
+    _description = 'Provider Address'
+
+    provider_id = fields.Many2one('hr.employee',string='Provider ID')
+    res_partner_id = fields.Many2one('res.partner', string='Partner')
+    address_type_id = fields.Many2one('enrsimply.addresstype', string='Type')
+
+    address_1 = fields.Char(string='Address 1')
+    address_2 = fields.Char(string='Address 2')
+    address_3 = fields.Char(string='Address 3')
+    city = fields.Char(string='City')
+    zip = fields.Char(string='Zip')
+    state_id = fields.Many2one('res.country.state',string='State')
+    country_id = fields.Many2one('res.country', string='Country')    
+    default_address = fields.Boolean('Default Address')
+
+
+    def getValues(self, dict_key=False, dict=False):
+        if dict_key in dict:
+            return dict[dict_key]
+        return False
+
+    @api.model
+    def create(self, vals):
+        address_2 = self.getValues('address_2', vals) or ""
+        address_3 = self.getValues('address_3', vals) or ""
+        street2 = address_2 + ' '  + address_3
+
+        partner_model = self.env['res.partner']
+        provider_obj = self.env['hr.employee'].search([('id', '=', vals['provider_id'])])
+
+        #Create Partner
+        result_partner = partner_model.create({
+                'type': 'contact',
+                'name': provider_obj.name,
+                'street': self.getValues('address_1', vals),
+                'street2': street2,
+                'city': self.getValues('city', vals),
+                'zip': self.getValues('zip', vals),
+                'state_id': self.getValues('state_id', vals),
+                'country_id': self.getValues('country_id', vals),})
+
+        vals['res_partner_id'] = result_partner and result_partner.id or False
+        res = super(ProviderAdress, self).create(vals)
+        return res
+
+    def write(self,vals):
+        for rec in self:
+            address_2 = ""
+            address_3 = ""
+
+            partner_list = {}
+            if 'address_1' in vals:
+                partner_list['street'] = vals['address_1']
+
+            if 'address_2' in vals:
+                address_2 = vals['address_2']
+            else:
+                address_2 = rec.address_2
+
+            if 'address_3' in vals:
+                address_2 = vals['address_3']
+            else:
+                address_2 = rec.address_3
+
+            if address_2 or address_3:
+                partner_list['street2'] = address_2 + ' ' + address_3
+
+            if 'city' in vals:
+                partner_list['city'] = vals['city']
+            if 'zip' in vals:
+                partner_list['zip'] = vals['zip']
+            if 'state_id' in vals:
+                partner_list['state_id'] = vals['state_id']
+            if 'country_id' in vals:
+                partner_list['country_id'] = vals['country_id']
+            partner_id = rec.res_partner_id.write(partner_list)
+
+        res = super(ProviderAdress, self).write(vals)
+        return res
+
+
 class ATPArea(models.Model):
     _name = 'enrsimply.prov.atp'
     _description = 'Provider ATP Area'

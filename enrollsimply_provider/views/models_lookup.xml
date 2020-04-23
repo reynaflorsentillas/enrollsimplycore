@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
 	<!-- VIEW TREE-->
+    <record id="view_enrsimply_addresstype_tree" model="ir.ui.view">
+        <field name="name">enrsimply.addresstype.tree</field>
+        <field name="model">enrsimply.addresstype</field>
+        <field name="arch" type="xml">
+            <tree string="Address Type" editable="top">
+                <field name="name"/>
+                <field name="code"/>
+            </tree>
+        </field>
+    </record>
+
     <record id="view_enrsimply_specialization_tree" model="ir.ui.view">
         <field name="name">enrsimply.specialization.tree</field>
         <field name="model">enrsimply.specialization</field>
@@ -8,7 +19,7 @@
             <tree string="Specialization" editable="top">
                 <field name="name"/>
                 <field name="code"/>
-                <field name="taxonomy_code"/>
+                <field name="taxonomy_id"/>
             </tree>
         </field>
     </record>
@@ -129,6 +140,18 @@
 	</record>
 
 
+	<record id="enrsimply_taxonomy_tree" model="ir.ui.view">
+	    <field name="name">enrsimply.taxonomy.tree</field> 
+	    <field name="model">enrsimply.taxonomy</field>
+	    <field name="arch" type="xml">
+	        <tree string= "Taxonomy" editable="top">
+                <field name="name"/>
+                <field name="code"/>	        	
+	        </tree> 
+	    </field> 
+	</record>
+
+
 	<!-- SEARCH -->
     <record id="view_enrsimply_specialization_filter" model="ir.ui.view">
         <field name="name">enrsimply.specialization.search</field>
@@ -138,13 +161,24 @@
                 <field name="name" string="Specialty Name"/>
                 <field name="code"/>
                 <field name="taxonomy_code"/>
-                <field name="medicare_specialty_code"/>
-                <field name="medicare_provider_code"/>
             </search>
          </field>
     </record>
 
     <!-- ACTION -->
+    <record id="open_enrsimply_addresstype" model="ir.actions.act_window">
+        <field name="name">Address Type</field>
+        <field name="res_model">enrsimply.addresstype</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+          <p class="o_view_nocontent_smiling_face">
+            Create a Address Type
+          </p><p>
+            Enroll Simply Address Type
+          </p>
+        </field>
+    </record>
+
     <record id="open_enrsimply_specialization" model="ir.actions.act_window">
         <field name="name">Specialization</field>
         <field name="res_model">enrsimply.specialization</field>
@@ -266,6 +300,17 @@
 	    <field name="help" type="html">
 	       <p class="o_view_nocontent_smiling_face">
 	      Create a Medicare Code        
+	       </p> 
+	    </field> 
+	</record>
+
+	<record id="open_enrsimply_taxonomy" model="ir.actions.act_window">
+	    <field name="name"> Taxonomy</field> 
+	    <field name="res_model">enrsimply.taxonomy</field>
+	    <field name="view_mode">tree,form</field>
+	    <field name="help" type="html">
+	       <p class="o_view_nocontent_smiling_face">
+	      Create a Taxonomy        
 	       </p> 
 	    </field> 
 	</record>
