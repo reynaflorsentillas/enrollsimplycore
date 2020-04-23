@@ -23,6 +23,28 @@ class HREmployee(models.AbstractModel):
 			all_doc_list.append(doc_list)
 		return all_doc_list
 
+	@api.model
+	def _defaultAddress(self):
+		all_doc_list =[]
+		adtype_obj = self.env['enrsimply.addresstype'].search([])
+		for adtype in adtype_obj:
+			adtype_dict = {
+						  	'address_type_id':adtype.id, 
+						  	'address_1':False,
+						  	'address_2':False,
+						  	'address_3':False,
+						  	'city':False,
+						  	'zip':False,
+						  	'state_id':False,
+						  	'country_id':False,
+						  	'default_address':False,}
+			adtype_list =(0 , 0, adtype_dict)
+			all_doc_list.append(adtype_list)
+
+		return all_doc_list
+
+
+
 	type = fields.Selection([
 		('regular', 'Regular'),
 		('provider', 'Healthcare Provider'),
@@ -59,6 +81,7 @@ class HREmployee(models.AbstractModel):
 
 	
 	license_ids = fields.One2many('enrsimply.prov.licenses', 'provider_id', string='Provider Licenses')
+	address_ids = fields.One2many('enrsimply.prov.address', 'provider_id', string='Provider Address', default=_defaultAddress)
 	education_ids = fields.One2many('enrsimply.prov.educ', 'provider_id', string='Provider Education')
 	board_certif_ids = fields.One2many('enrsimply.prov.cert', 'provider_id', string='Provider Certification')
 

@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+
     <data>
+		<record id="enrsimply_prov_address_form" model="ir.ui.view">
+		    <field name="name">enrsimply.prov.address.form</field> 
+		    <field name="model">enrsimply.prov.address</field>
+		    <field name="arch" type="xml">
+		        <form string="Provider Address">
+		        	<sheet>
+			        	<group>
+			        		<group>
+                                <field name="address_type_id"/>
+                                <field name="res_partner_id" invisible="1"/>
+                                <field name="address_1"/>
+                                <field name="address_2"/>
+                                <field name="address_3"/>
+                                <field name="city"/>
+                                <field name="state_id"/>
+                                <field name="zip"/>
+                                <field name="country_id"/>
+                                <field name="default_address"/>	
+			        		</group>
+			        	</group>		        		
+		        	</sheet>
+		        </form> 
+		    </field> 
+		</record>
+		
 		<record id="enrsimply_prov_atp_form" model="ir.ui.view">
 		    <field name="name">enrsimply.prov.atp.form</field> 
 		    <field name="model">enrsimply.prov.atp</field>
