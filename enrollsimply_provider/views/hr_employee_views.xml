@@ -36,17 +36,15 @@
                     <field name="specialization_id" attrs="{'invisible': [('type', '!=', 'provider')], 'required': [('type', '=', 'provider')]}"/>
                 </xpath>
                 <xpath expr="//div[@id='o_work_employee_main']/group[1]" position="before">
-                    <group>
-                        <group string="Summary">
-                            <field name="employee_id"/>
-                            <field name="medical_license_number" attrs="{'invisible': [('type', '!=', 'provider')], 'required': [('type', '=', 'provider')]}"/>
-                            <field name="medical_npi_number" attrs="{'invisible': [('type', '!=', 'provider')]}"/>
-                        </group>
-                        <group string="Group Enrollment Data" attrs="{'invisible': [('type', '!=', 'provider')]}">
+                    <group string="Summary">
+                        <field name="employee_id"/>
+                        <field name="medical_license_number" invisible="1"/>
+                        <field name="medical_npi_number" attrs="{'invisible': [('type', '!=', 'provider')]}"/>
+                        <!-- <group string="Group Enrollment Data" attrs="{'invisible': [('type', '!=', 'provider')]}">
                             <field name="grp_npi_number" attrs="{'invisible': [('type', '!=', 'provider')], 'required': [('type', '=', 'provider')]}"/>
                             <field name="grp_medicare_number" attrs="{'invisible': [('type', '!=', 'provider')], 'required': [('type', '=', 'provider')]}"/>
                             <field name="grp_medical_number" attrs="{'invisible': [('type', '!=', 'provider')], 'required': [('type', '=', 'provider')]}"/>
-                        </group>
+                        </group> -->
                     </group>
                 </xpath>
                 <xpath expr="//field[@name='identification_id']" position="after">
@@ -60,17 +58,7 @@
                     <field name="birth_state_id"/>
                 </xpath>
                 <xpath expr="//page[@name='personal_information']" position="after">
-                    <page name="atp_areas" string="ATP Areas" groups="hr.group_hr_user" attrs="{'invisible': [('type', '!=', 'provider')]}">
-                        <field name="atp_area_ids">
-                            <tree string="Provider ATP Area" editable="bottom">
-                                <field name="area_id"/>
-                                <field name="location_id"/>
-                                <field name="primary_area_id"/>
-                                <field name="expire_dt"/>
-                            </tree>
-                        </field>
-                    </page>
-                    <page name="address_ids" string="Address" groups="hr.group_hr_user" attrs="{'invisible': [('type', '!=', 'provider')]}">
+                    <page name="address_ids" string="Addresses" groups="hr.group_hr_user" attrs="{'invisible': [('type', '!=', 'provider')]}">
                         <field name="address_ids">
                             <tree string="Address" editable="bottom">
                                 <field name="address_type_id"/>
@@ -85,7 +73,54 @@
                                 <field name="default_address"/>
                             </tree>
                         </field>
-                    </page>                    
+                    </page>
+                    <page name="cred_summary_license" string="Licenses" groups="hr.group_hr_user">
+                        <field name="license_ids" nolabel="1">
+                            <tree string="Licenses" editable="bottom">
+                                <field name="provider_id" invisible="1"/>
+                                <field name="license_type_id"/>
+                                <field name="license_number"/>
+                                <field name="effctive_date"/>
+                                <field name="expry_date"/>
+                            </tree>
+                        </field>
+                    </page>
+                    <page name="cred_summary_certification" string="Certifications" groups="hr.group_hr_user">
+                        <field name="board_certif_ids" nolabel="1">
+                            <tree string="Board Certification" editable="bottom">
+                                <field name="provider_id" invisible="1"/>
+                                <field name="certified_yr"/>
+                                <field name="certified"/>
+                                <field name="specialty_id"/>
+                                <field name="primary"/>
+                                <field name="recertified_year"/>
+                                <field name="pin_status"/>
+                            </tree>                                
+                        </field>
+                    </page>
+                    <page name="cred_summary_education" string="Education" groups="hr.group_hr_user">
+                        <field name="education_ids" nolabel="1">
+                            <tree string="Education" editable="bottom">
+                                <field name="grad_year"/>
+                                <field name="school_type_id"/>
+                                <field name="university"/>
+                                <field name="state_id"/>
+                                <field name="country_id"/>
+                                <field name="thru_dt"/>
+                                <field name="degree_earned"/>
+                            </tree>
+                        </field>
+                    </page>
+                    <page name="atp_areas" string="ATP Areas" groups="hr.group_hr_user" attrs="{'invisible': [('type', '!=', 'provider')]}">
+                        <field name="atp_area_ids">
+                            <tree string="Provider ATP Area" editable="bottom">
+                                <field name="area_id"/>
+                                <field name="location_id"/>
+                                <field name="primary_area_id"/>
+                                <field name="expire_dt"/>
+                            </tree>
+                        </field>
+                    </page>
                     <page name="pin_summary" string="PIN Information" groups="hr.group_hr_user" attrs="{'invisible': [('type', '!=', 'provider')]}">
                         <group string="Existing Active PINs">
                             <field name="pin_active_ids" editable="bottom" readonly="1" nolabel="1">
@@ -149,52 +184,11 @@
                                     <field name="pin_type_id"/>
                                     <field name="eff_dt"/>
                                     <field name="end_dt"/>
-                                    <field name="taxonomy_cd"/>                                         
+                                    <field name="taxonomy_cd"/>
                                 </tree>
                             </field>
                         </group>                       
                     </page>
-                    <page name="cred_summary" string="Certification/Licenses/Education" groups="hr.group_hr_user">
-                        <group string="Licenses">
-                            <!-- <field name="license_ids" nolabel="1"/> -->
-                            <field name="license_ids" nolabel="1">
-                                <tree string="Licenses" editable="bottom">
-                                    <field name="provider_id" invisible="1"/>
-                                    <field name="license_type_id"/>
-                                    <field name="license_number"/>
-                                    <field name="effctive_date"/>
-                                    <field name="expry_date"/>
-                                </tree>
-                            </field>
-                        </group>
-                        <group string="Board Certification">
-                            <field name="board_certif_ids" nolabel="1">
-                                <tree string="Board Certification" editable="bottom">
-                                    <field name="provider_id" invisible="1"/>
-                                    <field name="certified_yr"/>
-                                    <field name="certified"/>
-                                    <field name="specialty_id"/>
-                                    <field name="primary"/>
-                                    <field name="recertified_year"/>
-                                    <field name="pin_status"/>
-                                </tree>                                
-                            </field>
-                        </group>
-                        <group string="Education">
-                            <field name="education_ids" nolabel="1">
-                                <tree string="Education" editable="bottom">
-                                    <field name="grad_year"/>
-                                    <field name="school_type_id"/>
-                                    <field name="university"/>
-                                    <field name="state_id"/>
-                                    <field name="country_id"/>
-                                    <field name="thru_dt"/>
-                                    <field name="degree_earned"/>
-                                </tree>
-                            </field>
-                        </group>
-                    </page>
-
                     <page name="requirement_list" string="Documents" >
                         <field name="requirement_list_ids" nolabel="1">
                             <tree string="Licenses" editable="bottom">
