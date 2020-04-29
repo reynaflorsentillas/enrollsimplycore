@@ -5,7 +5,6 @@ import random
 
 class HREmployee(models.AbstractModel):
 	_inherit = 'hr.employee'
-	_description = "Provider"
 
 	# Override
 	# name = fields.Char(string="Provider Name")
@@ -54,8 +53,8 @@ class HREmployee(models.AbstractModel):
 	last_name = fields.Char(required=True)
 	employee_id = fields.Char(string='Employee ID')
 	ss_number = fields.Char(string='SSN', required=True, groups="hr.group_hr_user")
-	driver_license_number = fields.Char(string="Driver's License", required=True, groups="hr.group_hr_user")
-	driver_license_state_id = fields.Many2one('res.country.state',string="Driver's License State", required=True, groups="hr.group_hr_user")
+	driver_license_number = fields.Char(string="Driver's License", groups="hr.group_hr_user")
+	driver_license_state_id = fields.Many2one('res.country.state', string="Driver's License State", groups="hr.group_hr_user")
 	birth_state_id = fields.Many2one('res.country.state', string='State of Birth', groups="hr.group_hr_user")
 	medical_license_number = fields.Char(string='License Number', groups="hr.group_hr_user")
 	medical_npi_number = fields.Char(string='NPI Number', groups="hr.group_hr_user")
