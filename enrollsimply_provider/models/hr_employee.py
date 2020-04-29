@@ -75,7 +75,7 @@ class HREmployee(models.AbstractModel):
 	pin_active_ids = fields.One2many('enrsimply.prov.pin', 'provider_id', domain=[('pin_status', '=', 'active')])
 
 	ccs_pin_ids = fields.One2many('enrsimply.prov.ccs', 'provider_id', string='Provider CCS Paneling PIN')
-	requirement_list_ids = fields.One2many('enrsimply.prov.requirements', 'provider_id', string='Requirements submitted by Provider', default=_defaultReqList)
+	requirement_list_ids = fields.One2many('enrsimply.prov.requirements', 'provider_id', string='Requirements submitted by Provider')#, default=_defaultReqList)
 
 	aca_attestation_stat_ids = fields.One2many('enrsimply.prov.aca_att', 'provider_id', string='Provider ACA Attestation Status')
 
@@ -88,3 +88,24 @@ class HREmployee(models.AbstractModel):
 	@api.onchange('first_name','middle_name','last_name')
 	def _compute_name(self):
 		self.name = "%s %s %s" % (self.first_name or '', self.middle_name or '', self.last_name or '')
+
+
+	@api.onchange('job_id')
+	def changeDocumentPerJob(self):
+		job_id = self.job_id and self.job_id.id or False
+		all_doc_list =[]
+		all_ids = []
+
+		if job_id:
+			docs_per_job_obj = self.env['enrsimply.doc.temp.list'].search([('job_id', '=', job_id)])
+			requirements_obj = self.env['enrsimply.prov.requirements']
+			if docs_per_job_obj:
+				for docs in docs_per_job_obj:
+
+					doc_dict = {'requirement_type_id': docs.document_id.id, 'submitted':False, 'submit_dt':False}
+					doc_list =(0 , 0, doc_dict)
+					res = requirements_obj.create(doc_dict)
+					all_ids.append(res.id)
+					all_doc_list.append(doc_list)
+
+				self.requirement_list_ids = [(6, False, all_ids)]

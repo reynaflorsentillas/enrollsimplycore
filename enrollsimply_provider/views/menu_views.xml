@@ -80,49 +80,57 @@
               parent="root_ensmp_config_menu"
               action="open_enrsimply_document_type"
               sequence="6"/>
+
+        <menuitem id="menu_enrsimply_doc_temp" 
+              name= "Document Template per Job Position" 
+              groups="hr.group_hr_manager,base.group_user" 
+              parent="root_ensmp_config_menu"
+              action="open_enrsimply_doc_temp"
+              sequence="7"/> 
+
         <menuitem id="menu_enrsimply_pin_type" 
               name= "Pin Type" 
               groups="hr.group_hr_manager,base.group_user" 
               parent="root_ensmp_config_menu"
               action="open_enrsimply_pin_type"
-              sequence="7"/>
+              sequence="8"/>
         <menuitem id="menu_enrsimply_licenses" 
               name= "Licenses" 
               groups="hr.group_hr_manager,base.group_user" 
               parent="root_ensmp_config_menu"
               action="open_enrsimply_licenses"
-              sequence="8"/>
+              sequence="9"/>
         <menuitem id="menu_enrsimply_areas" 
               name= "Areas" 
               groups="hr.group_hr_manager,base.group_user" 
               parent="root_ensmp_config_menu"
               action="open_enrsimply_areas"
-              sequence="9"/>
+              sequence="10"/>
         <menuitem id="menu_enrsimply_locations" 
               name= "Locations" 
               groups="hr.group_hr_manager,base.group_user" 
               parent="root_ensmp_config_menu"
               action="open_enrsimply_locations"
-              sequence="10"/>
+              sequence="11"/>
         <menuitem id="menu_enrsimply_pin_trans_status" 
               name= "Pin Transaction Status" 
               groups="hr.group_hr_manager,base.group_user" 
               parent="root_ensmp_config_menu"
               action="open_enrsimply_pin_trans_status"
-              sequence="11"/>
+              sequence="12"/>
 
         <menuitem id="menu_enrsimply_specialization_medicare" 
               name= "Medicare Code" 
               groups="hr.group_hr_manager,base.group_user" 
               parent="root_ensmp_config_menu"
               action="open_enrsimply_specialization_medicare"
-              sequence="12"/>
+              sequence="13"/>
 
         <menuitem id="menu_enrsimply_addresstype" 
               name= "Address Type" 
               groups="hr.group_hr_manager,base.group_user" 
               parent="root_ensmp_config_menu"
               action="open_enrsimply_addresstype"
-              sequence="13"/>              
+              sequence="14"/>              
     </data>    
 </odoo>
