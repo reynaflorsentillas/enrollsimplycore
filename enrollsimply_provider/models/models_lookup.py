@@ -106,3 +106,11 @@ class DocumentType(models.Model):
 	_name = 'enrsimply.document_type'
 	_description = 'Document Type'
 	_inherit = 'basic.model'
+
+class DocumentTemplateList(models.Model):
+	_name = 'enrsimply.doc.temp.list'
+	_description = 'Document Template List'
+	_inherit = 'basic.model'
+
+	document_id = fields.Many2one('enrsimply.document_type', string="Position")
+	job_id = fields.Many2one('hr.job', string="Position")
